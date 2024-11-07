@@ -281,6 +281,14 @@ defaults:
       layout: talk
       author_profile: true
       share: true
+  # _visuals
+  - scope:
+      path: ""
+      type: visuals
+    values:
+      layour: single
+      author_profile: true
+      share: true
 
 
 # Sass/SCSS
