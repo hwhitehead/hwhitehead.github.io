@@ -9,5 +9,5 @@ redirect_from:
 
 {% include base_path %}
 
-You can download a copy of my CV [here]('http://hwhitehead.github.io/files/CV.pdf')
+You can download a copy of my CV [here.]('http://hwhitehead.github.io/files/CV.pdf')
 
