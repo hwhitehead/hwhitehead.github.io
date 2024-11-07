@@ -1,7 +1,7 @@
 ---
 title: "Gas assisted binary black hole formation in AGN discs"
 collection: publications
-category: manuscripts
+category: first
 permalink: /publication/Whitehead2024a
 excerpt: 'We simulation interactions between initially isolated BHs embedded in an AGN disc. We present regions where binary formation is more likely, spanning a parameter space in impact parameter and ambient disc density.'
 date: 2024-01-10
