@@ -4,7 +4,7 @@ collection: publications
 category: manuscripts
 permalink: /publication/Whitehead2024a
 excerpt: 'We simulation interactions between initially isolated BHs embedded in an AGN disc. We present regions where binary formation is more likely, spanning a parameter space in impact parameter and ambient disc density.'
-date: 2024-10-01
+date: 2024-01-10
 venue: 'Monthly Notices of the Royal Astronomical Society'
 slidesurl: 
 paperurl: 'http://hwhitehead.github.io/files/Whitehead2024a.pdf'

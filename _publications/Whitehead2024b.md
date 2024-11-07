@@ -4,7 +4,7 @@ collection: publications
 category: manuscripts
 permalink: /publication/Whitehead2024b
 excerpt: 'We simulate interactions between initially isolated BHs in AGN discs using an abiabatic fluid equation of state which accomodates contributions from gas and radiation. We show how violent close encounters between BH minidiscs can drive significant thermal emmission in the form of "disc novae".'
-date: 2024-08-05
+date: 2024-05-08 # Y D M?
 venue: 'Monthly Notices of the Royal Astronomical Society'
 slidesurl: 
 paperurl: 'http://hwhitehead.github.io/files/Whitehead2024b.pdf'
