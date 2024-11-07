@@ -7,7 +7,7 @@ excerpt: 'We consider the hydrodynamics of relativisitc AGN jets in 2D and 3D, m
 date: 2023-05-29
 venue: 'Monthly Notices of the Royal Astronomical Society'
 slidesurl: 
-paperurl: 'http://academicpages.github.io/files/Whitehead2033.pdf'
+paperurl: 'http://academicpages.github.io/files/Whitehead2023.pdf'
 citation: #'Whitehead & Matthews 2023, [MNRAS, 523, 2478](https://academic.oup.com/mnras/article/523/2/2478/7185836).'
 ---
 
