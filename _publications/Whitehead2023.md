@@ -4,7 +4,7 @@ collection: publications
 category: first
 permalink: /publication/Whitehead2023
 excerpt: 'We consider the hydrodynamics of relativisitc AGN jets in 2D and 3D, modulating the jet energy as pink noise. We present the morpholigical and energetic differences expected from such variation.'
-date: 2024-05-29
+date: 2023-05-29
 venue: 'Monthly Notices of the Royal Astronomical Society'
 slidesurl: 
 paperurl: 'http://hwhitehead.github.io/files/Whitehead2023.pdf'
