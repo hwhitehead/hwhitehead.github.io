@@ -2,12 +2,12 @@
 title: "Studying the link between radio galaxies and AGN fuelling with relativistic hydrodynamic simulations of flickering jets"
 collection: publications
 category: manuscripts
-permalink: /publication/2009-10-01-paper-title-number-1
+permalink: /publication/Whitehead2023
 excerpt: 'We consider the hydrodynamics of relativisitc AGN jets in 2D and 3D, modulating the jet energy as pink noise. We present the morpholigical and energetic differences expected from such variation.'
 date: 2024-05-29
 venue: 'Monthly Notices of the Royal Astronomical Society'
 slidesurl: 
-paperurl: './files/Whitehead2023.pdf'
+paperurl: 'http://hwhitehead.github.io/files/Whitehead2023.pdf'
 citation: 
 ---
 
