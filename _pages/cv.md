@@ -9,10 +9,10 @@ redirect_from:
 
 {% include base_path %}
 
-You can download a copy of my CV [here]('http://academicpages.github.io/files/cv.pdf')
+You can download a copy of my CV [here]('http://hwhitehead.github.io/files/cv.pdf')
 
-<object data='http://academicpages.github.io/files/cv.pdf' type="application/pdf" width="700px" height="700px">
-    <embed src='http://academicpages.github.io/files/CV.pdf'>
+<object data='http://hwhitehead.github.io/files/cv.pdf' type="application/pdf" width="700px" height="700px">
+    <embed src='http://hwhitehead.github.io/files/CV.pdf'>
         <p>This browser does not support PDFs. Please download the PDF to view it: <a href='http://academicpages.github.io/files/cv.pdf'>Download PDF</a>.</p>
     </embed>
 </object>
