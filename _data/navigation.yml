@@ -11,8 +11,10 @@ main:
   - title: "Talks"
     url: /talks/    
     
+  - title: "Visuals"
+    url: /visuals/
+    
   - title: "CV"
     url: /cv/
 
-  - title: "Visuals"
-    url: /visuals/
+  
