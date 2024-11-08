@@ -31,6 +31,6 @@ Logarithmic density maps for an interaction between two BHs, for a 2D isothermal
 ## EXOTIC: Exoplanet Observables Translated Into Colour
 A hobby project involving predicting exoplanet colours using synethetic spectra generated from known planetary properties. Planet colours were generated for the full NASA catalogue and then a custom-built Cpp raytracing code rendered images of each star system. A lightweight Python GUI was built to allow for easy system selection.
 
-<video width="1634" height="562" controls loop="" muted= "" autoplay ="">
+<video width="1090" height="375" controls loop="" muted= "" autoplay ="">
     <source src="http://hwhitehead.github.io/images/gui_demo.mp4">
 </video>
