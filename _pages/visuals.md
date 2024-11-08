@@ -9,4 +9,7 @@ author_profile: true
 
 Hobby Project: \
 Predicting exoplanet colours using synethetic spectra generated using known planetary properties. Planet colours were generated for the full NASA catalogue and then a custom-built raytracing code rendered images of the star system. A lightweight Python GUI was built to allow for easy system selection.
-![Alt Text](http://hwhitehead.github.io/images/gui_demo.pdf)
+
+<video width="1634" height="562" controls loop="" muted= "" autoplay ="">
+    <source src="http://hwhitehead.github.io/images/gui_demo.mp4">
+<\video>
