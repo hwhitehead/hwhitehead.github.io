@@ -8,21 +8,21 @@ author_profile: true
 {% include base_path %}
 
 ## 3D Temperature Contours for Adiabatic Binary Formation
-Isotemperature contours for an interaction between two BHS, for a 3D adiabatic mixture of gas and radiation. Close encounters harden the binary and result in strong injections of thermal energy to the circum-binary region.
+Isotemperature contours for an interaction between two BHS, for a 3D adiabatic mixture of gas and radiation. Close encounters harden the binary and result in strong injections of thermal energy to the circum-binary region. Parent paper currently in final prep.
 
 <video width="1000" height="1000" controls loop="" muted= "" autoplay ="">
     <source src="http://hwhitehead.github.io/images/3d_collision.mp4">
 </video>
 
 ## Radiative Binary Formation
-Logarithmic thermal emission maps for an interaction between two BHS, for a 2D adiabatic mixture of gas and radiation. Each close encounter prompts a burst of thermal emission due to strong heating from the minidisc collisions.
+Logarithmic thermal emission maps for an interaction between two BHS, for a 2D adiabatic mixture of gas and radiation. Each close encounter prompts a burst of thermal emission due to strong heating from the minidisc collisions. See [here](/publication/Whitehead2024b) for the parent paper.
 
 <video width="1000" height="980" controls loop="" muted= "" autoplay ="">
     <source src="http://hwhitehead.github.io/images/2d_flux.mp4">
 </video>
 
 ## Isothermal Binary Formation
-Logarithmic density maps for an interaction between two BHs, for a 2D isothermal gas. The binary steadily loses energy due to the gas gravity, resulting in a shrinking binary.
+Logarithmic density maps for an interaction between two BHs, for a 2D isothermal gas. The binary steadily loses energy due to the gas gravity, resulting in a shrinking binary. See [here](/publication/Whitehead2024b) for the parent paper.
 
 <video width="1000" height="980" controls loop="" muted= "" autoplay ="">
     <source src="http://hwhitehead.github.io/images/2d_iso.mp4">
