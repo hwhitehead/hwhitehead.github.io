@@ -1,0 +1,2091 @@
+#
+
+[error occurred during error reporting (printing fatal error message), id 0x7, SIGBUS (0x7) at pc=0x00007fa1cd3cb1ff]
+
+#
+#  SIGBUS (0x7) at pc=0x00007fa1cd4b6dd6, pid=896383, tid=896504
+#
+
+[error occurred during error reporting (printing Java version string), id 0x7, SIGBUS (0x7) at pc=0x00007fa1cd3cb1ff]
+
+# Problematic frame:
+# 
+[error occurred during error reporting (printing problematic frame), id 0x7, SIGBUS (0x7) at pc=0x00007fa1cd3c4a38]
+
+# No core dump will be written. 
+#
+
+[error occurred during error reporting (printing bug submit message), id 0x7, SIGBUS (0x7) at pc=0x00007fa1ccb3b6c6]
+
+
+
+[error occurred during error reporting (printing summary), id 0x7, SIGBUS (0x7) at pc=0x00007fa1cd3cb1ff]
+
+Command Line: -XX:ErrorFile=/home/w/whiteheadh/java_error_in_pycharm_%p.log -XX:HeapDumpPath=/home/w/whiteheadh/java_error_in_pycharm_.hprof -Xms256m -Xmx1500m -XX:ReservedCodeCacheSize=512m -XX:+UseG1GC -XX:SoftRefLRUPolicyMSPerMB=50 -XX:CICompilerCount=2 -XX:+HeapDumpOnOutOfMemoryError -XX:-OmitStackTraceInFastThrow -XX:+IgnoreUnrecognizedVMOptions -XX:CompileCommand=exclude,com/intellij/openapi/vfs/impl/FilePartNodeRoot,trieDescend -ea -Dsun.io.useCanonCaches=false -Dsun.java2d.metal=true -Djbr.catch.SIGABRT=true -Djdk.http.auth.tunneling.disabledSchemes="" -Djdk.attach.allowAttachSelf=true -Djdk.module.illegalAccess.silent=true -Dkotlinx.coroutines.debug=off -Dsun.tools.attach.tmp.only=true -Dawt.lock.fair=true -Xmx2964m -Djb.vmOptionsFile=/home/w/whiteheadh/.config/JetBrains/PyCharmCE2023.2/pycharm64.vmoptions -Djava.system.class.loader=com.intellij.util.lang.PathClassLoader -Didea.vendor.name=JetBrains -Didea.paths.selector=PyCharmCE2023.2 -Djna.boot.library.path=/home/w/whiteheadh/pycharm-community-2023.2.2/lib/jna/amd64 -Dpty4j.preferred.native.folder=/home/w/whiteheadh/pycharm-community-2023.2.2/lib/pty4j -Djna.nosys=true -Djna.noclasspath=true -Didea.platform.prefix=PyCharmCore -Dsplash=true -Daether.connector.resumeDownloads=false --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.ref=ALL-UNNAMED --add-opens=java.base/java.lang.reflect=ALL-UNNAMED --add-opens=java.base/java.net=ALL-UNNAMED --add-opens=java.base/java.nio=ALL-UNNAMED --add-opens=java.base/java.nio.charset=ALL-UNNAMED --add-opens=java.base/java.text=ALL-UNNAMED --add-opens=java.base/java.time=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens=java.base/jdk.internal.vm=ALL-UNNAMED --add-opens=java.base/sun.nio.ch=ALL-UNNAMED --add-opens=java.base/sun.nio.fs=ALL-UNNAMED --add-opens=java.base/sun.security.ssl=ALL-UNNAMED --add-opens=java.base/sun.security.util=ALL-UNNAMED --add-opens=java.base/sun.net.dns=ALL-UNNAMED --add-opens=java.desktop/com.sun.java.swing.plaf.gtk=ALL-UNNAMED --add-opens=java.desktop/java.awt=ALL-UNNAMED --add-opens=java.desktop/java.awt.dnd.peer=ALL-UNNAMED --add-opens=java.desktop/java.awt.event=ALL-UNNAMED --add-opens=java.desktop/java.awt.image=ALL-UNNAMED --add-opens=java.desktop/java.awt.peer=ALL-UNNAMED --add-opens=java.desktop/java.awt.font=ALL-UNNAMED --add-opens=java.desktop/javax.swing=ALL-UNNAMED --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED --add-opens=java.desktop/javax.swing.text.html=ALL-UNNAMED --add-opens=java.desktop/sun.awt.X11=ALL-UNNAMED --add-opens=java.desktop/sun.awt.datatransfer=ALL-UNNAMED --add-opens=java.desktop/sun.awt.image=ALL-UNNAMED --add-opens=java.desktop/sun.awt=ALL-UNNAMED --add-opens=java.desktop/sun.font=ALL-UNNAMED --add-opens=java.desktop/sun.java2d=ALL-UNNAMED --add-opens=java.desktop/sun.swing=ALL-UNNAMED --add-opens=java.desktop/com.sun.java.swing=ALL-UNNAMED --add-opens=jdk.attach/sun.tools.attach=ALL-UNNAMED --add-opens=jdk.compiler/com.sun.tools.javac.api=ALL-UNNAMED --add-opens=jdk.internal.jvmstat/sun.jvmstat.monitor=ALL-UNNAMED --add-opens=jdk.jdi/com.sun.tools.jdi=ALL-UNNAMED com.intellij.idea.Main
+
+
+[error occurred during error reporting (printing summary machine and OS info), id 0x7, SIGBUS (0x7) at pc=0x00007fa1cd3cb1ff]
+
+
+[error occurred during error reporting (printing date and time), id 0x7, SIGBUS (0x7) at pc=0x00007fa1cd3cb1ff]
+
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x00007fa0780876d0):  JavaThread "PeriodicMetricReader" daemon [_thread_in_vm, id=896504, stack(0x00007f9ff40cb000,0x00007f9ff41cb000)]
+
+Stack: [0x00007f9ff40cb000,0x00007f9ff41cb000],  sp=0x00007f9ff41c8c50,  free space=1015k
+
+[error occurred during error reporting (printing native stack), id 0x7, SIGBUS (0x7) at pc=0x00007fa1cd3cb1ff]
+
+
+[error occurred during error reporting (printing Java stack), id 0x7, SIGBUS (0x7) at pc=0x00007fa1cd3cb1ff]
+
+
+siginfo: si_signo: 7 (SIGBUS), si_code: 2 (BUS_ADRERR), si_addr: 0x00007fa1c84fe2a0
+
+
+[error occurred during error reporting (printing register info), id 0x7, SIGBUS (0x7) at pc=0x00007fa1cd3cb1ff]
+
+
+[error occurred during error reporting (printing registers, top of stack, instructions near pc), id 0x7, SIGBUS (0x7) at pc=0x00007fa1cd3cb1ff]
+
+Stack slot to memory mapping:
+stack at sp + 0 slots: 
+[error occurred during error reporting (inspecting top of stack), id 0x7, SIGBUS (0x7) at pc=0x00007fa1cd3cb1ff]
+
+
+
+[error occurred during error reporting (printing process), id 0x7, SIGBUS (0x7) at pc=0x00007fa1cd3cb1ff]
+
+Threads class SMR info:
+_java_thread_list=0x00007fa0b0009da0, length=54, elements={
+0x00007fa1c4030020, 0x00007fa1c4200860, 0x00007fa1c4201ee0, 0x00007fa1c42306f0,
+0x00007fa1c42319d0, 0x00007fa1c42263c0, 0x00007fa1c4227a30, 0x00007fa1c4228f40,
+0x00007fa1c422a3e0, 0x00007fa1c42ea540, 0x00007fa1c4329390, 0x00007fa1c4440ea0,
+0x00007fa114001760, 0x00007fa10c0010d0, 0x00007fa104002d30, 0x00007fa100015a00,
+0x00007fa1c4481a00, 0x00007fa0b0000ff0, 0x00007fa0a8000ff0, 0x00007fa110045420,
+0x00007fa07c000ff0, 0x00007fa06c000ff0, 0x00007fa078003620, 0x00007fa034000ff0,
+0x00007fa03c000ff0, 0x00007fa00400e940, 0x00007fa0780876d0, 0x00007fa118124e70,
+0x00007fa118126100, 0x00007fa0480032d0, 0x00007fa048008180, 0x00007fa11818fe00,
+0x00007fa1181ba0d0, 0x00007fa16c000ff0, 0x00007fa05005d930, 0x00007fa094029ba0,
+0x00007fa12410a9f0, 0x00007f9f8000eb30, 0x00007f9f800114d0, 0x00007f9f80012880,
+0x00007fa124269720, 0x00007fa0fc04b770, 0x00007fa020022550, 0x00007fa0140411c0,
+0x00007fa004177530, 0x00007fa0f8078510, 0x00007f9fa4046ac0, 0x00007fa05c0d5190,
+0x00007fa010029f30, 0x00007fa05c005480, 0x00007fa0180516e0, 0x00007fa0dc0149b0,
+0x00007f9fb57cf150, 0x00007fa0dc008ef0
+}
+
+Java Threads: ( => current thread )
+  0x00007fa1c4030020 JavaThread "main" [_thread_blocked, id=896401, stack(0x00007fa1cbd28000,0x00007fa1cbe28000)]
+  0x00007fa1c4200860 JavaThread "Reference Handler" daemon [_thread_blocked, id=896408, stack(0x00007fa1981e6000,0x00007fa1982e6000)]
+  0x00007fa1c4201ee0 JavaThread "Finalizer" daemon [_thread_blocked, id=896409, stack(0x00007fa1980e6000,0x00007fa1981e6000)]
+  0x00007fa1c42306f0 JavaThread "Signal Dispatcher" daemon [_thread_blocked, id=896410, stack(0x00007fa177f00000,0x00007fa178000000)]
+  0x00007fa1c42319d0 JavaThread "Service Thread" daemon [_thread_blocked, id=896411, stack(0x00007fa177b00000,0x00007fa177c00000)]
+  0x00007fa1c42263c0 JavaThread "Monitor Deflation Thread" daemon [_thread_blocked, id=896412, stack(0x00007fa177a00000,0x00007fa177b00000)]
+  0x00007fa1c4227a30 JavaThread "C2 CompilerThread0" daemon [_thread_blocked, id=896413, stack(0x00007fa177900000,0x00007fa177a00000)]
+  0x00007fa1c4228f40 JavaThread "C1 CompilerThread0" daemon [_thread_blocked, id=896414, stack(0x00007fa177800000,0x00007fa177900000)]
+  0x00007fa1c422a3e0 JavaThread "Sweeper thread" daemon [_thread_blocked, id=896415, stack(0x00007fa177700000,0x00007fa177800000)]
+  0x00007fa1c42ea540 JavaThread "Common-Cleaner" daemon [_thread_blocked, id=896416, stack(0x00007fa177600000,0x00007fa177700000)]
+  0x00007fa1c4329390 JavaThread "Notification Thread" daemon [_thread_blocked, id=896417, stack(0x00007fa177500000,0x00007fa177600000)]
+  0x00007fa1c4440ea0 JavaThread "DefaultDispatcher-worker-1" daemon [_thread_blocked, id=896424, stack(0x00007fa12b42f000,0x00007fa12b52f000)]
+  0x00007fa114001760 JavaThread "DefaultDispatcher-worker-7" daemon [_thread_blocked, id=896430, stack(0x00007fa12ae2f000,0x00007fa12af2f000)]
+  0x00007fa10c0010d0 JavaThread "DefaultDispatcher-worker-9" daemon [_thread_blocked, id=896432, stack(0x00007fa12ac2f000,0x00007fa12ad2f000)]
+  0x00007fa104002d30 JavaThread "DefaultDispatcher-worker-15" daemon [_thread_blocked, id=896438, stack(0x00007fa12a62f000,0x00007fa12a72f000)]
+  0x00007fa100015a00 JavaThread "Timer-0" daemon [_thread_blocked, id=896440, stack(0x00007fa129f00000,0x00007fa12a000000)]
+  0x00007fa1c4481a00 JavaThread "Periodic tasks thread" daemon [_thread_blocked, id=896441, stack(0x00007fa129ced000,0x00007fa129ded000)]
+  0x00007fa0b0000ff0 JavaThread "DefaultDispatcher-worker-12" daemon [_thread_blocked, id=896459, stack(0x00007fa1289dc000,0x00007fa128adc000)]
+  0x00007fa0a8000ff0 JavaThread "DefaultDispatcher-worker-6" daemon [_thread_blocked, id=896461, stack(0x00007fa128add000,0x00007fa128bdd000)]
+  0x00007fa110045420 JavaThread "External Command Listener" daemon [_thread_in_native, id=896466, stack(0x00007fa12805b000,0x00007fa12815b000)]
+  0x00007fa07c000ff0 JavaThread "DefaultDispatcher-worker-2" daemon [_thread_blocked, id=896467, stack(0x00007fa09bf00000,0x00007fa09c000000)]
+  0x00007fa06c000ff0 JavaThread "DefaultDispatcher-worker-11" daemon [_thread_blocked, id=896473, stack(0x00007fa098188000,0x00007fa098288000)]
+  0x00007fa078003620 JavaThread "DefaultDispatcher-worker-10" daemon [_thread_blocked, id=896485, stack(0x00007fa08342f000,0x00007fa08352f000)]
+  0x00007fa034000ff0 JavaThread "DefaultDispatcher-worker-3" daemon [_thread_blocked, id=896487, stack(0x00007fa082d04000,0x00007fa082e04000)]
+  0x00007fa03c000ff0 JavaThread "DefaultDispatcher-worker-19" daemon [_thread_blocked, id=896489, stack(0x00007fa08135f000,0x00007fa08145f000)]
+  0x00007fa00400e940 JavaThread "process reaper (pid 896521)" daemon [_thread_in_native, id=896500, stack(0x00007fa098022000,0x00007fa098044000)]
+=>0x00007fa0780876d0 JavaThread "PeriodicMetricReader" daemon [_thread_in_vm, id=896504, stack(0x00007f9ff40cb000,0x00007f9ff41cb000)]
+  0x00007fa118124e70 JavaThread "Java2D Disposer" daemon [_thread_blocked, id=896505, stack(0x00007f9fde6fd000,0x00007f9fde7fd000)]
+  0x00007fa118126100 JavaThread "AWT-XAWT" daemon [_thread_in_native, id=896506, stack(0x00007f9fde300000,0x00007f9fde400000)]
+  0x00007fa0480032d0 JavaThread "AWT-Shutdown" [_thread_blocked, id=896507, stack(0x00007f9fde200000,0x00007f9fde300000)]
+  0x00007fa048008180 JavaThread "AWT-EventQueue-0" [_thread_blocked, id=896508, stack(0x00007f9fde100000,0x00007f9fde200000)]
+  0x00007fa11818fe00 JavaThread "Coroutines Debugger Cleaner" daemon [_thread_blocked, id=896509, stack(0x00007f9fdd1f4000,0x00007f9fdd2f4000)]
+  0x00007fa1181ba0d0 JavaThread "JNA Cleaner" daemon [_thread_blocked, id=896511, stack(0x00007f9fdc9ed000,0x00007f9fdcaed000)]
+  0x00007fa16c000ff0 JavaThread "Attach Listener" daemon [_thread_blocked, id=896512, stack(0x00007f9fdc8ed000,0x00007f9fdc9ed000)]
+  0x00007fa05005d930 JavaThread "kotlinx.coroutines.DefaultExecutor" daemon [_thread_blocked, id=896513, stack(0x00007f9fdc749000,0x00007f9fdc849000)]
+  0x00007fa094029ba0 JavaThread "DirectBufferWrapper allocation thread" daemon [_thread_blocked, id=896518, stack(0x00007f9fdc241000,0x00007f9fdc341000)]
+  0x00007fa12410a9f0 JavaThread "Netty Builtin Server 1" daemon [_thread_in_native, id=896519, stack(0x00007f9fdc141000,0x00007f9fdc241000)]
+  0x00007f9f8000eb30 JavaThread "fsnotifier" [_thread_blocked, id=896522, stack(0x00007f9f934ff000,0x00007f9f935ff000)]
+  0x00007f9f800114d0 JavaThread "BaseDataReader: output stream of fsnotifier" [_thread_in_native, id=896523, stack(0x00007f9f933ff000,0x00007f9f934ff000)]
+  0x00007f9f80012880 JavaThread "BaseDataReader: error stream of fsnotifier" [_thread_in_native, id=896524, stack(0x00007f9f932ff000,0x00007f9f933ff000)]
+  0x00007fa124269720 JavaThread "GlobalMenuLinux loop" daemon [_thread_in_native, id=896550, stack(0x00007f9f90a7f000,0x00007f9f90b7f000)]
+  0x00007fa0fc04b770 JavaThread "TimerQueue" daemon [_thread_blocked, id=896566, stack(0x00007f9f90202000,0x00007f9f90302000)]
+  0x00007fa020022550 JavaThread "DefaultDispatcher-worker-17" daemon [_thread_blocked, id=930334, stack(0x00007f9f86300000,0x00007f9f86400000)]
+  0x00007fa0140411c0 JavaThread "DefaultDispatcher-worker-20" daemon [_thread_blocked, id=985622, stack(0x00007f9f85f00000,0x00007f9f86000000)]
+  0x00007fa004177530 JavaThread "DefaultDispatcher-worker-8" daemon [_thread_blocked, id=991284, stack(0x00007fa090c3c000,0x00007fa090d3c000)]
+  0x00007fa0f8078510 JavaThread "DefaultDispatcher-worker-16" daemon [_thread_blocked, id=1012824, stack(0x00007f9f86100000,0x00007f9f86200000)]
+  0x00007f9fa4046ac0 JavaThread "DefaultDispatcher-worker-13" daemon [_thread_blocked, id=1021072, stack(0x00007f9f90c7f000,0x00007f9f90d7f000)]
+  0x00007fa05c0d5190 JavaThread "DefaultDispatcher-worker-14" daemon [_thread_blocked, id=1021080, stack(0x00007fa1293dd000,0x00007fa1294dd000)]
+  0x00007fa010029f30 JavaThread "DefaultDispatcher-worker-5" daemon [_thread_blocked, id=1036385, stack(0x00007f9f86000000,0x00007f9f86100000)]
+  0x00007fa05c005480 JavaThread "DefaultDispatcher-worker-18" daemon [_thread_blocked, id=1044502, stack(0x00007fa12a82f000,0x00007fa12a92f000)]
+  0x00007fa0180516e0 JavaThread "DefaultDispatcher-worker-4" daemon [_thread_blocked, id=1048120, stack(0x00007f9f84afc000,0x00007f9f84bfc000)]
+  0x00007fa0dc0149b0 JavaThread "ApplicationImpl pooled thread 473" [_thread_blocked, id=1317718, stack(0x00007f9f85e00000,0x00007f9f85f00000)]
+  0x00007f9fb57cf150 JavaThread "ApplicationImpl pooled thread 479" [_thread_blocked, id=1327036, stack(0x00007fa128edd000,0x00007fa128fdd000)]
+  0x00007fa0dc008ef0 JavaThread "ApplicationImpl pooled thread 480" [_thread_blocked, id=1328541, stack(0x00007f9f90102000,0x00007f9f90202000)]
+
+Other Threads:
+  0x00007fa1c41f0bb0 VMThread "VM Thread" [stack: 0x00007fa1982e8000,0x00007fa1983e8000] [id=896407]
+  0x00007fa1c4253ca0 WatcherThread [stack: 0x00007fa177400000,0x00007fa177500000] [id=896418]
+  0x00007fa1c4087830 GCTaskThread "GC Thread#0" [stack: 0x00007fa19b938000,0x00007fa19ba38000] [id=896402]
+  0x00007fa1780074b0 GCTaskThread "GC Thread#1" [stack: 0x00007fa129bed000,0x00007fa129ced000] [id=896442]
+  0x00007fa178007f00 GCTaskThread "GC Thread#2" [stack: 0x00007fa129aeb000,0x00007fa129beb000] [id=896443]
+  0x00007fa178008d40 GCTaskThread "GC Thread#3" [stack: 0x00007fa1299e9000,0x00007fa129ae9000] [id=896444]
+  0x00007fa178009b80 GCTaskThread "GC Thread#4" [stack: 0x00007fa1298e7000,0x00007fa1299e7000] [id=896445]
+  0x00007fa17800a9c0 GCTaskThread "GC Thread#5" [stack: 0x00007fa1297e5000,0x00007fa1298e5000] [id=896446]
+  0x00007fa17800fbf0 GCTaskThread "GC Thread#6" [stack: 0x00007fa1296e3000,0x00007fa1297e3000] [id=896447]
+  0x00007fa178010580 GCTaskThread "GC Thread#7" [stack: 0x00007fa1295e1000,0x00007fa1296e1000] [id=896448]
+  0x00007fa178010fd0 GCTaskThread "GC Thread#8" [stack: 0x00007fa1294df000,0x00007fa1295df000] [id=896449]
+  0x00007fa17800eea0 GCTaskThread "GC Thread#9" [stack: 0x00007f9ff6b7c000,0x00007f9ff6c7c000] [id=896495]
+  0x00007fa17800f570 GCTaskThread "GC Thread#10" [stack: 0x00007f9ff6a7a000,0x00007f9ff6b7a000] [id=896496]
+  0x00007fa17800d130 GCTaskThread "GC Thread#11" [stack: 0x00007f9fdc649000,0x00007f9fdc749000] [id=896514]
+  0x00007fa178015ad0 GCTaskThread "GC Thread#12" [stack: 0x00007f9fdc547000,0x00007f9fdc647000] [id=896515]
+  0x00007fa178016760 GCTaskThread "GC Thread#13" [stack: 0x00007f9fdc445000,0x00007f9fdc545000] [id=896516]
+  0x00007fa1780175d0 GCTaskThread "GC Thread#14" [stack: 0x00007f9fdc343000,0x00007f9fdc443000] [id=896517]
+  0x00007fa1c40947c0 ConcurrentGCThread "G1 Main Marker" [stack: 0x00007fa19b836000,0x00007fa19b936000] [id=896403]
+  0x00007fa1c4095760 ConcurrentGCThread "G1 Conc#0" [stack: 0x00007fa19b734000,0x00007fa19b834000] [id=896404]
+  0x00007fa18c000eb0 ConcurrentGCThread "G1 Conc#1" [stack: 0x00007f9ff6978000,0x00007f9ff6a78000] [id=896497]
+  0x00007fa18c001920 ConcurrentGCThread "G1 Conc#2" [stack: 0x00007f9ff6876000,0x00007f9ff6976000] [id=896498]
+  0x00007fa18c002390 ConcurrentGCThread "G1 Conc#3" [stack: 0x00007f9ff6774000,0x00007f9ff6874000] [id=896499]
+  0x00007fa1c416c410 ConcurrentGCThread "G1 Refine#0" [stack: 0x00007fa198723000,0x00007fa198823000] [id=896405]
+  0x00007fa184000eb0 ConcurrentGCThread "G1 Refine#1" [stack: 0x00007f9f90506000,0x00007f9f90606000] [id=896563]
+  0x00007f9f68094740 ConcurrentGCThread "G1 Refine#2" [stack: 0x00007f9f90404000,0x00007f9f90504000] [id=896564]
+  0x00007f9f740024a0 ConcurrentGCThread "G1 Refine#3" [stack: 0x00007f9f85a00000,0x00007f9f85b00000] [id=896618]
+  0x00007f9ecc0015c0 ConcurrentGCThread "G1 Refine#4" [stack: 0x00007f9f857fe000,0x00007f9f858fe000] [id=896620]
+  0x00007fa1c416d320 ConcurrentGCThread "G1 Service" [stack: 0x00007fa198621000,0x00007fa198721000] [id=896406]
+
+Threads with active compile tasks:
+
+VM state: not at safepoint (normal execution)
+
+VM Mutex/Monitor currently owned by a thread:  ([mutex/lock_event])
+[0x00007fa1c4029320] ClassLoaderDataGraph_lock - owner thread: 0x00007fa0780876d0
+
+Heap address: 0x0000000746c00000, size: 2964 MB, Compressed Oops mode: Zero based, Oop shift amount: 3
+
+CDS archive(s) not mapped
+Compressed class space mapped at: 0x0000000800000000-0x0000000840000000, reserved size: 1073741824
+Narrow klass base: 0x0000000800000000, Narrow klass shift: 0, Narrow klass range: 0x40000000
+
+GC Precious Log:
+ CPUs: 20 total, 20 available
+ Memory: 23718M
+ Large Page Support: Disabled
+ NUMA Support: Disabled
+ Compressed Oops: Enabled (Zero based)
+ Heap Region Size: 2M
+ Heap Min Capacity: 256M
+ Heap Initial Capacity: 256M
+ Heap Max Capacity: 2964M
+ Pre-touch: Disabled
+ Parallel Workers: 15
+ Concurrent Workers: 4
+ Concurrent Refinement Workers: 15
+ Periodic GC: Disabled
+
+Heap:
+ garbage-first heap   total 2936832K, used 1977855K [0x0000000746c00000, 0x0000000800000000)
+  region size 2048K, 585 young (1198080K), 10 survivors (20480K)
+ Metaspace       used 298829K, committed 300992K, reserved 1376256K
+  class space    used 34600K, committed 35584K, reserved 1048576K
+
+Heap Regions: E=young(eden), S=young(survivor), O=old, HS=humongous(starts), HC=humongous(continues), CS=collection set, F=free, OA=open archive, CA=closed archive, TAMS=top-at-mark-start (previous, next)
+
+[error occurred during error reporting (printing heap information), id 0x7, SIGBUS (0x7) at pc=0x00007fa1cd3cb1ff]
+
+Metaspace:
+
+Usage:
+  Non-class:  
+[error occurred during error reporting (printing metaspace information), id 0x7, SIGBUS (0x7) at pc=0x00007fa1cd3cbf19]
+
+CodeHeap 'non-profiled nmethods': size=259300Kb used=100443Kb max_used=100443Kb free=158856Kb
+ bounds [0x00007fa1b38c7000, 0x00007fa1b9ae7000, 0x00007fa1c3600000]
+CodeHeap 'profiled nmethods': size=259296Kb used=108246Kb max_used=108246Kb free=151049Kb
+ bounds [0x00007fa1a3600000, 0x00007fa1a9fd0000, 0x00007fa1b3338000]
+CodeHeap 'non-nmethods': size=5692Kb used=2249Kb max_used=2308Kb free=3442Kb
+ bounds [0x00007fa1b3338000, 0x00007fa1b35a8000, 0x00007fa1b38c7000]
+ total_blobs=60204 nmethods=58376 adapters=1736
+
+[error occurred during error reporting (printing code cache information), id 0x7, SIGBUS (0x7) at pc=0x00007fa1cd3cbf19]
+
+Compilation events (20 events):
+Event: 35770.079 Thread 0x00007fa1c4228f40 103809       3       java.nio.MappedByteBuffer::<init> (22 bytes)
+Event: 35770.080 Thread 0x00007fa1c4228f40 nmethod 103809 0x00007fa1a9fbfe10 code [0x00007fa1a9fbffc0, 0x00007fa1a9fc0140]
+Event: 35880.424 Thread 0x00007fa1c4227a30 103810       4       org.HdrHistogram.Histogram::clearCounts (14 bytes)
+Event: 35880.430 Thread 0x00007fa1c4227a30 nmethod 103810 0x00007fa1b9ada910 code [0x00007fa1b9adaaa0, 0x00007fa1b9adacd8]
+Event: 36003.972 Thread 0x00007fa1c4228f40 103812       3       com.intellij.util.indexing.IndexableSetContributor::getDebugName (14 bytes)
+Event: 36003.972 Thread 0x00007fa1c4228f40 nmethod 103812 0x00007fa1a9fc0210 code [0x00007fa1a9fc03c0, 0x00007fa1a9fc05f0]
+Event: 36003.973 Thread 0x00007fa1c4228f40 103811       3       com.intellij.util.indexing.roots.IndexableSetContributorFilesIterator::<init> (44 bytes)
+Event: 36003.975 Thread 0x00007fa1c4228f40 nmethod 103811 0x00007fa1a9fc0710 code [0x00007fa1a9fc0a40, 0x00007fa1a9fc1c00]
+Event: 36122.941 Thread 0x00007fa1c4228f40 103813       3       com.intellij.util.containers.LockFreeCopyOnWriteArrayList::addIfAbsent (73 bytes)
+Event: 36122.944 Thread 0x00007fa1c4228f40 nmethod 103813 0x00007fa1a9fc2210 code [0x00007fa1a9fc2560, 0x00007fa1a9fc3c80]
+Event: 36303.984 Thread 0x00007fa1c4228f40 103814       3       com.intellij.openapi.roots.impl.FileIndexBase::toContentIteratorEx (44 bytes)
+Event: 36303.986 Thread 0x00007fa1c4228f40 nmethod 103814 0x00007fa1a9fc4410 code [0x00007fa1a9fc4660, 0x00007fa1a9fc4ff0]
+Event: 36527.973 Thread 0x00007fa1c4227a30 103815       4       com.intellij.ide.ui.UITheme$3::attributeForPath (43 bytes)
+Event: 36527.993 Thread 0x00007fa1c4227a30 nmethod 103815 0x00007fa1b9adae10 code [0x00007fa1b9adb060, 0x00007fa1b9adc120]
+Event: 36605.202 Thread 0x00007fa1c4228f40 103816       3       java.time.LocalDate::getLong (46 bytes)
+Event: 36605.203 Thread 0x00007fa1c4228f40 nmethod 103816 0x00007fa1a9fc5290 code [0x00007fa1a9fc5480, 0x00007fa1a9fc5960]
+Event: 36770.096 Thread 0x00007fa1c4227a30 103817       4       java.lang.management.ManagementFactory$PlatformMBeanFinder$$Lambda$116/0x0000000800244490::test (12 bytes)
+Event: 36770.101 Thread 0x00007fa1c4227a30 nmethod 103817 0x00007fa1b9adc990 code [0x00007fa1b9adcb40, 0x00007fa1b9adce38]
+Event: 37238.029 Thread 0x00007fa1c4227a30 103818       4       com.intellij.ui.icons.ImageCacheKt::loadByDescriptorWithoutCache (65 bytes)
+Event: 37238.040 Thread 0x00007fa1c4227a30 nmethod 103818 0x00007fa1b9add010 code [0x00007fa1b9add1e0, 0x00007fa1b9add728]
+
+GC Heap History (20 events):
+Event: 12363.967 GC heap before
+{Heap before GC invocations=4518 (full 0):
+ garbage-first heap   total 2936832K, used 2523213K [0x0000000746c00000, 0x0000000800000000)
+  region size 2048K, 860 young (1761280K), 32 survivors (65536K)
+ Metaspace       used 298541K, committed 300736K, reserved 1376256K
+  class space    used 34598K, committed 35584K, reserved 1048576K
+}
+Event: 12363.992 GC heap after
+{Heap after GC invocations=4519 (full 0):
+ garbage-first heap   total 2936832K, used 829771K [0x0000000746c00000, 0x0000000800000000)
+  region size 2048K, 31 young (63488K), 31 survivors (63488K)
+ Metaspace       used 298541K, committed 300736K, reserved 1376256K
+  class space    used 34598K, committed 35584K, reserved 1048576K
+}
+Event: 12364.740 GC heap before
+{Heap before GC invocations=4519 (full 0):
+ garbage-first heap   total 2936832K, used 2525515K [0x0000000746c00000, 0x0000000800000000)
+  region size 2048K, 860 young (1761280K), 31 survivors (63488K)
+ Metaspace       used 298541K, committed 300736K, reserved 1376256K
+  class space    used 34598K, committed 35584K, reserved 1048576K
+}
+Event: 12364.765 GC heap after
+{Heap after GC invocations=4520 (full 0):
+ garbage-first heap   total 2936832K, used 831506K [0x0000000746c00000, 0x0000000800000000)
+  region size 2048K, 30 young (61440K), 30 survivors (61440K)
+ Metaspace       used 298541K, committed 300736K, reserved 1376256K
+  class space    used 34598K, committed 35584K, reserved 1048576K
+}
+Event: 12365.528 GC heap before
+{Heap before GC invocations=4520 (full 0):
+ garbage-first heap   total 2936832K, used 2531346K [0x0000000746c00000, 0x0000000800000000)
+  region size 2048K, 860 young (1761280K), 30 survivors (61440K)
+ Metaspace       used 298541K, committed 300736K, reserved 1376256K
+  class space    used 34598K, committed 35584K, reserved 1048576K
+}
+Event: 12365.553 GC heap after
+{Heap after GC invocations=4521 (full 0):
+ garbage-first heap   total 2936832K, used 835093K [0x0000000746c00000, 0x0000000800000000)
+  region size 2048K, 31 young (63488K), 31 survivors (63488K)
+ Metaspace       used 298541K, committed 300736K, reserved 1376256K
+  class space    used 34598K, committed 35584K, reserved 1048576K
+}
+Event: 12367.037 GC heap before
+{Heap before GC invocations=4521 (full 0):
+ garbage-first heap   total 2936832K, used 2530837K [0x0000000746c00000, 0x0000000800000000)
+  region size 2048K, 860 young (1761280K), 31 survivors (63488K)
+ Metaspace       used 298543K, committed 300736K, reserved 1376256K
+  class space    used 34598K, committed 35584K, reserved 1048576K
+}
+Event: 12367.061 GC heap after
+{Heap after GC invocations=4522 (full 0):
+ garbage-first heap   total 2936832K, used 837543K [0x0000000746c00000, 0x0000000800000000)
+  region size 2048K, 31 young (63488K), 31 survivors (63488K)
+ Metaspace       used 298543K, committed 300736K, reserved 1376256K
+  class space    used 34598K, committed 35584K, reserved 1048576K
+}
+Event: 12369.304 GC heap before
+{Heap before GC invocations=4522 (full 0):
+ garbage-first heap   total 2936832K, used 2535335K [0x0000000746c00000, 0x0000000800000000)
+  region size 2048K, 860 young (1761280K), 31 survivors (63488K)
+ Metaspace       used 298546K, committed 300736K, reserved 1376256K
+  class space    used 34598K, committed 35584K, reserved 1048576K
+}
+Event: 12369.333 GC heap after
+{Heap after GC invocations=4523 (full 0):
+ garbage-first heap   total 2936832K, used 839709K [0x0000000746c00000, 0x0000000800000000)
+  region size 2048K, 30 young (61440K), 30 survivors (61440K)
+ Metaspace       used 298546K, committed 300736K, reserved 1376256K
+  class space    used 34598K, committed 35584K, reserved 1048576K
+}
+Event: 12733.137 GC heap before
+{Heap before GC invocations=4523 (full 0):
+ garbage-first heap   total 2936832K, used 2537501K [0x0000000746c00000, 0x0000000800000000)
+  region size 2048K, 860 young (1761280K), 30 survivors (61440K)
+ Metaspace       used 298571K, committed 300736K, reserved 1376256K
+  class space    used 34598K, committed 35584K, reserved 1048576K
+}
+Event: 12733.159 GC heap after
+{Heap after GC invocations=4524 (full 0):
+ garbage-first heap   total 2936832K, used 834306K [0x0000000746c00000, 0x0000000800000000)
+  region size 2048K, 27 young (55296K), 27 survivors (55296K)
+ Metaspace       used 298571K, committed 300736K, reserved 1376256K
+  class space    used 34598K, committed 35584K, reserved 1048576K
+}
+Event: 16912.955 GC heap before
+{Heap before GC invocations=4524 (full 0):
+ garbage-first heap   total 2936832K, used 2538242K [0x0000000746c00000, 0x0000000800000000)
+  region size 2048K, 860 young (1761280K), 27 survivors (55296K)
+ Metaspace       used 298638K, committed 300864K, reserved 1376256K
+  class space    used 34598K, committed 35584K, reserved 1048576K
+}
+Event: 16912.979 GC heap after
+{Heap after GC invocations=4525 (full 0):
+ garbage-first heap   total 2936832K, used 810914K [0x0000000746c00000, 0x0000000800000000)
+  region size 2048K, 15 young (30720K), 15 survivors (30720K)
+ Metaspace       used 298638K, committed 300864K, reserved 1376256K
+  class space    used 34598K, committed 35584K, reserved 1048576K
+}
+Event: 22563.491 GC heap before
+{Heap before GC invocations=4525 (full 0):
+ garbage-first heap   total 2936832K, used 2539426K [0x0000000746c00000, 0x0000000800000000)
+  region size 2048K, 860 young (1761280K), 15 survivors (30720K)
+ Metaspace       used 298671K, committed 300864K, reserved 1376256K
+  class space    used 34599K, committed 35584K, reserved 1048576K
+}
+Event: 22563.505 GC heap after
+{Heap after GC invocations=4526 (full 0):
+ garbage-first heap   total 2936832K, used 801428K [0x0000000746c00000, 0x0000000800000000)
+  region size 2048K, 11 young (22528K), 11 survivors (22528K)
+ Metaspace       used 298671K, committed 300864K, reserved 1376256K
+  class space    used 34599K, committed 35584K, reserved 1048576K
+}
+Event: 28311.094 GC heap before
+{Heap before GC invocations=4526 (full 0):
+ garbage-first heap   total 2936832K, used 2538132K [0x0000000746c00000, 0x0000000800000000)
+  region size 2048K, 860 young (1761280K), 11 survivors (22528K)
+ Metaspace       used 298739K, committed 300928K, reserved 1376256K
+  class space    used 34599K, committed 35584K, reserved 1048576K
+}
+Event: 28311.109 GC heap after
+{Heap after GC invocations=4527 (full 0):
+ garbage-first heap   total 2936832K, used 801114K [0x0000000746c00000, 0x0000000800000000)
+  region size 2048K, 10 young (20480K), 10 survivors (20480K)
+ Metaspace       used 298739K, committed 300928K, reserved 1376256K
+  class space    used 34599K, committed 35584K, reserved 1048576K
+}
+Event: 33995.524 GC heap before
+{Heap before GC invocations=4527 (full 0):
+ garbage-first heap   total 2936832K, used 2539866K [0x0000000746c00000, 0x0000000800000000)
+  region size 2048K, 860 young (1761280K), 10 survivors (20480K)
+ Metaspace       used 298801K, committed 300992K, reserved 1376256K
+  class space    used 34600K, committed 35584K, reserved 1048576K
+}
+Event: 33995.540 GC heap after
+{Heap after GC invocations=4528 (full 0):
+ garbage-first heap   total 2936832K, used 802303K [0x0000000746c00000, 0x0000000800000000)
+  region size 2048K, 10 young (20480K), 10 survivors (20480K)
+ Metaspace       used 298801K, committed 300992K, reserved 1376256K
+  class space    used 34600K, committed 35584K, reserved 1048576K
+}
+
+Dll operation events (18 events):
+Event: 0.012 Loaded shared library /home/w/whiteheadh/pycharm-community-2023.2.2/jbr/lib/libjava.so
+Event: 0.093 Loaded shared library /home/w/whiteheadh/pycharm-community-2023.2.2/jbr/lib/libnio.so
+Event: 0.097 Loaded shared library /home/w/whiteheadh/pycharm-community-2023.2.2/jbr/lib/libzip.so
+Event: 0.107 Loaded shared library /home/w/whiteheadh/pycharm-community-2023.2.2/jbr/lib/libnet.so
+Event: 0.128 Loaded shared library /home/w/whiteheadh/pycharm-community-2023.2.2/jbr/lib/libjimage.so
+Event: 0.201 Loaded shared library /home/w/whiteheadh/pycharm-community-2023.2.2/jbr/lib/libverify.so
+Event: 0.238 Loaded shared library /home/w/whiteheadh/pycharm-community-2023.2.2/jbr/lib/libawt.so
+Event: 0.247 Loaded shared library /home/w/whiteheadh/pycharm-community-2023.2.2/jbr/lib/libawt_xawt.so
+Event: 0.255 Loaded shared library /home/w/whiteheadh/pycharm-community-2023.2.2/jbr/lib/libextnet.so
+Event: 0.267 Loaded shared library /home/w/whiteheadh/pycharm-community-2023.2.2/jbr/lib/libprefs.so
+Event: 0.287 Loaded shared library /home/w/whiteheadh/pycharm-community-2023.2.2/jbr/lib/libmanagement.so
+Event: 0.291 Loaded shared library /home/w/whiteheadh/pycharm-community-2023.2.2/jbr/lib/libfontmanager.so
+Event: 0.293 Loaded shared library /home/w/whiteheadh/pycharm-community-2023.2.2/jbr/lib/libmanagement_ext.so
+Event: 0.408 Loaded shared library /home/w/whiteheadh/pycharm-community-2023.2.2/lib/jna/amd64/libjnidispatch.so
+Event: 0.682 Loaded shared library /home/w/whiteheadh/pycharm-community-2023.2.2/jbr/lib/libinstrument.so
+Event: 0.682 Loaded shared library /home/w/whiteheadh/pycharm-community-2023.2.2/jbr/lib/libzip.so
+Event: 0.684 Loaded shared library /home/w/whiteheadh/pycharm-community-2023.2.2/jbr/lib/libinstrument.so
+Event: 3722.342 Loaded shared library /home/w/whiteheadh/pycharm-community-2023.2.2/jbr/lib/libmlib_image.so
+
+Deoptimization events (20 events):
+Event: 24120.425 Thread 0x00007fa0780876d0 DEOPT PACKING pc=0x00007fa1b7781144 sp=0x00007f9ff41c9170
+Event: 24120.425 Thread 0x00007fa0780876d0 DEOPT UNPACKING pc=0x00007fa1b338e699 sp=0x00007f9ff41c9140 mode 2
+Event: 24600.426 Thread 0x00007fa0780876d0 DEOPT PACKING pc=0x00007fa1a9b1615f sp=0x00007f9ff41c9410
+Event: 24600.426 Thread 0x00007fa0780876d0 DEOPT UNPACKING pc=0x00007fa1b338ee2f sp=0x00007f9ff41c8980 mode 0
+Event: 24960.424 Thread 0x00007fa0780876d0 DEOPT PACKING pc=0x00007fa1a7df2a01 sp=0x00007f9ff41c9630
+Event: 24960.424 Thread 0x00007fa0780876d0 DEOPT UNPACKING pc=0x00007fa1b338ee2f sp=0x00007f9ff41c8b50 mode 0
+Event: 27123.986 Thread 0x00007fa0dc011e70 Uncommon trap: trap_request=0xffffffe4 fr.pc=0x00007fa1b9ac3440 relative=0x0000000000000ee0
+Event: 27123.986 Thread 0x00007fa0dc011e70 Uncommon trap: reason=range_check action=make_not_entrant pc=0x00007fa1b9ac3440 method=sun.nio.fs.UnixDirectoryStream$UnixDirectoryIterator.isSelfOrParent([B)Z @ 2 c2
+Event: 27123.986 Thread 0x00007fa0dc011e70 DEOPT PACKING pc=0x00007fa1b9ac3440 sp=0x00007f9f855fa1a0
+Event: 27123.986 Thread 0x00007fa0dc011e70 DEOPT UNPACKING pc=0x00007fa1b338e699 sp=0x00007f9f855fa0e0 mode 2
+Event: 33637.766 Thread 0x00007fa104002d30 Uncommon trap: trap_request=0xffffffde fr.pc=0x00007fa1b79feaf4 relative=0x0000000000001a74
+Event: 33637.767 Thread 0x00007fa104002d30 Uncommon trap: reason=class_check action=maybe_recompile pc=0x00007fa1b79feaf4 method=kotlinx.coroutines.internal.DispatchedContinuation.claimReusableCancellableContinuation()Lkotlinx/coroutines/CancellableContinuationImpl; @ 38 c2
+Event: 33637.767 Thread 0x00007fa104002d30 DEOPT PACKING pc=0x00007fa1b79feaf4 sp=0x00007fa12a72d750
+Event: 33637.767 Thread 0x00007fa104002d30 DEOPT UNPACKING pc=0x00007fa1b338e699 sp=0x00007fa12a72d578 mode 2
+Event: 36122.941 Thread 0x00007fa0b0011720 DEOPT PACKING pc=0x00007fa1a470a948 sp=0x00007f9f85efe4c0
+Event: 36122.941 Thread 0x00007fa0b0011720 DEOPT UNPACKING pc=0x00007fa1b338ee2f sp=0x00007f9f85efda88 mode 0
+Event: 37860.444 Thread 0x00007fa0780876d0 Uncommon trap: trap_request=0xffffff45 fr.pc=0x00007fa1b5741a8c relative=0x0000000000000a8c
+Event: 37860.444 Thread 0x00007fa0780876d0 Uncommon trap: reason=unstable_if action=reinterpret pc=0x00007fa1b5741a8c method=sun.nio.fs.UnixException.translateToIOException(Ljava/lang/String;Ljava/lang/String;)Ljava/io/IOException; @ 64 c2
+Event: 37860.444 Thread 0x00007fa0780876d0 DEOPT PACKING pc=0x00007fa1b5741a8c sp=0x00007f9ff41c9460
+Event: 37860.444 Thread 0x00007fa0780876d0 DEOPT UNPACKING pc=0x00007fa1b338e699 sp=0x00007f9ff41c9398 mode 2
+
+Classes unloaded (20 events):
+Event: 10757.356 Thread 0x00007fa1c41f0bb0 Unloading class 0x000000080063c000 'java/lang/invoke/LambdaForm$MH+0x000000080063c000'
+Event: 10757.356 Thread 0x00007fa1c41f0bb0 Unloading class 0x000000080072c000 'java/lang/invoke/LambdaForm$MH+0x000000080072c000'
+Event: 10757.356 Thread 0x00007fa1c41f0bb0 Unloading class 0x00000008007bc000 'java/lang/invoke/LambdaForm$MH+0x00000008007bc000'
+Event: 10757.356 Thread 0x00007fa1c41f0bb0 Unloading class 0x00000008007bd400 'java/lang/invoke/LambdaForm$MH+0x00000008007bd400'
+Event: 10757.356 Thread 0x00007fa1c41f0bb0 Unloading class 0x00000008007bd800 'java/lang/invoke/LambdaForm$MH+0x00000008007bd800'
+Event: 10757.356 Thread 0x00007fa1c41f0bb0 Unloading class 0x00000008007bf000 'java/lang/invoke/LambdaForm$MH+0x00000008007bf000'
+Event: 10757.356 Thread 0x00007fa1c41f0bb0 Unloading class 0x00000008007bf800 'java/lang/invoke/LambdaForm$MH+0x00000008007bf800'
+Event: 10757.356 Thread 0x00007fa1c41f0bb0 Unloading class 0x00000008007c3400 'java/lang/invoke/LambdaForm$MH+0x00000008007c3400'
+Event: 10757.356 Thread 0x00007fa1c41f0bb0 Unloading class 0x00000008007ca400 'java/lang/invoke/LambdaForm$MH+0x00000008007ca400'
+Event: 10757.356 Thread 0x00007fa1c41f0bb0 Unloading class 0x00000008007cd000 'java/lang/invoke/LambdaForm$MH+0x00000008007cd000'
+Event: 10757.356 Thread 0x00007fa1c41f0bb0 Unloading class 0x00000008007cdc00 'jdk/internal/reflect/GeneratedConstructorAccessor200'
+Event: 10757.356 Thread 0x00007fa1c41f0bb0 Unloading class 0x0000000800375400 'jdk/internal/reflect/GeneratedConstructorAccessor199'
+Event: 10757.356 Thread 0x00007fa1c41f0bb0 Unloading class 0x0000000800124400 'java/lang/invoke/LambdaForm$MH+0x0000000800124400'
+Event: 10757.356 Thread 0x00007fa1c41f0bb0 Unloading class 0x0000000800128400 'java/lang/invoke/LambdaForm$MH+0x0000000800128400'
+Event: 11422.268 Thread 0x00007fa1c41f0bb0 Unloading class 0x000000080072c000 'jdk/internal/reflect/GeneratedConstructorAccessor202'
+Event: 11422.268 Thread 0x00007fa1c41f0bb0 Unloading class 0x000000080063c000 'java/lang/invoke/LambdaForm$MH+0x000000080063c000'
+Event: 11422.268 Thread 0x00007fa1c41f0bb0 Unloading class 0x000000080189d400 'jdk/internal/reflect/GeneratedConstructorAccessor201'
+Event: 11422.268 Thread 0x00007fa1c41f0bb0 Unloading class 0x00000008019f8400 'java/lang/invoke/LambdaForm$MH+0x00000008019f8400'
+Event: 11422.268 Thread 0x00007fa1c41f0bb0 Unloading class 0x00000008007c9400 'java/lang/invoke/LambdaForm$MH+0x00000008007c9400'
+Event: 11422.268 Thread 0x00007fa1c41f0bb0 Unloading class 0x000000080062c800 'jdk/internal/reflect/GeneratedMethodAccessor388'
+
+Classes redefined (1 events):
+Event: 0.765 Thread 0x00007fa1c41f0bb0 redefined class name=kotlin.coroutines.jvm.internal.DebugProbesKt, count=1
+
+Internal exceptions (20 events):
+Event: 37805.353 Thread 0x00007fa0dc0149b0 Exception <a 'sun/nio/fs/UnixException'{0x00000007b2e210f0}> (0x00000007b2e210f0) 
+thrown [src/hotspot/share/prims/jni.cpp, line 517]
+Event: 37805.353 Thread 0x00007fa0dc0149b0 Exception <a 'sun/nio/fs/UnixException'{0x00000007b2e21888}> (0x00000007b2e21888) 
+thrown [src/hotspot/share/prims/jni.cpp, line 517]
+Event: 37805.353 Thread 0x00007fa0dc0149b0 Exception <a 'sun/nio/fs/UnixException'{0x00000007b2e22678}> (0x00000007b2e22678) 
+thrown [src/hotspot/share/prims/jni.cpp, line 517]
+Event: 37805.353 Thread 0x00007fa0dc0149b0 Exception <a 'sun/nio/fs/UnixException'{0x00000007b2e22dd0}> (0x00000007b2e22dd0) 
+thrown [src/hotspot/share/prims/jni.cpp, line 517]
+Event: 37805.353 Thread 0x00007fa0dc0149b0 Exception <a 'sun/nio/fs/UnixException'{0x00000007b2e25160}> (0x00000007b2e25160) 
+thrown [src/hotspot/share/prims/jni.cpp, line 517]
+Event: 37805.353 Thread 0x00007fa0dc0149b0 Exception <a 'sun/nio/fs/UnixException'{0x00000007b2e258a8}> (0x00000007b2e258a8) 
+thrown [src/hotspot/share/prims/jni.cpp, line 517]
+Event: 37805.353 Thread 0x00007fa0dc0149b0 Exception <a 'sun/nio/fs/UnixException'{0x00000007b2e286c8}> (0x00000007b2e286c8) 
+thrown [src/hotspot/share/prims/jni.cpp, line 517]
+Event: 37805.353 Thread 0x00007fa0dc0149b0 Exception <a 'sun/nio/fs/UnixException'{0x00000007b2e28ba8}> (0x00000007b2e28ba8) 
+thrown [src/hotspot/share/prims/jni.cpp, line 517]
+Event: 37805.353 Thread 0x00007fa0dc0149b0 Exception <a 'sun/nio/fs/UnixException'{0x00000007b2e29300}> (0x00000007b2e29300) 
+thrown [src/hotspot/share/prims/jni.cpp, line 517]
+Event: 37805.353 Thread 0x00007fa0dc0149b0 Exception <a 'sun/nio/fs/UnixException'{0x00000007b2e29800}> (0x00000007b2e29800) 
+thrown [src/hotspot/share/prims/jni.cpp, line 517]
+Event: 37805.353 Thread 0x00007fa0dc0149b0 Exception <a 'sun/nio/fs/UnixException'{0x00000007b2e2a628}> (0x00000007b2e2a628) 
+thrown [src/hotspot/share/prims/jni.cpp, line 517]
+Event: 37805.353 Thread 0x00007fa0dc0149b0 Exception <a 'sun/nio/fs/UnixException'{0x00000007b2e2adc0}> (0x00000007b2e2adc0) 
+thrown [src/hotspot/share/prims/jni.cpp, line 517]
+Event: 37805.353 Thread 0x00007fa0dc0149b0 Exception <a 'sun/nio/fs/UnixException'{0x00000007b2e2bbe0}> (0x00000007b2e2bbe0) 
+thrown [src/hotspot/share/prims/jni.cpp, line 517]
+Event: 37805.353 Thread 0x00007fa0dc0149b0 Exception <a 'sun/nio/fs/UnixException'{0x00000007b2e2c0c0}> (0x00000007b2e2c0c0) 
+thrown [src/hotspot/share/prims/jni.cpp, line 517]
+Event: 37805.353 Thread 0x00007fa0dc0149b0 Exception <a 'sun/nio/fs/UnixException'{0x00000007b2e2c858}> (0x00000007b2e2c858) 
+thrown [src/hotspot/share/prims/jni.cpp, line 517]
+Event: 37805.353 Thread 0x00007fa0dc0149b0 Exception <a 'sun/nio/fs/UnixException'{0x00000007b2e2cd50}> (0x00000007b2e2cd50) 
+thrown [src/hotspot/share/prims/jni.cpp, line 517]
+Event: 37805.353 Thread 0x00007fa0dc0149b0 Exception <a 'sun/nio/fs/UnixException'{0x00000007b2e3b2b8}> (0x00000007b2e3b2b8) 
+thrown [src/hotspot/share/prims/jni.cpp, line 517]
+Event: 37847.317 Thread 0x00007fa0140411c0 Exception <a 'sun/nio/fs/UnixException'{0x00000007b293c740}> (0x00000007b293c740) 
+thrown [src/hotspot/share/prims/jni.cpp, line 517]
+Event: 37847.319 Thread 0x00007f9fb57cf150 Exception <a 'sun/nio/fs/UnixException'{0x00000007b2798f48}> (0x00000007b2798f48) 
+thrown [src/hotspot/share/prims/jni.cpp, line 517]
+Event: 37860.444 Thread 0x00007fa0780876d0 Exception <a 'sun/nio/fs/UnixException'{0x00000007b35814f8}> (0x00000007b35814f8) 
+thrown [src/hotspot/share/prims/jni.cpp, line 517]
+
+VM Operations (20 events):
+Event: 37297.245 Executing VM operation: HandshakeAllThreads
+Event: 37297.245 Executing VM operation: HandshakeAllThreads done
+Event: 37357.313 Executing VM operation: HandshakeAllThreads
+Event: 37357.314 Executing VM operation: HandshakeAllThreads done
+Event: 37417.386 Executing VM operation: HandshakeAllThreads
+Event: 37417.386 Executing VM operation: HandshakeAllThreads done
+Event: 37477.456 Executing VM operation: HandshakeAllThreads
+Event: 37477.457 Executing VM operation: HandshakeAllThreads done
+Event: 37537.528 Executing VM operation: HandshakeAllThreads
+Event: 37537.530 Executing VM operation: HandshakeAllThreads done
+Event: 37597.593 Executing VM operation: HandshakeAllThreads
+Event: 37597.593 Executing VM operation: HandshakeAllThreads done
+Event: 37657.664 Executing VM operation: HandshakeAllThreads
+Event: 37657.664 Executing VM operation: HandshakeAllThreads done
+Event: 37717.732 Executing VM operation: HandshakeAllThreads
+Event: 37717.732 Executing VM operation: HandshakeAllThreads done
+Event: 37777.803 Executing VM operation: HandshakeAllThreads
+Event: 37777.803 Executing VM operation: HandshakeAllThreads done
+Event: 37837.873 Executing VM operation: HandshakeAllThreads
+Event: 37837.873 Executing VM operation: HandshakeAllThreads done
+
+
+[error occurred during error reporting (printing ring buffers), id 0x7, SIGBUS (0x7) at pc=0x00007fa1cd3cbf19]
+
+Dynamic libraries:
+746c00000-7f4800000 rw-p 00000000 00:00 0 
+7f4800000-7f6800000 rw-p 00000000 00:00 0 
+7f6800000-7fb400000 ---p 00000000 00:00 0 
+7fb400000-7fcc00000 rw-p 00000000 00:00 0 
+7fcc00000-7fe000000 ---p 00000000 00:00 0 
+7fe000000-800010000 rw-p 00000000 00:00 0 
+800010000-800030000 rw-p 00000000 00:00 0 
+800030000-8000b0000 rw-p 00000000 00:00 0 
+8000b0000-800130000 rw-p 00000000 00:00 0 
+800130000-8001b0000 rw-p 00000000 00:00 0 
+8001b0000-800230000 rw-p 00000000 00:00 0 
+800230000-8002f0000 rw-p 00000000 00:00 0 
+8002f0000-800430000 rw-p 00000000 00:00 0 
+800430000-800470000 rw-p 00000000 00:00 0 
+800470000-8005f0000 rw-p 00000000 00:00 0 
+8005f0000-800730000 rw-p 00000000 00:00 0 
+800730000-800770000 rw-p 00000000 00:00 0 
+800770000-800830000 rw-p 00000000 00:00 0 
+800830000-800870000 rw-p 00000000 00:00 0 
+800870000-8009d0000 rw-p 00000000 00:00 0 
+8009d0000-8009f0000 rw-p 00000000 00:00 0 
+8009f0000-800bf0000 rw-p 00000000 00:00 0 
+800bf0000-8011b0000 rw-p 00000000 00:00 0 
+8011b0000-8011f0000 rw-p 00000000 00:00 0 
+8011f0000-801350000 rw-p 00000000 00:00 0 
+801350000-8013b0000 rw-p 00000000 00:00 0 
+8013b0000-8013f0000 rw-p 00000000 00:00 0 
+8013f0000-8018b0000 rw-p 00000000 00:00 0 
+8018b0000-8018f0000 rw-p 00000000 00:00 0 
+8018f0000-801cb0000 rw-p 00000000 00:00 0 
+801cb0000-801cf0000 rw-p 00000000 00:00 0 
+801cf0000-8022c0000 rw-p 00000000 00:00 0 
+8022c0000-840000000 ---p 00000000 00:00 0 
+5629a73e6000-5629a73e7000 r--p 00000000 00:35 6501386846                 /home/w/whiteheadh/pycharm-community-2023.2.2/jbr/bin/java
+5629a73e7000-5629a73e8000 r-xp 00001000 00:35 6501386846                 /home/w/whiteheadh/pycharm-community-2023.2.2/jbr/bin/java
+5629a73e8000-5629a73e9000 r--p 00002000 00:35 6501386846                 /home/w/whiteheadh/pycharm-community-2023.2.2/jbr/bin/java
+5629a73e9000-5629a73ea000 r--p 00002000 00:35 6501386846                 /home/w/whiteheadh/pycharm-community-2023.2.2/jbr/bin/java
+5629a73ea000-5629a73eb000 rw-p 00003000 00:35 6501386846                 /home/w/whiteheadh/pycharm-community-2023.2.2/jbr/bin/java
+5629c0a48000-5629c0a92000 rw-p 00000000 00:00 0                          [heap]
+7f9eac000000-7f9eac2f0000 rw-p 00000000 00:00 0 
+7f9eac2f0000-7f9eac310000 rw-p 00000000 00:00 0 
+7f9eac310000-7f9eac400000 ---p 00000000 00:00 0 
+7f9eac400000-7f9eac420000 rw-p 00000000 00:00 0 
+7f9eac420000-7f9eb0000000 ---p 00000000 00:00 0 
+7f9eb0000000-7f9eb21f8000 rw-p 00000000 00:00 0 
+7f9eb21f8000-7f9eb4000000 ---p 00000000 00:00 0 
+7f9eb7000000-7f9eb70f0000 rw-p 00000000 00:00 0 
+7f9eb70f0000-7f9eb7cf0000 rw-p 00000000 00:00 0 
+7f9eb7cf0000-7f9eb7df0000 rw-p 00000000 00:00 0 
+7f9eb7df0000-7f9eb8bb0000 rw-p 00000000 00:00 0 
+7f9eb8bb0000-7f9eb8bf0000 rw-p 00000000 00:00 0 
+7f9eb8bf0000-7f9eb8f70000 rw-p 00000000 00:00 0 
+7f9eb8f70000-7f9eb8ff0000 rw-p 00000000 00:00 0 
+7f9eb8ff0000-7f9eb91f0000 rw-p 00000000 00:00 0 
+7f9eb91f0000-7f9eb9370000 rw-p 00000000 00:00 0 
+7f9eb9370000-7f9eb93f0000 rw-p 00000000 00:00 0 
+7f9eb93f0000-7f9eb9cf0000 rw-p 00000000 00:00 0 
+7f9eb9cf0000-7f9eba970000 rw-p 00000000 00:00 0 
+7f9eba970000-7f9eba9f0000 rw-p 00000000 00:00 0 
+7f9eba9f0000-7f9ebabb0000 rw-p 00000000 00:00 0 
+7f9ebabb0000-7f9ebabf0000 rw-p 00000000 00:00 0 
+7f9ebabf0000-7f9ebace0000 rw-p 00000000 00:00 0 
+7f9ebace0000-7f9ebadf0000 rw-p 00000000 00:00 0 
+7f9ebadf0000-7f9ebaf70000 rw-p 00000000 00:00 0 
+7f9ebaf70000-7f9ebb000000 rw-p 00000000 00:00 0 
+7f9ebb800000-7f9ebb804000 ---p 00000000 00:00 0 
+7f9ebb804000-7f9ebb900000 rw-p 00000000 00:00 0 
+7f9ebb900000-7f9ebb904000 ---p 00000000 00:00 0 
+7f9ebb904000-7f9ebba00000 rw-p 00000000 00:00 0 
+7f9ebba00000-7f9ebba04000 ---p 00000000 00:00 0 
+7f9ebba04000-7f9ebbb00000 rw-p 00000000 00:00 0 
+7f9ebbd00000-7f9ebbd04000 ---p 00000000 00:00 0 
+7f9ebbd04000-7f9ebbe00000 rw-p 00000000 00:00 0 
+7f9ebbe00000-7f9ebbe04000 ---p 00000000 00:00 0 
+7f9ebbe04000-7f9ebbf00000 rw-p 00000000 00:00 0 
+7f9ebbf00000-7f9ebbf04000 ---p 00000000 00:00 0 
+7f9ebbf04000-7f9ebc000000 rw-p 00000000 00:00 0 
+7f9ebc000000-7f9ebc139000 rw-p 00000000 00:00 0 
+7f9ebc139000-7f9ec0000000 ---p 00000000 00:00 0 
+7f9ec0000000-7f9ec0370000 rw-p 00000000 00:00 0 
+7f9ec0370000-7f9ec04f0000 rw-p 00000000 00:00 0 
+7f9ec04f0000-7f9ec05f0000 rw-p 00000000 00:00 0 
+7f9ec05f0000-7f9ec06f0000 rw-p 00000000 00:00 0 
+7f9ec06f0000-7f9ec07f0000 rw-p 00000000 00:00 0 
+7f9ec07f0000-7f9ec0cf0000 rw-p 00000000 00:00 0 
+7f9ec0cf0000-7f9ec0df0000 rw-p 00000000 00:00 0 
+7f9ec0df0000-7f9ec1b70000 rw-p 00000000 00:00 0 
+7f9ec1b70000-7f9ec1bf0000 rw-p 00000000 00:00 0 
+7f9ec1bf0000-7f9ec2570000 rw-p 00000000 00:00 0 
+7f9ec2570000-7f9ec25f0000 rw-p 00000000 00:00 0 
+7f9ec25f0000-7f9ec2cf0000 rw-p 00000000 00:00 0 
+7f9ec2cf0000-7f9ec2df0000 rw-p 00000000 00:00 0 
+7f9ec2df0000-7f9ec39f0000 rw-p 00000000 00:00 0 
+7f9ec39f0000-7f9ec3f30000 rw-p 00000000 00:00 0 
+7f9ec3f30000-7f9ec3f70000 rw-p 00000000 00:00 0 
+7f9ec3f70000-7f9ec4000000 rw-p 00000000 00:00 0 
+7f9ec4000000-7f9ec4196000 rw-p 00000000 00:00 0 
+7f9ec4196000-7f9ec8000000 ---p 00000000 00:00 0 
+7f9ec8000000-7f9ec811f000 rw-p 00000000 00:00 0 
+7f9ec811f000-7f9ecc000000 ---p 00000000 00:00 0 
+7f9ecc000000-7f9ecc021000 rw-p 00000000 00:00 0 
+7f9ecc021000-7f9ed0000000 ---p 00000000 00:00 0 
+7f9ed0000000-7f9ed214a000 rw-p 00000000 00:00 0 
+7f9ed214a000-7f9ed4000000 ---p 00000000 00:00 0 
+7f9ed4000000-7f9ed4078000 rw-p 00000000 00:00 0 
+7f9ed4078000-7f9ed8000000 ---p 00000000 00:00 0 
+7f9ed8000000-7f9ed8151000 rw-p 00000000 00:00 0 
+7f9ed8151000-7f9edc000000 ---p 00000000 00:00 0 
+7f9edc000000-7f9edc1b6000 rw-p 00000000 00:00 0 
+7f9edc1b6000-7f9ee0000000 ---p 00000000 00:00 0 
+7f9ee0000000-7f9ee0192000 rw-p 00000000 00:00 0 
+7f9ee0192000-7f9ee4000000 ---p 00000000 00:00 0 
+7f9ee4000000-7f9ee447e000 rw-p 00000000 00:00 0 
+7f9ee447e000-7f9ee8000000 ---p 00000000 00:00 0 
+7f9ee8000000-7f9ee8289000 rw-p 00000000 00:00 0 
+7f9ee8289000-7f9eec000000 ---p 00000000 00:00 0 
+7f9eec000000-7f9eec021000 rw-p 00000000 00:00 0 
+7f9eec021000-7f9ef0000000 ---p 00000000 00:00 0 
+7f9ef0000000-7f9ef015b000 rw-p 00000000 00:00 0 
+7f9ef015b000-7f9ef4000000 ---p 00000000 00:00 0 
+7f9ef4000000-7f9ef419c000 rw-p 00000000 00:00 0 
+7f9ef419c000-7f9ef8000000 ---p 00000000 00:00 0 
+7f9ef8000000-7f9ef82bc000 rw-p 00000000 00:00 0 
+7f9ef82bc000-7f9efc000000 ---p 00000000 00:00 0 
+7f9efc000000-7f9efc021000 rw-p 00000000 00:00 0 
+7f9efc021000-7f9f00000000 ---p 00000000 00:00 0 
+7f9f00000000-7f9f001ca000 rw-p 00000000 00:00 0 
+7f9f001ca000-7f9f04000000 ---p 00000000 00:00 0 
+7f9f04000000-7f9f04143000 rw-p 00000000 00:00 0 
+7f9f04143000-7f9f08000000 ---p 00000000 00:00 0 
+7f9f08000000-7f9f08021000 rw-p 00000000 00:00 0 
+7f9f08021000-7f9f0c000000 ---p 00000000 00:00 0 
+7f9f0c000000-7f9f0c021000 rw-p 00000000 00:00 0 
+7f9f0c021000-7f9f10000000 ---p 00000000 00:00 0 
+7f9f10000000-7f9f10021000 rw-p 00000000 00:00 0 
+7f9f10021000-7f9f14000000 ---p 00000000 00:00 0 
+7f9f14000000-7f9f14021000 rw-p 00000000 00:00 0 
+7f9f14021000-7f9f18000000 ---p 00000000 00:00 0 
+7f9f18000000-7f9f18021000 rw-p 00000000 00:00 0 
+7f9f18021000-7f9f1c000000 ---p 00000000 00:00 0 
+7f9f1c000000-7f9f1c021000 rw-p 00000000 00:00 0 
+7f9f1c021000-7f9f20000000 ---p 00000000 00:00 0 
+7f9f20000000-7f9f20021000 rw-p 00000000 00:00 0 
+7f9f20021000-7f9f24000000 ---p 00000000 00:00 0 
+7f9f24000000-7f9f24021000 rw-p 00000000 00:00 0 
+7f9f24021000-7f9f28000000 ---p 00000000 00:00 0 
+7f9f28000000-7f9f28155000 rw-p 00000000 00:00 0 
+7f9f28155000-7f9f2c000000 ---p 00000000 00:00 0 
+7f9f2c000000-7f9f2c135000 rw-p 00000000 00:00 0 
+7f9f2c135000-7f9f30000000 ---p 00000000 00:00 0 
+7f9f30000000-7f9f30021000 rw-p 00000000 00:00 0 
+7f9f30021000-7f9f34000000 ---p 00000000 00:00 0 
+7f9f34000000-7f9f34021000 rw-p 00000000 00:00 0 
+7f9f34021000-7f9f38000000 ---p 00000000 00:00 0 
+7f9f38000000-7f9f38021000 rw-p 00000000 00:00 0 
+7f9f38021000-7f9f3c000000 ---p 00000000 00:00 0 
+7f9f3c000000-7f9f3c021000 rw-p 00000000 00:00 0 
+7f9f3c021000-7f9f40000000 ---p 00000000 00:00 0 
+7f9f40000000-7f9f40021000 rw-p 00000000 00:00 0 
+7f9f40021000-7f9f44000000 ---p 00000000 00:00 0 
+7f9f44000000-7f9f44050000 rw-p 00000000 00:00 0 
+7f9f44050000-7f9f48000000 ---p 00000000 00:00 0 
+7f9f48000000-7f9f4818d000 rw-p 00000000 00:00 0 
+7f9f4818d000-7f9f4c000000 ---p 00000000 00:00 0 
+7f9f4c000000-7f9f4ffee000 rw-p 00000000 00:00 0 
+7f9f4ffee000-7f9f50000000 ---p 00000000 00:00 0 
+7f9f50000000-7f9f501c8000 rw-p 00000000 00:00 0 
+7f9f501c8000-7f9f54000000 ---p 00000000 00:00 0 
+7f9f54000000-7f9f54210000 rw-p 00000000 00:00 0 
+7f9f54210000-7f9f547b0000 rw-p 00000000 00:00 0 
+7f9f547b0000-7f9f548f0000 rw-p 00000000 00:00 0 
+7f9f548f0000-7f9f549f0000 rw-p 00000000 00:00 0 
+7f9f549f0000-7f9f54f70000 rw-p 00000000 00:00 0 
+7f9f54f70000-7f9f54ff0000 rw-p 00000000 00:00 0 
+7f9f54ff0000-7f9f554f0000 rw-p 00000000 00:00 0 
+7f9f554f0000-7f9f555f0000 rw-p 00000000 00:00 0 
+7f9f555f0000-7f9f558f0000 rw-p 00000000 00:00 0 
+7f9f558f0000-7f9f559f0000 rw-p 00000000 00:00 0 
+7f9f559f0000-7f9f571f0000 rw-p 00000000 00:00 0 
+7f9f571f0000-7f9f576f0000 rw-p 00000000 00:00 0 
+7f9f576f0000-7f9f577f0000 rw-p 00000000 00:00 0 
+7f9f577f0000-7f9f58000000 rw-p 00000000 00:00 0 
+7f9f58000000-7f9f58021000 rw-p 00000000 00:00 0 
+7f9f58021000-7f9f5c000000 ---p 00000000 00:00 0 
+7f9f5c000000-7f9f5c021000 rw-p 00000000 00:00 0 
+7f9f5c021000-7f9f60000000 ---p 00000000 00:00 0 
+7f9f60000000-7f9f6028a000 rw-p 00000000 00:00 0 
+7f9f6028a000-7f9f64000000 ---p 00000000 00:00 0 
+7f9f64000000-7f9f64285000 rw-p 00000000 00:00 0 
+7f9f64285000-7f9f68000000 ---p 00000000 00:00 0 
+7f9f68000000-7f9f68199000 rw-p 00000000 00:00 0 
+7f9f68199000-7f9f6c000000 ---p 00000000 00:00 0 
+7f9f6c000000-7f9f6c1be000 rw-p 00000000 00:00 0 
+7f9f6c1be000-7f9f70000000 ---p 00000000 00:00 0 
+7f9f70000000-7f9f70093000 rw-p 00000000 00:00 0 
+7f9f70093000-7f9f74000000 ---p 00000000 00:00 0 
+7f9f74000000-7f9f74191000 rw-p 00000000 00:00 0 
+7f9f74191000-7f9f78000000 ---p 00000000 00:00 0 
+7f9f78000000-7f9f780ff000 rw-p 00000000 00:00 0 
+7f9f780ff000-7f9f7c000000 ---p 00000000 00:00 0 
+7f9f7c000000-7f9f7c1ef000 rw-p 00000000 00:00 0 
+7f9f7c1ef000-7f9f80000000 ---p 00000000 00:00 0 
+7f9f80000000-7f9f80298000 rw-p 00000000 00:00 0 
+7f9f80298000-7f9f84000000 ---p 00000000 00:00 0 
+7f9f841fc000-7f9f84200000 ---p 00000000 00:00 0 
+7f9f84200000-7f9f842fc000 rw-p 00000000 00:00 0 
+7f9f843fc000-7f9f84400000 ---p 00000000 00:00 0 
+7f9f84400000-7f9f844fc000 rw-p 00000000 00:00 0 
+7f9f844fc000-7f9f84500000 ---p 00000000 00:00 0 
+7f9f84500000-7f9f845fc000 rw-p 00000000 00:00 0 
+7f9f845fc000-7f9f84600000 ---p 00000000 00:00 0 
+7f9f84600000-7f9f846fc000 rw-p 00000000 00:00 0 
+7f9f846fc000-7f9f84700000 ---p 00000000 00:00 0 
+7f9f84700000-7f9f847fc000 rw-p 00000000 00:00 0 
+7f9f848fc000-7f9f84900000 ---p 00000000 00:00 0 
+7f9f84900000-7f9f849fc000 rw-p 00000000 00:00 0 
+7f9f849fc000-7f9f84a00000 ---p 00000000 00:00 0 
+7f9f84a00000-7f9f84afc000 rw-p 00000000 00:00 0 
+7f9f84afc000-7f9f84b00000 ---p 00000000 00:00 0 
+7f9f84b00000-7f9f84bfc000 rw-p 00000000 00:00 0 
+7f9f854fc000-7f9f85500000 ---p 00000000 00:00 0 
+7f9f85500000-7f9f855fc000 rw-p 00000000 00:00 0 
+7f9f857fc000-7f9f857fd000 ---p 00000000 00:00 0 
+7f9f857fd000-7f9f858fe000 rw-p 00000000 00:00 0 
+7f9f859fe000-7f9f859ff000 ---p 00000000 00:00 0 
+7f9f859ff000-7f9f85b00000 rw-p 00000000 00:00 0 
+7f9f85b00000-7f9f85b04000 ---p 00000000 00:00 0 
+7f9f85b04000-7f9f85c00000 rw-p 00000000 00:00 0 
+7f9f85e00000-7f9f85e04000 ---p 00000000 00:00 0 
+7f9f85e04000-7f9f85f00000 rw-p 00000000 00:00 0 
+7f9f85f00000-7f9f85f04000 ---p 00000000 00:00 0 
+7f9f85f04000-7f9f86000000 rw-p 00000000 00:00 0 
+7f9f86000000-7f9f86004000 ---p 00000000 00:00 0 
+7f9f86004000-7f9f86100000 rw-p 00000000 00:00 0 
+7f9f86100000-7f9f86104000 ---p 00000000 00:00 0 
+7f9f86104000-7f9f86200000 rw-p 00000000 00:00 0 
+7f9f86200000-7f9f86204000 ---p 00000000 00:00 0 
+7f9f86204000-7f9f86300000 rw-p 00000000 00:00 0 
+7f9f86300000-7f9f86304000 ---p 00000000 00:00 0 
+7f9f86304000-7f9f86400000 rw-p 00000000 00:00 0 
+7f9f86500000-7f9f86504000 ---p 00000000 00:00 0 
+7f9f86504000-7f9f86600000 rw-p 00000000 00:00 0 
+7f9f86700000-7f9f86704000 ---p 00000000 00:00 0 
+7f9f86704000-7f9f86800000 rw-p 00000000 00:00 0 
+7f9f86800000-7f9f86804000 ---p 00000000 00:00 0 
+7f9f86804000-7f9f86900000 rw-p 00000000 00:00 0 
+7f9f86900000-7f9f86904000 ---p 00000000 00:00 0 
+7f9f86904000-7f9f86a00000 rw-p 00000000 00:00 0 
+7f9f86a00000-7f9f86a04000 ---p 00000000 00:00 0 
+7f9f86a04000-7f9f86b00000 rw-p 00000000 00:00 0 
+7f9f86b00000-7f9f86b04000 ---p 00000000 00:00 0 
+7f9f86b04000-7f9f86c00000 rw-p 00000000 00:00 0 
+7f9f86d00000-7f9f86d04000 ---p 00000000 00:00 0 
+7f9f86d04000-7f9f86e00000 rw-p 00000000 00:00 0 
+7f9f86e00000-7f9f86e04000 ---p 00000000 00:00 0 
+7f9f86e04000-7f9f86f00000 rw-p 00000000 00:00 0 
+7f9f86f00000-7f9f86f04000 ---p 00000000 00:00 0 
+7f9f86f04000-7f9f87000000 rw-p 00000000 00:00 0 
+7f9f87200000-7f9f87204000 ---p 00000000 00:00 0 
+7f9f87204000-7f9f87300000 rw-p 00000000 00:00 0 
+7f9f87e00000-7f9f8be00000 rw-s 00000000 fe:00 8395003                    /local/home/whiteheadh/.cache/JetBrains/PyCharmCE2023.2/caches/records.dat
+7f9f8c000000-7f9f8c1ed000 rw-p 00000000 00:00 0 
+7f9f8c1ed000-7f9f90000000 ---p 00000000 00:00 0 
+7f9f90102000-7f9f90106000 ---p 00000000 00:00 0 
+7f9f90106000-7f9f90202000 rw-p 00000000 00:00 0 
+7f9f90202000-7f9f90206000 ---p 00000000 00:00 0 
+7f9f90206000-7f9f90302000 rw-p 00000000 00:00 0 
+7f9f90302000-7f9f90306000 ---p 00000000 00:00 0 
+7f9f90306000-7f9f90402000 rw-p 00000000 00:00 0 
+7f9f90402000-7f9f90403000 ---p 00000000 00:00 0 
+7f9f90403000-7f9f90504000 rw-p 00000000 00:00 0 
+7f9f90504000-7f9f90505000 ---p 00000000 00:00 0 
+7f9f90505000-7f9f90606000 rw-p 00000000 00:00 0 
+7f9f90606000-7f9f9060a000 ---p 00000000 00:00 0 
+7f9f9060a000-7f9f90706000 rw-p 00000000 00:00 0 
+7f9f90800000-7f9f90815000 r-xp 00000000 00:35 47301621886                /home/w/whiteheadh/pycharm-community-2023.2.2/bin/libdbm.so
+7f9f90815000-7f9f90a14000 ---p 00015000 00:35 47301621886                /home/w/whiteheadh/pycharm-community-2023.2.2/bin/libdbm.so
+7f9f90a14000-7f9f90a15000 r--p 00014000 00:35 47301621886                /home/w/whiteheadh/pycharm-community-2023.2.2/bin/libdbm.so
+7f9f90a15000-7f9f90a16000 rw-p 00015000 00:35 47301621886                /home/w/whiteheadh/pycharm-community-2023.2.2/bin/libdbm.so
+7f9f90a7f000-7f9f90a83000 ---p 00000000 00:00 0 
+7f9f90a83000-7f9f90b7f000 rw-p 00000000 00:00 0 
+7f9f90c7f000-7f9f90c83000 ---p 00000000 00:00 0 
+7f9f90c83000-7f9f90d7f000 rw-p 00000000 00:00 0 
+7f9f91d81000-7f9f91d92000 r--p 00000000 fe:00 46698883                   /usr/lib/x86_64-linux-gnu/libibus-1.0.so.5.0.527
+7f9f91d92000-7f9f91dc6000 r-xp 00011000 fe:00 46698883                   /usr/lib/x86_64-linux-gnu/libibus-1.0.so.5.0.527
+7f9f91dc6000-7f9f91dfa000 r--p 00045000 fe:00 46698883                   /usr/lib/x86_64-linux-gnu/libibus-1.0.so.5.0.527
+7f9f91dfa000-7f9f91dfd000 r--p 00078000 fe:00 46698883                   /usr/lib/x86_64-linux-gnu/libibus-1.0.so.5.0.527
+7f9f91dfd000-7f9f91dfe000 rw-p 0007b000 fe:00 46698883                   /usr/lib/x86_64-linux-gnu/libibus-1.0.so.5.0.527
+7f9f92e00000-7f9f9311b000 r--s 00000000 fe:00 274668                     /var/cache/fontconfig/0bd3dc0958fa2205aaaa8ebb13e2872b-le64.cache-8
+7f9f9312c000-7f9f9312d000 r--p 00000000 fe:00 46712718                   /usr/lib/x86_64-linux-gnu/libnss_mdns4_minimal.so.2
+7f9f9312d000-7f9f9312f000 r-xp 00001000 fe:00 46712718                   /usr/lib/x86_64-linux-gnu/libnss_mdns4_minimal.so.2
+7f9f9312f000-7f9f93130000 r--p 00003000 fe:00 46712718                   /usr/lib/x86_64-linux-gnu/libnss_mdns4_minimal.so.2
+7f9f93130000-7f9f93131000 r--p 00003000 fe:00 46712718                   /usr/lib/x86_64-linux-gnu/libnss_mdns4_minimal.so.2
+7f9f93131000-7f9f93132000 rw-p 00004000 fe:00 46712718                   /usr/lib/x86_64-linux-gnu/libnss_mdns4_minimal.so.2
+7f9f9314c000-7f9f9314d000 r--s 00000000 00:35 49407943098                /home/w/whiteheadh/pycharm-community-2023.2.2/plugins/space/lib/space-java-jps.jar
+7f9f9314d000-7f9f93150000 r--p 00000000 fe:00 46826322                   /usr/lib/x86_64-linux-gnu/gtk-3.0/3.0.0/immodules/im-ibus.so
+7f9f93150000-7f9f93154000 r-xp 00003000 fe:00 46826322                   /usr/lib/x86_64-linux-gnu/gtk-3.0/3.0.0/immodules/im-ibus.so
+7f9f93154000-7f9f93156000 r--p 00007000 fe:00 46826322                   /usr/lib/x86_64-linux-gnu/gtk-3.0/3.0.0/immodules/im-ibus.so
+7f9f93156000-7f9f93157000 r--p 00008000 fe:00 46826322                   /usr/lib/x86_64-linux-gnu/gtk-3.0/3.0.0/immodules/im-ibus.so
+7f9f93157000-7f9f93158000 rw-p 00009000 fe:00 46826322                   /usr/lib/x86_64-linux-gnu/gtk-3.0/3.0.0/immodules/im-ibus.so
+7f9f93158000-7f9f93172000 r--p 00000000 fe:00 46929194                   /usr/share/fonts/opentype/cantarell/Cantarell-Regular.otf
+7f9f93172000-7f9f9318c000 r--p 00000000 fe:00 46929194                   /usr/share/fonts/opentype/cantarell/Cantarell-Regular.otf
+7f9f9318c000-7f9f93192000 r--s 00000000 fe:00 277233                     /var/cache/fontconfig/93a229ddef8289df64ac13624924bd14-le64.cache-8
+7f9f93192000-7f9f93196000 r--s 00000000 fe:00 277232                     /var/cache/fontconfig/62a296f92cd800a49657533f3dfe810f-le64.cache-8
+7f9f93196000-7f9f93198000 r--s 00000000 fe:00 277231                     /var/cache/fontconfig/2cce37071fd78829640a61fea3bb58f0-le64.cache-8
+7f9f93198000-7f9f9319f000 r--s 00000000 fe:00 277229                     /var/cache/fontconfig/6fe8b0d39a161d19087fe931545dda13-le64.cache-8
+7f9f9319f000-7f9f931ac000 r--s 00000000 fe:00 270568                     /var/cache/fontconfig/a4e60e8d1e10d2fdff3fe3037a1845fb-le64.cache-8
+7f9f931ac000-7f9f931b1000 r--s 00000000 fe:00 270276                     /var/cache/fontconfig/6aa41aa22e18b8fa06a12da28ea9c28b-le64.cache-8
+7f9f931b1000-7f9f931b8000 r--s 00000000 fe:00 277227                     /var/cache/fontconfig/63c7aca0c1b0a3f740ee470c2e28e675-le64.cache-8
+7f9f931b8000-7f9f931c1000 r--s 00000000 fe:00 277225                     /var/cache/fontconfig/a6d8cf8e4ec09cdbc8633c31745a07dd-le64.cache-8
+7f9f931c1000-7f9f931c3000 r--s 00000000 fe:00 271358                     /var/cache/fontconfig/c3bb64600bf7a4aa73b55dc8bb82b27b-le64.cache-8
+7f9f931c3000-7f9f931ca000 r--s 00000000 fe:00 277222                     /var/cache/fontconfig/270324a4f8f04b5b8e0371524e5a1fcd-le64.cache-8
+7f9f931ca000-7f9f931cc000 r--s 00000000 fe:00 277215                     /var/cache/fontconfig/767a8244fc0220cfb567a839d0392e0b-le64.cache-8
+7f9f931cc000-7f9f931d2000 r--s 00000000 fe:00 277213                     /var/cache/fontconfig/bbd3eebb6912613e2596f2fd46535a95-le64.cache-8
+7f9f931d2000-7f9f931d3000 r--s 00000000 fe:00 277683                     /var/cache/fontconfig/da43223dd54fb3bb4243ae19d4b583b2-le64.cache-8
+7f9f931d3000-7f9f931d9000 r--s 00000000 fe:00 271354                     /var/cache/fontconfig/9d2451b1fd30e5bffe8383fd27c35478-le64.cache-8
+7f9f931d9000-7f9f931e0000 r--s 00000000 fe:00 276915                     /var/cache/fontconfig/3047814df9a2f067bd2d96a2b9c36e5a-le64.cache-8
+7f9f931e0000-7f9f931e8000 r--s 00000000 fe:00 271353                     /var/cache/fontconfig/bf3b770c553c462765856025a94f1ce6-le64.cache-8
+7f9f931e8000-7f9f931ea000 r--s 00000000 fe:00 277211                     /var/cache/fontconfig/80358e851108c3c2b55d9b5798e93f85-le64.cache-8
+7f9f931ea000-7f9f931ee000 r--s 00000000 fe:00 277210                     /var/cache/fontconfig/715927c029ee5789f7bcbe92036c8d73-le64.cache-8
+7f9f931ee000-7f9f931f2000 r--s 00000000 fe:00 276908                     /var/cache/fontconfig/e49e89034d371f0f9de17aab02136486-le64.cache-8
+7f9f931f2000-7f9f931f4000 r--s 00000000 fe:00 276907                     /var/cache/fontconfig/4b14b093aebc79c320de5e86ae1d3314-le64.cache-8
+7f9f931f4000-7f9f93208000 r--s 00000000 fe:00 277206                     /var/cache/fontconfig/d52a8644073d54c13679302ca1180695-le64.cache-8
+7f9f93208000-7f9f93209000 r--s 00000000 fe:00 271351                     /var/cache/fontconfig/8a687c406b77f27d99abfeeba937fcce-le64.cache-8
+7f9f93209000-7f9f93210000 r--s 00000000 fe:00 277205                     /var/cache/fontconfig/75ad6aa2358a85f0de2c8ee4837e8227-le64.cache-8
+7f9f93210000-7f9f93211000 r--s 00000000 fe:00 271350                     /var/cache/fontconfig/3f7329c5293ffd510edef78f73874cfd-le64.cache-8
+7f9f93211000-7f9f9321e000 r--s 00000000 fe:00 271349                     /var/cache/fontconfig/d589a48862398ed80a3d6066f4f56f4c-le64.cache-8
+7f9f9321e000-7f9f93222000 r--s 00000000 fe:00 276896                     /var/cache/fontconfig/246184dc75a16901ca37d96895904249-le64.cache-8
+7f9f93222000-7f9f93228000 r--s 00000000 fe:00 277203                     /var/cache/fontconfig/b25010134a2e462c779c1c1d5ccbff7b-le64.cache-8
+7f9f93228000-7f9f9322a000 r--s 00000000 fe:00 277199                     /var/cache/fontconfig/423767150eb258c59035de29db6fca84-le64.cache-8
+7f9f9322a000-7f9f9322e000 r--s 00000000 fe:00 277198                     /var/cache/fontconfig/747030b94f39446b354ceb1e1acd0890-le64.cache-8
+7f9f9322e000-7f9f93230000 r--s 00000000 fe:00 277191                     /var/cache/fontconfig/7ced87123e2d184881c6610d82463bf1-le64.cache-8
+7f9f93230000-7f9f93231000 r--s 00000000 fe:00 277190                     /var/cache/fontconfig/e7de81b01590fb7e12b38e274e17d0db-le64.cache-8
+7f9f93231000-7f9f93234000 r--s 00000000 fe:00 277186                     /var/cache/fontconfig/6386b86020ecc1ef9690bb720a13964f-le64.cache-8
+7f9f93234000-7f9f93236000 r--s 00000000 fe:00 277185                     /var/cache/fontconfig/099525ddca5eae4f2477b69cf2d7f16d-le64.cache-8
+7f9f93236000-7f9f93238000 r--s 00000000 fe:00 277184                     /var/cache/fontconfig/61092ac79d9058a69eda095afa0a78f1-le64.cache-8
+7f9f93238000-7f9f9323a000 r--s 00000000 fe:00 277182                     /var/cache/fontconfig/a722efc6911bbe16667b1a77497ffd37-le64.cache-8
+7f9f9323a000-7f9f9323c000 r--s 00000000 fe:00 277181                     /var/cache/fontconfig/d63fdd8e0f42559533dd777c334fdfcc-le64.cache-8
+7f9f9323c000-7f9f93244000 r--s 00000000 fe:00 277180                     /var/cache/fontconfig/089dead882dea3570ffc31a9898cfb69-le64.cache-8
+7f9f93244000-7f9f93246000 r--s 00000000 fe:00 277178                     /var/cache/fontconfig/bfc3d88043f4e56c1d755b876167bb77-le64.cache-8
+7f9f93246000-7f9f93247000 r--s 00000000 fe:00 270554                     /var/cache/fontconfig/30829fa25452a46451e813d634d7f916-le64.cache-8
+7f9f93247000-7f9f93259000 r--s 00000000 fe:00 277177                     /var/cache/fontconfig/198d8fcf01c96d0cf813f74fd759bdb7-le64.cache-8
+7f9f93259000-7f9f93268000 r--s 00000000 fe:00 271347                     /var/cache/fontconfig/6cc790b63b123a6a96ee260fcdad32a9-le64.cache-8
+7f9f93268000-7f9f9327f000 r--s 00000000 fe:00 277176                     /var/cache/fontconfig/da82082e1ef13c4097208324d67c180c-le64.cache-8
+7f9f9327f000-7f9f93280000 r--s 00000000 fe:00 277174                     /var/cache/fontconfig/255c7f79afcc9d7df0b0b4dce75ec8e5-le64.cache-8
+7f9f93280000-7f9f93283000 r--s 00000000 fe:00 277173                     /var/cache/fontconfig/75114ca45c98e8a441da0ff356701271-le64.cache-8
+7f9f93283000-7f9f9328f000 r--s 00000000 fe:00 277172                     /var/cache/fontconfig/83bf95040141907cd45bb53cf7c1c148-le64.cache-8
+7f9f9328f000-7f9f93290000 r--s 00000000 fe:00 277170                     /var/cache/fontconfig/190ffc35f1a3b2dab79b3911db521db5-le64.cache-8
+7f9f93290000-7f9f93293000 r--s 00000000 fe:00 277165                     /var/cache/fontconfig/c67395ae27c12661fddd23da86d5de13-le64.cache-8
+7f9f93293000-7f9f9329d000 r--s 00000000 fe:00 271346                     /var/cache/fontconfig/d0972c3d32f097851eb916381fc38920-le64.cache-8
+7f9f9329d000-7f9f9329f000 r--s 00000000 fe:00 277164                     /var/cache/fontconfig/6e6b34ae150a7ad95e82fb4a522f0bda-le64.cache-8
+7f9f9329f000-7f9f932b1000 r--s 00000000 fe:00 277161                     /var/cache/fontconfig/4a383c8a071a741265c3cc07ab0348ba-le64.cache-8
+7f9f932b1000-7f9f932c1000 r--s 00000000 fe:00 277159                     /var/cache/fontconfig/cadc3060d3cbe99d6aa4dd880095be12-le64.cache-8
+7f9f932c1000-7f9f932d5000 r--s 00000000 fe:00 277157                     /var/cache/fontconfig/4ac51e5cfbc76fc3f983e470323a16d3-le64.cache-8
+7f9f932d5000-7f9f932ff000 r--s 00000000 fe:00 270186                     /var/cache/fontconfig/e13b20fdb08344e0e664864cc2ede53d-le64.cache-8
+7f9f932ff000-7f9f93303000 ---p 00000000 00:00 0 
+7f9f93303000-7f9f933ff000 rw-p 00000000 00:00 0 
+7f9f933ff000-7f9f93403000 ---p 00000000 00:00 0 
+7f9f93403000-7f9f934ff000 rw-p 00000000 00:00 0 
+7f9f934ff000-7f9f93503000 ---p 00000000 00:00 0 
+7f9f93503000-7f9f94000000 rw-p 00000000 00:00 0 
+7f9f94000000-7f9f9404f000 rw-p 00000000 00:00 0 
+7f9f9404f000-7f9f98000000 ---p 00000000 00:00 0 
+7f9f98000000-7f9f9bf0a000 rw-p 00000000 00:00 0 
+7f9f9bf0a000-7f9f9c000000 ---p 00000000 00:00 0 
+7f9f9c000000-7f9f9c07d000 rw-p 00000000 00:00 0 
+7f9f9c07d000-7f9fa0000000 ---p 00000000 00:00 0 
+7f9fa0000000-7f9fa006c000 rw-p 00000000 00:00 0 
+7f9fa006c000-7f9fa4000000 ---p 00000000 00:00 0 
+7f9fa4000000-7f9fa4073000 rw-p 00000000 00:00 0 
+7f9fa4073000-7f9fa8000000 ---p 00000000 00:00 0 
+7f9fa8000000-7f9fa80d2000 rw-p 00000000 00:00 0 
+7f9fa80d2000-7f9fac000000 ---p 00000000 00:00 0 
+7f9fac000000-7f9fac05b000 rw-p 00000000 00:00 0 
+7f9fac05b000-7f9fb0000000 ---p 00000000 00:00 0 
+7f9fb0000000-7f9fb018a000 rw-p 00000000 00:00 0 
+7f9fb018a000-7f9fb4000000 ---p 00000000 00:00 0 
+7f9fb4000000-7f9fb5a01000 rw-p 00000000 00:00 0 
+7f9fb5a01000-7f9fb8000000 ---p 00000000 00:00 0 
+7f9fb8000000-7f9fb815b000 rw-p 00000000 00:00 0 
+7f9fb815b000-7f9fbc000000 ---p 00000000 00:00 0 
+7f9fbc000000-7f9fbc0ec000 rw-p 00000000 00:00 0 
+7f9fbc0ec000-7f9fc0000000 ---p 00000000 00:00 0 
+7f9fc0000000-7f9fc0021000 rw-p 00000000 00:00 0 
+7f9fc0021000-7f9fc4000000 ---p 00000000 00:00 0 
+7f9fc4000000-7f9fc407f000 rw-p 00000000 00:00 0 
+7f9fc407f000-7f9fc8000000 ---p 00000000 00:00 0 
+7f9fc8000000-7f9fc8021000 rw-p 00000000 00:00 0 
+7f9fc8021000-7f9fcc000000 ---p 00000000 00:00 0 
+7f9fcc000000-7f9fcc021000 rw-p 00000000 00:00 0 
+7f9fcc021000-7f9fd0000000 ---p 00000000 00:00 0 
+7f9fd0000000-7f9fd0021000 rw-p 00000000 00:00 0 
+7f9fd0021000-7f9fd4000000 ---p 00000000 00:00 0 
+7f9fd4000000-7f9fd4021000 rw-p 00000000 00:00 0 
+7f9fd4021000-7f9fd8000000 ---p 00000000 00:00 0 
+7f9fd8000000-7f9fd8021000 rw-p 00000000 00:00 0 
+7f9fd8021000-7f9fdc000000 ---p 00000000 00:00 0 
+7f9fdc000000-7f9fdc001000 r--s 00000000 fe:00 277168                     /var/cache/fontconfig/20f64362fe0e193f346f70b7c4c81449-le64.cache-8
+7f9fdc001000-7f9fdc008000 r--s 00000000 fe:00 271348                     /var/cache/fontconfig/53d14c92082a93e67d5078324eb314ca-le64.cache-8
+7f9fdc008000-7f9fdc00b000 r--s 00000000 fe:00 277155                     /var/cache/fontconfig/c19b55eb3b4c5b40ea175e31682068a5-le64.cache-8
+7f9fdc00b000-7f9fdc00f000 r--s 00000000 fe:00 277154                     /var/cache/fontconfig/3629f2adf904f9a612908891fae71ceb-le64.cache-8
+7f9fdc00f000-7f9fdc012000 r--s 00000000 fe:00 277151                     /var/cache/fontconfig/4d61979dbde8c46a84bfdd79a1f6da86-le64.cache-8
+7f9fdc012000-7f9fdc015000 r--s 00000000 fe:00 277149                     /var/cache/fontconfig/361f143d0cd031e2e4d9179096c8df3c-le64.cache-8
+7f9fdc015000-7f9fdc019000 r--s 00000000 fe:00 277147                     /var/cache/fontconfig/de83a0a961185c8bd1f159015d56c039-le64.cache-8
+7f9fdc019000-7f9fdc01e000 r--s 00000000 fe:00 277139                     /var/cache/fontconfig/198dcdad82c1ebc3868edff741eb1653-le64.cache-8
+7f9fdc01e000-7f9fdc041000 r--s 00000000 fe:00 270159                     /var/cache/fontconfig/467c019e582ee353435ea5c21d137ef6-le64.cache-8
+7f9fdc041000-7f9fdc045000 ---p 00000000 00:00 0 
+7f9fdc045000-7f9fdc141000 rw-p 00000000 00:00 0 
+7f9fdc141000-7f9fdc145000 ---p 00000000 00:00 0 
+7f9fdc145000-7f9fdc241000 rw-p 00000000 00:00 0 
+7f9fdc241000-7f9fdc245000 ---p 00000000 00:00 0 
+7f9fdc245000-7f9fdc341000 rw-p 00000000 00:00 0 
+7f9fdc341000-7f9fdc342000 ---p 00000000 00:00 0 
+7f9fdc342000-7f9fdc443000 rw-p 00000000 00:00 0 
+7f9fdc443000-7f9fdc444000 ---p 00000000 00:00 0 
+7f9fdc444000-7f9fdc545000 rw-p 00000000 00:00 0 
+7f9fdc545000-7f9fdc546000 ---p 00000000 00:00 0 
+7f9fdc546000-7f9fdc647000 rw-p 00000000 00:00 0 
+7f9fdc647000-7f9fdc648000 ---p 00000000 00:00 0 
+7f9fdc648000-7f9fdc749000 rw-p 00000000 00:00 0 
+7f9fdc749000-7f9fdc74d000 ---p 00000000 00:00 0 
+7f9fdc74d000-7f9fdc849000 rw-p 00000000 00:00 0 
+7f9fdc849000-7f9fdc84b000 r--p 00000000 fe:00 46694961                   /usr/lib/x86_64-linux-gnu/libogg.so.0.8.5
+7f9fdc84b000-7f9fdc84e000 r-xp 00002000 fe:00 46694961                   /usr/lib/x86_64-linux-gnu/libogg.so.0.8.5
+7f9fdc84e000-7f9fdc851000 r--p 00005000 fe:00 46694961                   /usr/lib/x86_64-linux-gnu/libogg.so.0.8.5
+7f9fdc851000-7f9fdc852000 r--p 00008000 fe:00 46694961                   /usr/lib/x86_64-linux-gnu/libogg.so.0.8.5
+7f9fdc852000-7f9fdc853000 rw-p 00009000 fe:00 46694961                   /usr/lib/x86_64-linux-gnu/libogg.so.0.8.5
+7f9fdc853000-7f9fdc856000 r--p 00000000 fe:00 46694963                   /usr/lib/x86_64-linux-gnu/libvorbis.so.0.4.9
+7f9fdc856000-7f9fdc86c000 r-xp 00003000 fe:00 46694963                   /usr/lib/x86_64-linux-gnu/libvorbis.so.0.4.9
+7f9fdc86c000-7f9fdc87d000 r--p 00019000 fe:00 46694963                   /usr/lib/x86_64-linux-gnu/libvorbis.so.0.4.9
+7f9fdc87d000-7f9fdc87e000 ---p 0002a000 fe:00 46694963                   /usr/lib/x86_64-linux-gnu/libvorbis.so.0.4.9
+7f9fdc87e000-7f9fdc87f000 r--p 0002a000 fe:00 46694963                   /usr/lib/x86_64-linux-gnu/libvorbis.so.0.4.9
+7f9fdc87f000-7f9fdc880000 rw-p 0002b000 fe:00 46694963                   /usr/lib/x86_64-linux-gnu/libvorbis.so.0.4.9
+7f9fdc880000-7f9fdc882000 r--p 00000000 fe:00 46675660                   /usr/lib/x86_64-linux-gnu/libltdl.so.7.3.2
+7f9fdc882000-7f9fdc887000 r-xp 00002000 fe:00 46675660                   /usr/lib/x86_64-linux-gnu/libltdl.so.7.3.2
+7f9fdc887000-7f9fdc889000 r--p 00007000 fe:00 46675660                   /usr/lib/x86_64-linux-gnu/libltdl.so.7.3.2
+7f9fdc889000-7f9fdc88a000 r--p 00008000 fe:00 46675660                   /usr/lib/x86_64-linux-gnu/libltdl.so.7.3.2
+7f9fdc88a000-7f9fdc88b000 rw-p 00009000 fe:00 46675660                   /usr/lib/x86_64-linux-gnu/libltdl.so.7.3.2
+7f9fdc88b000-7f9fdc88f000 r--p 00000000 fe:00 46694959                   /usr/lib/x86_64-linux-gnu/libtdb.so.1.4.8
+7f9fdc88f000-7f9fdc89c000 r-xp 00004000 fe:00 46694959                   /usr/lib/x86_64-linux-gnu/libtdb.so.1.4.8
+7f9fdc89c000-7f9fdc8a2000 r--p 00011000 fe:00 46694959                   /usr/lib/x86_64-linux-gnu/libtdb.so.1.4.8
+7f9fdc8a2000-7f9fdc8a3000 r--p 00016000 fe:00 46694959                   /usr/lib/x86_64-linux-gnu/libtdb.so.1.4.8
+7f9fdc8a3000-7f9fdc8a4000 rw-p 00017000 fe:00 46694959                   /usr/lib/x86_64-linux-gnu/libtdb.so.1.4.8
+7f9fdc8a4000-7f9fdc8a6000 r--p 00000000 fe:00 46694966                   /usr/lib/x86_64-linux-gnu/libvorbisfile.so.3.3.8
+7f9fdc8a6000-7f9fdc8ab000 r-xp 00002000 fe:00 46694966                   /usr/lib/x86_64-linux-gnu/libvorbisfile.so.3.3.8
+7f9fdc8ab000-7f9fdc8ac000 r--p 00007000 fe:00 46694966                   /usr/lib/x86_64-linux-gnu/libvorbisfile.so.3.3.8
+7f9fdc8ac000-7f9fdc8ad000 ---p 00008000 fe:00 46694966                   /usr/lib/x86_64-linux-gnu/libvorbisfile.so.3.3.8
+7f9fdc8ad000-7f9fdc8ae000 r--p 00008000 fe:00 46694966                   /usr/lib/x86_64-linux-gnu/libvorbisfile.so.3.3.8
+7f9fdc8ae000-7f9fdc8af000 rw-p 00009000 fe:00 46694966                   /usr/lib/x86_64-linux-gnu/libvorbisfile.so.3.3.8
+7f9fdc8af000-7f9fdc8b2000 r--p 00000000 fe:00 46694968                   /usr/lib/x86_64-linux-gnu/libcanberra.so.0.2.5
+7f9fdc8b2000-7f9fdc8bc000 r-xp 00003000 fe:00 46694968                   /usr/lib/x86_64-linux-gnu/libcanberra.so.0.2.5
+7f9fdc8bc000-7f9fdc8c0000 r--p 0000d000 fe:00 46694968                   /usr/lib/x86_64-linux-gnu/libcanberra.so.0.2.5
+7f9fdc8c0000-7f9fdc8c1000 ---p 00011000 fe:00 46694968                   /usr/lib/x86_64-linux-gnu/libcanberra.so.0.2.5
+7f9fdc8c1000-7f9fdc8c2000 r--p 00011000 fe:00 46694968                   /usr/lib/x86_64-linux-gnu/libcanberra.so.0.2.5
+7f9fdc8c2000-7f9fdc8c3000 rw-p 00012000 fe:00 46694968                   /usr/lib/x86_64-linux-gnu/libcanberra.so.0.2.5
+7f9fdc8c3000-7f9fdc8c5000 r--p 00000000 fe:00 46695276                   /usr/lib/x86_64-linux-gnu/libcanberra-gtk3.so.0.1.9
+7f9fdc8c5000-7f9fdc8c7000 r-xp 00002000 fe:00 46695276                   /usr/lib/x86_64-linux-gnu/libcanberra-gtk3.so.0.1.9
+7f9fdc8c7000-7f9fdc8c8000 r--p 00004000 fe:00 46695276                   /usr/lib/x86_64-linux-gnu/libcanberra-gtk3.so.0.1.9
+7f9fdc8c8000-7f9fdc8c9000 r--p 00004000 fe:00 46695276                   /usr/lib/x86_64-linux-gnu/libcanberra-gtk3.so.0.1.9
+7f9fdc8c9000-7f9fdc8ca000 rw-p 00005000 fe:00 46695276                   /usr/lib/x86_64-linux-gnu/libcanberra-gtk3.so.0.1.9
+7f9fdc8ca000-7f9fdc8d8000 r--s 00000000 fe:00 270181                     /var/cache/fontconfig/8f02d4cb045bd6ce15663e43f347c9f8-le64.cache-8
+7f9fdc8d8000-7f9fdc8d9000 r--p 00000000 00:35 28039063480                /home/w/whiteheadh/pycharm-community-2023.2.2/jbr/lib/libinstrument.so
+7f9fdc8d9000-7f9fdc8df000 r-xp 00001000 00:35 28039063480                /home/w/whiteheadh/pycharm-community-2023.2.2/jbr/lib/libinstrument.so
+7f9fdc8df000-7f9fdc8e2000 r--p 00007000 00:35 28039063480                /home/w/whiteheadh/pycharm-community-2023.2.2/jbr/lib/libinstrument.so
+7f9fdc8e2000-7f9fdc8e3000 r--p 00009000 00:35 28039063480                /home/w/whiteheadh/pycharm-community-2023.2.2/jbr/lib/libinstrument.so
+7f9fdc8e3000-7f9fdc8e4000 rw-p 0000a000 00:35 28039063480                /home/w/whiteheadh/pycharm-community-2023.2.2/jbr/lib/libinstrument.so
+7f9fdc8e4000-7f9fdc8e6000 r--p 00000000 fe:00 47082105                   /usr/lib/x86_64-linux-gnu/gtk-3.0/modules/libcanberra-gtk3-module.so
+7f9fdc8e6000-7f9fdc8e9000 r-xp 00002000 fe:00 47082105                   /usr/lib/x86_64-linux-gnu/gtk-3.0/modules/libcanberra-gtk3-module.so
+7f9fdc8e9000-7f9fdc8ea000 r--p 00005000 fe:00 47082105                   /usr/lib/x86_64-linux-gnu/gtk-3.0/modules/libcanberra-gtk3-module.so
+7f9fdc8ea000-7f9fdc8eb000 ---p 00006000 fe:00 47082105                   /usr/lib/x86_64-linux-gnu/gtk-3.0/modules/libcanberra-gtk3-module.so
+7f9fdc8eb000-7f9fdc8ec000 r--p 00006000 fe:00 47082105                   /usr/lib/x86_64-linux-gnu/gtk-3.0/modules/libcanberra-gtk3-module.so
+7f9fdc8ec000-7f9fdc8ed000 rw-p 00007000 fe:00 47082105                   /usr/lib/x86_64-linux-gnu/gtk-3.0/modules/libcanberra-gtk3-module.so
+7f9fdc8ed000-7f9fdc8f1000 ---p 00000000 00:00 0 
+7f9fdc8f1000-7f9fdc9ed000 rw-p 00000000 00:00 0 
+7f9fdc9ed000-7f9fdc9f1000 ---p 00000000 00:00 0 
+7f9fdc9f1000-7f9fdcaed000 rw-p 00000000 00:00 0 
+7f9fdcaed000-7f9fdcb63000 r--s 00000000 00:35 58084626300                /home/w/whiteheadh/pycharm-community-2023.2.2/plugins/platform-langInjection/lib/IntelliLang.jar
+7f9fdcb63000-7f9fdcb76000 r--p 00000000 fe:00 46938232                   /usr/lib/x86_64-linux-gnu/gvfs/libgvfscommon.so
+7f9fdcb76000-7f9fdcb90000 r-xp 00013000 fe:00 46938232                   /usr/lib/x86_64-linux-gnu/gvfs/libgvfscommon.so
+7f9fdcb90000-7f9fdcb9d000 r--p 0002d000 fe:00 46938232                   /usr/lib/x86_64-linux-gnu/gvfs/libgvfscommon.so
+7f9fdcb9d000-7f9fdcba3000 r--p 0003a000 fe:00 46938232                   /usr/lib/x86_64-linux-gnu/gvfs/libgvfscommon.so
+7f9fdcba3000-7f9fdcba4000 rw-p 00040000 fe:00 46938232                   /usr/lib/x86_64-linux-gnu/gvfs/libgvfscommon.so
+7f9fdcba4000-7f9fdcbaf000 r--p 00000000 fe:00 46706098                   /usr/lib/x86_64-linux-gnu/gio/modules/libgvfsdbus.so
+7f9fdcbaf000-7f9fdcbce000 r-xp 0000b000 fe:00 46706098                   /usr/lib/x86_64-linux-gnu/gio/modules/libgvfsdbus.so
+7f9fdcbce000-7f9fdcbd9000 r--p 0002a000 fe:00 46706098                   /usr/lib/x86_64-linux-gnu/gio/modules/libgvfsdbus.so
+7f9fdcbd9000-7f9fdcbdb000 r--p 00035000 fe:00 46706098                   /usr/lib/x86_64-linux-gnu/gio/modules/libgvfsdbus.so
+7f9fdcbdb000-7f9fdcbdc000 rw-p 00037000 fe:00 46706098                   /usr/lib/x86_64-linux-gnu/gio/modules/libgvfsdbus.so
+7f9fdcbdc000-7f9fdcc15000 r--s 00000000 00:35 55943029912                /home/w/whiteheadh/pycharm-community-2023.2.2/plugins/cwm-plugin/lib/kotlinx-serialization-protobuf.jar
+7f9fdcc15000-7f9fdcc59000 r--s 00000000 00:35 55943029917                /home/w/whiteheadh/pycharm-community-2023.2.2/plugins/cwm-plugin/lib/projector-client-common.jar
+7f9fdcc59000-7f9fdcd25000 r--s 00000000 00:35 55943550549                /home/w/whiteheadh/pycharm-community-2023.2.2/plugins/cwm-plugin/lib/projector-client-swing.jar
+7f9fdcd25000-7f9fdcd55000 r--p 00000000 fe:00 46668871                   /usr/share/locale/en_GB/LC_MESSAGES/gtk30-properties.mo
+7f9fdcd55000-7f9fdcd5a000 r--p 00000000 fe:00 46662051                   /usr/lib/x86_64-linux-gnu/libgpg-error.so.0.33.1
+7f9fdcd5a000-7f9fdcd70000 r-xp 00005000 fe:00 46662051                   /usr/lib/x86_64-linux-gnu/libgpg-error.so.0.33.1
+7f9fdcd70000-7f9fdcd7b000 r--p 0001b000 fe:00 46662051                   /usr/lib/x86_64-linux-gnu/libgpg-error.so.0.33.1
+7f9fdcd7b000-7f9fdcd7c000 r--p 00025000 fe:00 46662051                   /usr/lib/x86_64-linux-gnu/libgpg-error.so.0.33.1
+7f9fdcd7c000-7f9fdcd7d000 rw-p 00026000 fe:00 46662051                   /usr/lib/x86_64-linux-gnu/libgpg-error.so.0.33.1
+7f9fdcd7d000-7f9fdcd80000 r--p 00000000 fe:00 46662075                   /usr/lib/x86_64-linux-gnu/liblz4.so.1.9.4
+7f9fdcd80000-7f9fdcd9e000 r-xp 00003000 fe:00 46662075                   /usr/lib/x86_64-linux-gnu/liblz4.so.1.9.4
+7f9fdcd9e000-7f9fdcda1000 r--p 00021000 fe:00 46662075                   /usr/lib/x86_64-linux-gnu/liblz4.so.1.9.4
+7f9fdcda1000-7f9fdcda2000 r--p 00023000 fe:00 46662075                   /usr/lib/x86_64-linux-gnu/liblz4.so.1.9.4
+7f9fdcda2000-7f9fdcda3000 rw-p 00024000 fe:00 46662075                   /usr/lib/x86_64-linux-gnu/liblz4.so.1.9.4
+7f9fdcda3000-7f9fdcda8000 r--p 00000000 fe:00 46663945                   /usr/lib/x86_64-linux-gnu/libzstd.so.1.5.4
+7f9fdcda8000-7f9fdce49000 r-xp 00005000 fe:00 46663945                   /usr/lib/x86_64-linux-gnu/libzstd.so.1.5.4
+7f9fdce49000-7f9fdce5d000 r--p 000a6000 fe:00 46663945                   /usr/lib/x86_64-linux-gnu/libzstd.so.1.5.4
+7f9fdce5d000-7f9fdce5e000 r--p 000b9000 fe:00 46663945                   /usr/lib/x86_64-linux-gnu/libzstd.so.1.5.4
+7f9fdce5e000-7f9fdce5f000 rw-p 000ba000 fe:00 46663945                   /usr/lib/x86_64-linux-gnu/libzstd.so.1.5.4
+7f9fdce5f000-7f9fdce63000 r--p 00000000 fe:00 46662080                   /usr/lib/x86_64-linux-gnu/liblzma.so.5.4.1
+7f9fdce63000-7f9fdce80000 r-xp 00004000 fe:00 46662080                   /usr/lib/x86_64-linux-gnu/liblzma.so.5.4.1
+7f9fdce80000-7f9fdce8c000 r--p 00021000 fe:00 46662080                   /usr/lib/x86_64-linux-gnu/liblzma.so.5.4.1
+7f9fdce8c000-7f9fdce8d000 r--p 0002d000 fe:00 46662080                   /usr/lib/x86_64-linux-gnu/liblzma.so.5.4.1
+7f9fdce8d000-7f9fdce8e000 rw-p 0002e000 fe:00 46662080                   /usr/lib/x86_64-linux-gnu/liblzma.so.5.4.1
+7f9fdce8e000-7f9fdce9d000 r--p 00000000 fe:00 46662059                   /usr/lib/x86_64-linux-gnu/libgcrypt.so.20.4.1
+7f9fdce9d000-7f9fdcf87000 r-xp 0000f000 fe:00 46662059                   /usr/lib/x86_64-linux-gnu/libgcrypt.so.20.4.1
+7f9fdcf87000-7f9fdcfcb000 r--p 000f9000 fe:00 46662059                   /usr/lib/x86_64-linux-gnu/libgcrypt.so.20.4.1
+7f9fdcfcb000-7f9fdcfd0000 r--p 0013c000 fe:00 46662059                   /usr/lib/x86_64-linux-gnu/libgcrypt.so.20.4.1
+7f9fdcfd0000-7f9fdcfd4000 rw-p 00141000 fe:00 46662059                   /usr/lib/x86_64-linux-gnu/libgcrypt.so.20.4.1
+7f9fdcfd4000-7f9fdcfd5000 rw-p 00000000 00:00 0 
+7f9fdcfd5000-7f9fdcfeb000 r--p 00000000 fe:00 46663234                   /usr/lib/x86_64-linux-gnu/libsystemd.so.0.35.0
+7f9fdcfeb000-7f9fdd06a000 r-xp 00016000 fe:00 46663234                   /usr/lib/x86_64-linux-gnu/libsystemd.so.0.35.0
+7f9fdd06a000-7f9fdd098000 r--p 00095000 fe:00 46663234                   /usr/lib/x86_64-linux-gnu/libsystemd.so.0.35.0
+7f9fdd098000-7f9fdd0a3000 r--p 000c2000 fe:00 46663234                   /usr/lib/x86_64-linux-gnu/libsystemd.so.0.35.0
+7f9fdd0a3000-7f9fdd0a4000 rw-p 000cd000 fe:00 46663234                   /usr/lib/x86_64-linux-gnu/libsystemd.so.0.35.0
+7f9fdd0a4000-7f9fdd0a5000 rw-p 00000000 00:00 0 
+7f9fdd0a5000-7f9fdd0b3000 r--p 00000000 fe:00 46663864                   /usr/lib/x86_64-linux-gnu/libdbus-1.so.3.32.4
+7f9fdd0b3000-7f9fdd0e3000 r-xp 0000e000 fe:00 46663864                   /usr/lib/x86_64-linux-gnu/libdbus-1.so.3.32.4
+7f9fdd0e3000-7f9fdd0f8000 r--p 0003e000 fe:00 46663864                   /usr/lib/x86_64-linux-gnu/libdbus-1.so.3.32.4
+7f9fdd0f8000-7f9fdd0fa000 r--p 00052000 fe:00 46663864                   /usr/lib/x86_64-linux-gnu/libdbus-1.so.3.32.4
+7f9fdd0fa000-7f9fdd0fb000 rw-p 00054000 fe:00 46663864                   /usr/lib/x86_64-linux-gnu/libdbus-1.so.3.32.4
+7f9fdd0fb000-7f9fdd10b000 r--p 00000000 fe:00 46694973                   /usr/lib/x86_64-linux-gnu/libatspi.so.0.0.1
+7f9fdd10b000-7f9fdd123000 r-xp 00010000 fe:00 46694973                   /usr/lib/x86_64-linux-gnu/libatspi.so.0.0.1
+7f9fdd123000-7f9fdd131000 r--p 00028000 fe:00 46694973                   /usr/lib/x86_64-linux-gnu/libatspi.so.0.0.1
+7f9fdd131000-7f9fdd135000 r--p 00035000 fe:00 46694973                   /usr/lib/x86_64-linux-gnu/libatspi.so.0.0.1
+7f9fdd135000-7f9fdd136000 rw-p 00039000 fe:00 46694973                   /usr/lib/x86_64-linux-gnu/libatspi.so.0.0.1
+7f9fdd136000-7f9fdd13a000 r--p 00000000 fe:00 46676035                   /usr/lib/x86_64-linux-gnu/libjpeg.so.62.3.0
+7f9fdd13a000-7f9fdd185000 r-xp 00004000 fe:00 46676035                   /usr/lib/x86_64-linux-gnu/libjpeg.so.62.3.0
+7f9fdd185000-7f9fdd1c7000 r--p 0004f000 fe:00 46676035                   /usr/lib/x86_64-linux-gnu/libjpeg.so.62.3.0
+7f9fdd1c7000-7f9fdd1c8000 r--p 00091000 fe:00 46676035                   /usr/lib/x86_64-linux-gnu/libjpeg.so.62.3.0
+7f9fdd1c8000-7f9fdd1c9000 rw-p 00092000 fe:00 46676035                   /usr/lib/x86_64-linux-gnu/libjpeg.so.62.3.0
+7f9fdd1c9000-7f9fdd1cd000 r--p 00000000 fe:00 46668567                   /usr/lib/x86_64-linux-gnu/libexpat.so.1.8.10
+7f9fdd1cd000-7f9fdd1e9000 r-xp 00004000 fe:00 46668567                   /usr/lib/x86_64-linux-gnu/libexpat.so.1.8.10
+7f9fdd1e9000-7f9fdd1f1000 r--p 00020000 fe:00 46668567                   /usr/lib/x86_64-linux-gnu/libexpat.so.1.8.10
+7f9fdd1f1000-7f9fdd1f3000 r--p 00028000 fe:00 46668567                   /usr/lib/x86_64-linux-gnu/libexpat.so.1.8.10
+7f9fdd1f3000-7f9fdd1f4000 rw-p 0002a000 fe:00 46668567                   /usr/lib/x86_64-linux-gnu/libexpat.so.1.8.10
+7f9fdd1f4000-7f9fdd1f8000 ---p 00000000 00:00 0 
+7f9fdd1f8000-7f9fdd2f4000 rw-p 00000000 00:00 0 
+7f9fdd2f4000-7f9fdd2ff000 r--p 00000000 fe:00 46684463                   /usr/lib/x86_64-linux-gnu/libpixman-1.so.0.42.2
+7f9fdd2ff000-7f9fdd384000 r-xp 0000b000 fe:00 46684463                   /usr/lib/x86_64-linux-gnu/libpixman-1.so.0.42.2
+7f9fdd384000-7f9fdd396000 r--p 00090000 fe:00 46684463                   /usr/lib/x86_64-linux-gnu/libpixman-1.so.0.42.2
+7f9fdd396000-7f9fdd39e000 r--p 000a2000 fe:00 46684463                   /usr/lib/x86_64-linux-gnu/libpixman-1.so.0.42.2
+7f9fdd39e000-7f9fdd39f000 rw-p 000aa000 fe:00 46684463                   /usr/lib/x86_64-linux-gnu/libpixman-1.so.0.42.2
+7f9fdd39f000-7f9fdd3fe000 r--p 00000000 fe:00 46694986                   /usr/lib/x86_64-linux-gnu/libepoxy.so.0.0.0
+7f9fdd3fe000-7f9fdd461000 r-xp 0005f000 fe:00 46694986                   /usr/lib/x86_64-linux-gnu/libepoxy.so.0.0.0
+7f9fdd461000-7f9fdd4be000 r--p 000c2000 fe:00 46694986                   /usr/lib/x86_64-linux-gnu/libepoxy.so.0.0.0
+7f9fdd4be000-7f9fdd4bf000 ---p 0011f000 fe:00 46694986                   /usr/lib/x86_64-linux-gnu/libepoxy.so.0.0.0
+7f9fdd4bf000-7f9fdd4c7000 r--p 0011f000 fe:00 46694986                   /usr/lib/x86_64-linux-gnu/libepoxy.so.0.0.0
+7f9fdd4c7000-7f9fdd4ce000 rw-p 00127000 fe:00 46694986                   /usr/lib/x86_64-linux-gnu/libepoxy.so.0.0.0
+7f9fdd4ce000-7f9fdd4e0000 r--p 00000000 fe:00 46684488                   /usr/lib/x86_64-linux-gnu/libcairo.so.2.11600.0
+7f9fdd4e0000-7f9fdd5af000 r-xp 00012000 fe:00 46684488                   /usr/lib/x86_64-linux-gnu/libcairo.so.2.11600.0
+7f9fdd5af000-7f9fdd5ec000 r--p 000e1000 fe:00 46684488                   /usr/lib/x86_64-linux-gnu/libcairo.so.2.11600.0
+7f9fdd5ec000-7f9fdd5f0000 r--p 0011d000 fe:00 46684488                   /usr/lib/x86_64-linux-gnu/libcairo.so.2.11600.0
+7f9fdd5f0000-7f9fdd5f1000 rw-p 00121000 fe:00 46684488                   /usr/lib/x86_64-linux-gnu/libcairo.so.2.11600.0
+7f9fdd5f1000-7f9fdd5f2000 rw-p 00000000 00:00 0 
+7f9fdd5f2000-7f9fdd5fd000 r--p 00000000 fe:00 46694993                   /usr/lib/x86_64-linux-gnu/libharfbuzz.so.0.60000.0
+7f9fdd5fd000-7f9fdd6bb000 r-xp 0000b000 fe:00 46694993                   /usr/lib/x86_64-linux-gnu/libharfbuzz.so.0.60000.0
+7f9fdd6bb000-7f9fdd6f4000 r--p 000c9000 fe:00 46694993                   /usr/lib/x86_64-linux-gnu/libharfbuzz.so.0.60000.0
+7f9fdd6f4000-7f9fdd6f5000 r--p 00102000 fe:00 46694993                   /usr/lib/x86_64-linux-gnu/libharfbuzz.so.0.60000.0
+7f9fdd6f5000-7f9fdd6f6000 rw-p 00103000 fe:00 46694993                   /usr/lib/x86_64-linux-gnu/libharfbuzz.so.0.60000.0
+7f9fdd6f6000-7f9fdd722000 r--p 00000000 fe:00 46667123                   /usr/lib/x86_64-linux-gnu/libgdk-3.so.0.2406.32
+7f9fdd722000-7f9fdd7a8000 r-xp 0002c000 fe:00 46667123                   /usr/lib/x86_64-linux-gnu/libgdk-3.so.0.2406.32
+7f9fdd7a8000-7f9fdd7f5000 r--p 000b2000 fe:00 46667123                   /usr/lib/x86_64-linux-gnu/libgdk-3.so.0.2406.32
+7f9fdd7f5000-7f9fdd7fe000 r--p 000fe000 fe:00 46667123                   /usr/lib/x86_64-linux-gnu/libgdk-3.so.0.2406.32
+7f9fdd7fe000-7f9fdd800000 rw-p 00107000 fe:00 46667123                   /usr/lib/x86_64-linux-gnu/libgdk-3.so.0.2406.32
+7f9fdd800000-7f9fdd886000 r--p 00000000 fe:00 46667124                   /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2406.32
+7f9fdd886000-7f9fddc41000 r-xp 00086000 fe:00 46667124                   /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2406.32
+7f9fddc41000-7f9fde008000 r--p 00441000 fe:00 46667124                   /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2406.32
+7f9fde008000-7f9fde019000 r--p 00807000 fe:00 46667124                   /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2406.32
+7f9fde019000-7f9fde01c000 rw-p 00818000 fe:00 46667124                   /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2406.32
+7f9fde01c000-7f9fde021000 rw-p 00000000 00:00 0 
+7f9fde021000-7f9fde030000 r--s 00000000 00:35 58084626301                /home/w/whiteheadh/pycharm-community-2023.2.2/plugins/platform-langInjection/lib/java-langInjection-jps.jar
+7f9fde030000-7f9fde031000 r--p 00000000 fe:00 46668693                   /usr/lib/x86_64-linux-gnu/libgthread-2.0.so.0.7400.6
+7f9fde031000-7f9fde032000 r-xp 00001000 fe:00 46668693                   /usr/lib/x86_64-linux-gnu/libgthread-2.0.so.0.7400.6
+7f9fde032000-7f9fde033000 r--p 00002000 fe:00 46668693                   /usr/lib/x86_64-linux-gnu/libgthread-2.0.so.0.7400.6
+7f9fde033000-7f9fde034000 r--p 00002000 fe:00 46668693                   /usr/lib/x86_64-linux-gnu/libgthread-2.0.so.0.7400.6
+7f9fde034000-7f9fde035000 rw-p 00003000 fe:00 46668693                   /usr/lib/x86_64-linux-gnu/libgthread-2.0.so.0.7400.6
+7f9fde035000-7f9fde037000 r--p 00000000 fe:00 46695014                   /usr/lib/x86_64-linux-gnu/libdatrie.so.1.4.0
+7f9fde037000-7f9fde03b000 r-xp 00002000 fe:00 46695014                   /usr/lib/x86_64-linux-gnu/libdatrie.so.1.4.0
+7f9fde03b000-7f9fde03d000 r--p 00006000 fe:00 46695014                   /usr/lib/x86_64-linux-gnu/libdatrie.so.1.4.0
+7f9fde03d000-7f9fde03e000 r--p 00007000 fe:00 46695014                   /usr/lib/x86_64-linux-gnu/libdatrie.so.1.4.0
+7f9fde03e000-7f9fde03f000 rw-p 00008000 fe:00 46695014                   /usr/lib/x86_64-linux-gnu/libdatrie.so.1.4.0
+7f9fde03f000-7f9fde044000 r--p 00000000 fe:00 46684470                   /usr/lib/x86_64-linux-gnu/libxcb-render.so.0.0.0
+7f9fde044000-7f9fde049000 r-xp 00005000 fe:00 46684470                   /usr/lib/x86_64-linux-gnu/libxcb-render.so.0.0.0
+7f9fde049000-7f9fde04b000 r--p 0000a000 fe:00 46684470                   /usr/lib/x86_64-linux-gnu/libxcb-render.so.0.0.0
+7f9fde04b000-7f9fde04c000 r--p 0000c000 fe:00 46684470                   /usr/lib/x86_64-linux-gnu/libxcb-render.so.0.0.0
+7f9fde04c000-7f9fde04d000 rw-p 0000d000 fe:00 46684470                   /usr/lib/x86_64-linux-gnu/libxcb-render.so.0.0.0
+7f9fde04d000-7f9fde04e000 r--p 00000000 fe:00 46684476                   /usr/lib/x86_64-linux-gnu/libxcb-shm.so.0.0.0
+7f9fde04e000-7f9fde04f000 r-xp 00001000 fe:00 46684476                   /usr/lib/x86_64-linux-gnu/libxcb-shm.so.0.0.0
+7f9fde04f000-7f9fde050000 r--p 00002000 fe:00 46684476                   /usr/lib/x86_64-linux-gnu/libxcb-shm.so.0.0.0
+7f9fde050000-7f9fde051000 r--p 00002000 fe:00 46684476                   /usr/lib/x86_64-linux-gnu/libxcb-shm.so.0.0.0
+7f9fde051000-7f9fde052000 rw-p 00003000 fe:00 46684476                   /usr/lib/x86_64-linux-gnu/libxcb-shm.so.0.0.0
+7f9fde052000-7f9fde055000 r--p 00000000 fe:00 46694990                   /usr/lib/x86_64-linux-gnu/libgraphite2.so.3.2.1
+7f9fde055000-7f9fde076000 r-xp 00003000 fe:00 46694990                   /usr/lib/x86_64-linux-gnu/libgraphite2.so.3.2.1
+7f9fde076000-7f9fde07b000 r--p 00024000 fe:00 46694990                   /usr/lib/x86_64-linux-gnu/libgraphite2.so.3.2.1
+7f9fde07b000-7f9fde07d000 r--p 00028000 fe:00 46694990                   /usr/lib/x86_64-linux-gnu/libgraphite2.so.3.2.1
+7f9fde07d000-7f9fde07e000 rw-p 0002a000 fe:00 46694990                   /usr/lib/x86_64-linux-gnu/libgraphite2.so.3.2.1
+7f9fde07e000-7f9fde083000 r--p 00000000 fe:00 46695040                   /usr/lib/x86_64-linux-gnu/libxkbcommon.so.0.0.0
+7f9fde083000-7f9fde09f000 r-xp 00005000 fe:00 46695040                   /usr/lib/x86_64-linux-gnu/libxkbcommon.so.0.0.0
+7f9fde09f000-7f9fde0c1000 r--p 00021000 fe:00 46695040                   /usr/lib/x86_64-linux-gnu/libxkbcommon.so.0.0.0
+7f9fde0c1000-7f9fde0c3000 r--p 00042000 fe:00 46695040                   /usr/lib/x86_64-linux-gnu/libxkbcommon.so.0.0.0
+7f9fde0c3000-7f9fde0c4000 rw-p 00044000 fe:00 46695040                   /usr/lib/x86_64-linux-gnu/libxkbcommon.so.0.0.0
+7f9fde0c4000-7f9fde0d0000 r--p 00000000 fe:00 46694976                   /usr/lib/x86_64-linux-gnu/libatk-bridge-2.0.so.0.0.0
+7f9fde0d0000-7f9fde0e8000 r-xp 0000c000 fe:00 46694976                   /usr/lib/x86_64-linux-gnu/libatk-bridge-2.0.so.0.0.0
+7f9fde0e8000-7f9fde0fc000 r--p 00024000 fe:00 46694976                   /usr/lib/x86_64-linux-gnu/libatk-bridge-2.0.so.0.0.0
+7f9fde0fc000-7f9fde0fe000 r--p 00038000 fe:00 46694976                   /usr/lib/x86_64-linux-gnu/libatk-bridge-2.0.so.0.0.0
+7f9fde0fe000-7f9fde0ff000 rw-p 0003a000 fe:00 46694976                   /usr/lib/x86_64-linux-gnu/libatk-bridge-2.0.so.0.0.0
+7f9fde0ff000-7f9fde100000 rw-p 00000000 00:00 0 
+7f9fde100000-7f9fde104000 ---p 00000000 00:00 0 
+7f9fde104000-7f9fde200000 rw-p 00000000 00:00 0 
+7f9fde200000-7f9fde204000 ---p 00000000 00:00 0 
+7f9fde204000-7f9fde300000 rw-p 00000000 00:00 0 
+7f9fde300000-7f9fde304000 ---p 00000000 00:00 0 
+7f9fde304000-7f9fde400000 rw-p 00000000 00:00 0 
+7f9fde400000-7f9fde41e000 r-xp 00000000 00:35 19328537290                /home/w/whiteheadh/pycharm-community-2023.2.2/lib/jna/amd64/libjnidispatch.so
+7f9fde41e000-7f9fde61d000 ---p 0001e000 00:35 19328537290                /home/w/whiteheadh/pycharm-community-2023.2.2/lib/jna/amd64/libjnidispatch.so
+7f9fde61d000-7f9fde61e000 rw-p 0001d000 00:35 19328537290                /home/w/whiteheadh/pycharm-community-2023.2.2/lib/jna/amd64/libjnidispatch.so
+7f9fde61e000-7f9fde61f000 rw-p 00000000 00:00 0 
+7f9fde61f000-7f9fde620000 r--s 00000000 fe:00 277166                     /var/cache/fontconfig/92dbd7cf907446bab5f4775ae207b5b4-le64.cache-8
+7f9fde620000-7f9fde622000 r--p 00000000 fe:00 46695016                   /usr/lib/x86_64-linux-gnu/libthai.so.0.3.1
+7f9fde622000-7f9fde626000 r-xp 00002000 fe:00 46695016                   /usr/lib/x86_64-linux-gnu/libthai.so.0.3.1
+7f9fde626000-7f9fde629000 r--p 00006000 fe:00 46695016                   /usr/lib/x86_64-linux-gnu/libthai.so.0.3.1
+7f9fde629000-7f9fde62a000 r--p 00008000 fe:00 46695016                   /usr/lib/x86_64-linux-gnu/libthai.so.0.3.1
+7f9fde62a000-7f9fde62b000 rw-p 00009000 fe:00 46695016                   /usr/lib/x86_64-linux-gnu/libthai.so.0.3.1
+7f9fde62b000-7f9fde62c000 r--p 00000000 fe:00 46695030                   /usr/lib/x86_64-linux-gnu/libXcomposite.so.1.0.0
+7f9fde62c000-7f9fde62d000 r-xp 00001000 fe:00 46695030                   /usr/lib/x86_64-linux-gnu/libXcomposite.so.1.0.0
+7f9fde62d000-7f9fde62e000 r--p 00002000 fe:00 46695030                   /usr/lib/x86_64-linux-gnu/libXcomposite.so.1.0.0
+7f9fde62e000-7f9fde62f000 r--p 00002000 fe:00 46695030                   /usr/lib/x86_64-linux-gnu/libXcomposite.so.1.0.0
+7f9fde62f000-7f9fde630000 rw-p 00003000 fe:00 46695030                   /usr/lib/x86_64-linux-gnu/libXcomposite.so.1.0.0
+7f9fde630000-7f9fde631000 r--p 00000000 fe:00 46695036                   /usr/lib/x86_64-linux-gnu/libXdamage.so.1.1.0
+7f9fde631000-7f9fde632000 r-xp 00001000 fe:00 46695036                   /usr/lib/x86_64-linux-gnu/libXdamage.so.1.1.0
+7f9fde632000-7f9fde633000 r--p 00002000 fe:00 46695036                   /usr/lib/x86_64-linux-gnu/libXdamage.so.1.1.0
+7f9fde633000-7f9fde634000 r--p 00002000 fe:00 46695036                   /usr/lib/x86_64-linux-gnu/libXdamage.so.1.1.0
+7f9fde634000-7f9fde635000 rw-p 00003000 fe:00 46695036                   /usr/lib/x86_64-linux-gnu/libXdamage.so.1.1.0
+7f9fde635000-7f9fde637000 r--p 00000000 fe:00 46695026                   /usr/lib/x86_64-linux-gnu/libwayland-cursor.so.0.21.0
+7f9fde637000-7f9fde639000 r-xp 00002000 fe:00 46695026                   /usr/lib/x86_64-linux-gnu/libwayland-cursor.so.0.21.0
+7f9fde639000-7f9fde63a000 r--p 00004000 fe:00 46695026                   /usr/lib/x86_64-linux-gnu/libwayland-cursor.so.0.21.0
+7f9fde63a000-7f9fde63b000 r--p 00004000 fe:00 46695026                   /usr/lib/x86_64-linux-gnu/libwayland-cursor.so.0.21.0
+7f9fde63b000-7f9fde63f000 rw-p 00005000 fe:00 46695026                   /usr/lib/x86_64-linux-gnu/libwayland-cursor.so.0.21.0
+7f9fde63f000-7f9fde64a000 r--p 00000000 fe:00 46694956                   /usr/lib/x86_64-linux-gnu/libatk-1.0.so.0.24609.1
+7f9fde64a000-7f9fde658000 r-xp 0000b000 fe:00 46694956                   /usr/lib/x86_64-linux-gnu/libatk-1.0.so.0.24609.1
+7f9fde658000-7f9fde664000 r--p 00019000 fe:00 46694956                   /usr/lib/x86_64-linux-gnu/libatk-1.0.so.0.24609.1
+7f9fde664000-7f9fde667000 r--p 00024000 fe:00 46694956                   /usr/lib/x86_64-linux-gnu/libatk-1.0.so.0.24609.1
+7f9fde667000-7f9fde668000 rw-p 00027000 fe:00 46694956                   /usr/lib/x86_64-linux-gnu/libatk-1.0.so.0.24609.1
+7f9fde668000-7f9fde670000 r--p 00000000 fe:00 46691869                   /usr/lib/x86_64-linux-gnu/libgdk_pixbuf-2.0.so.0.4200.10
+7f9fde670000-7f9fde68a000 r-xp 00008000 fe:00 46691869                   /usr/lib/x86_64-linux-gnu/libgdk_pixbuf-2.0.so.0.4200.10
+7f9fde68a000-7f9fde694000 r--p 00022000 fe:00 46691869                   /usr/lib/x86_64-linux-gnu/libgdk_pixbuf-2.0.so.0.4200.10
+7f9fde694000-7f9fde695000 r--p 0002c000 fe:00 46691869                   /usr/lib/x86_64-linux-gnu/libgdk_pixbuf-2.0.so.0.4200.10
+7f9fde695000-7f9fde696000 rw-p 0002d000 fe:00 46691869                   /usr/lib/x86_64-linux-gnu/libgdk_pixbuf-2.0.so.0.4200.10
+7f9fde696000-7f9fde698000 r--p 00000000 fe:00 46694988                   /usr/lib/x86_64-linux-gnu/libfribidi.so.0.4.0
+7f9fde698000-7f9fde69b000 r-xp 00002000 fe:00 46694988                   /usr/lib/x86_64-linux-gnu/libfribidi.so.0.4.0
+7f9fde69b000-7f9fde6b0000 r--p 00005000 fe:00 46694988                   /usr/lib/x86_64-linux-gnu/libfribidi.so.0.4.0
+7f9fde6b0000-7f9fde6b1000 r--p 00019000 fe:00 46694988                   /usr/lib/x86_64-linux-gnu/libfribidi.so.0.4.0
+7f9fde6b1000-7f9fde6b2000 rw-p 0001a000 fe:00 46694988                   /usr/lib/x86_64-linux-gnu/libfribidi.so.0.4.0
+7f9fde6b2000-7f9fde6b9000 r--p 00000000 fe:00 46681964                   /usr/lib/x86_64-linux-gnu/libfontconfig.so.1.12.0
+7f9fde6b9000-7f9fde6e2000 r-xp 00007000 fe:00 46681964                   /usr/lib/x86_64-linux-gnu/libfontconfig.so.1.12.0
+7f9fde6e2000-7f9fde6fa000 r--p 00030000 fe:00 46681964                   /usr/lib/x86_64-linux-gnu/libfontconfig.so.1.12.0
+7f9fde6fa000-7f9fde6fc000 r--p 00048000 fe:00 46681964                   /usr/lib/x86_64-linux-gnu/libfontconfig.so.1.12.0
+7f9fde6fc000-7f9fde6fd000 rw-p 0004a000 fe:00 46681964                   /usr/lib/x86_64-linux-gnu/libfontconfig.so.1.12.0
+7f9fde6fd000-7f9fde701000 ---p 00000000 00:00 0 
+7f9fde701000-7f9fde7fd000 rw-p 00000000 00:00 0 
+7f9fde7fd000-7f9fde7fe000 ---p 00000000 00:00 0 
+7f9fde7fe000-7f9fdeffe000 rw-p 00000000 00:00 0 
+7f9fdeffe000-7f9fdefff000 ---p 00000000 00:00 0 
+7f9fdefff000-7f9fdf7ff000 rw-p 00000000 00:00 0 
+7f9fdf7ff000-7f9fdf800000 ---p 00000000 00:00 0 
+7f9fdf800000-7f9fe0000000 rw-p 00000000 00:00 0 
+7f9fe0000000-7f9fe024d000 rw-p 00000000 00:00 0 
+7f9fe024d000-7f9fe4000000 ---p 00000000 00:00 0 
+7f9fe4000000-7f9fe43da000 rw-p 00000000 00:00 0 
+7f9fe43da000-7f9fe8000000 ---p 00000000 00:00 0 
+7f9fe8000000-7f9fe8039000 rw-p 00000000 00:00 0 
+7f9fe8039000-7f9fec000000 ---p 00000000 00:00 0 
+7f9fec000000-7f9fec5f0000 rw-p 00000000 00:00 0 
+7f9fec5f0000-7f9ff0000000 ---p 00000000 00:00 0 
+7f9ff0000000-7f9ff0046000 rw-p 00000000 00:00 0 
+7f9ff0046000-7f9ff4000000 ---p 00000000 00:00 0 
+7f9ff4000000-7f9ff4001000 r--s 00000000 fe:00 277163                     /var/cache/fontconfig/3334a778d104e76d188e9df399bc24d2-le64.cache-8
+7f9ff4001000-7f9ff4002000 r--p 00000000 fe:00 46695028                   /usr/lib/x86_64-linux-gnu/libwayland-egl.so.1.21.0
+7f9ff4002000-7f9ff4003000 r-xp 00001000 fe:00 46695028                   /usr/lib/x86_64-linux-gnu/libwayland-egl.so.1.21.0
+7f9ff4003000-7f9ff4004000 r--p 00002000 fe:00 46695028                   /usr/lib/x86_64-linux-gnu/libwayland-egl.so.1.21.0
+7f9ff4004000-7f9ff4005000 r--p 00002000 fe:00 46695028                   /usr/lib/x86_64-linux-gnu/libwayland-egl.so.1.21.0
+7f9ff4005000-7f9ff4006000 rw-p 00003000 fe:00 46695028                   /usr/lib/x86_64-linux-gnu/libwayland-egl.so.1.21.0
+7f9ff4006000-7f9ff400a000 r--p 00000000 fe:00 46694979                   /usr/lib/x86_64-linux-gnu/libcairo-gobject.so.2.11600.0
+7f9ff400a000-7f9ff400c000 r-xp 00004000 fe:00 46694979                   /usr/lib/x86_64-linux-gnu/libcairo-gobject.so.2.11600.0
+7f9ff400c000-7f9ff400e000 r--p 00006000 fe:00 46694979                   /usr/lib/x86_64-linux-gnu/libcairo-gobject.so.2.11600.0
+7f9ff400e000-7f9ff4010000 r--p 00008000 fe:00 46694979                   /usr/lib/x86_64-linux-gnu/libcairo-gobject.so.2.11600.0
+7f9ff4010000-7f9ff4011000 rw-p 0000a000 fe:00 46694979                   /usr/lib/x86_64-linux-gnu/libcairo-gobject.so.2.11600.0
+7f9ff4011000-7f9ff4018000 r--p 00000000 fe:00 46695020                   /usr/lib/x86_64-linux-gnu/libpangoft2-1.0.so.0.5000.12
+7f9ff4018000-7f9ff4024000 r-xp 00007000 fe:00 46695020                   /usr/lib/x86_64-linux-gnu/libpangoft2-1.0.so.0.5000.12
+7f9ff4024000-7f9ff4028000 r--p 00013000 fe:00 46695020                   /usr/lib/x86_64-linux-gnu/libpangoft2-1.0.so.0.5000.12
+7f9ff4028000-7f9ff4029000 r--p 00017000 fe:00 46695020                   /usr/lib/x86_64-linux-gnu/libpangoft2-1.0.so.0.5000.12
+7f9ff4029000-7f9ff402a000 rw-p 00018000 fe:00 46695020                   /usr/lib/x86_64-linux-gnu/libpangoft2-1.0.so.0.5000.12
+7f9ff402a000-7f9ff403d000 r--p 00000000 fe:00 46695018                   /usr/lib/x86_64-linux-gnu/libpango-1.0.so.0.5000.12
+7f9ff403d000-7f9ff4073000 r-xp 00013000 fe:00 46695018                   /usr/lib/x86_64-linux-gnu/libpango-1.0.so.0.5000.12
+7f9ff4073000-7f9ff408e000 r--p 00049000 fe:00 46695018                   /usr/lib/x86_64-linux-gnu/libpango-1.0.so.0.5000.12
+7f9ff408e000-7f9ff4092000 r--p 00063000 fe:00 46695018                   /usr/lib/x86_64-linux-gnu/libpango-1.0.so.0.5000.12
+7f9ff4092000-7f9ff4093000 rw-p 00067000 fe:00 46695018                   /usr/lib/x86_64-linux-gnu/libpango-1.0.so.0.5000.12
+7f9ff4093000-7f9ff4098000 r--p 00000000 fe:00 46695022                   /usr/lib/x86_64-linux-gnu/libpangocairo-1.0.so.0.5000.12
+7f9ff4098000-7f9ff409f000 r-xp 00005000 fe:00 46695022                   /usr/lib/x86_64-linux-gnu/libpangocairo-1.0.so.0.5000.12
+7f9ff409f000-7f9ff40a2000 r--p 0000c000 fe:00 46695022                   /usr/lib/x86_64-linux-gnu/libpangocairo-1.0.so.0.5000.12
+7f9ff40a2000-7f9ff40a3000 r--p 0000e000 fe:00 46695022                   /usr/lib/x86_64-linux-gnu/libpangocairo-1.0.so.0.5000.12
+7f9ff40a3000-7f9ff40a4000 rw-p 0000f000 fe:00 46695022                   /usr/lib/x86_64-linux-gnu/libpangocairo-1.0.so.0.5000.12
+7f9ff40a4000-7f9ff40a7000 r--p 00000000 fe:00 46695034                   /usr/lib/x86_64-linux-gnu/libXcursor.so.1.0.2
+7f9ff40a7000-7f9ff40ad000 r-xp 00003000 fe:00 46695034                   /usr/lib/x86_64-linux-gnu/libXcursor.so.1.0.2
+7f9ff40ad000-7f9ff40af000 r--p 00009000 fe:00 46695034                   /usr/lib/x86_64-linux-gnu/libXcursor.so.1.0.2
+7f9ff40af000-7f9ff40b0000 r--p 0000a000 fe:00 46695034                   /usr/lib/x86_64-linux-gnu/libXcursor.so.1.0.2
+7f9ff40b0000-7f9ff40b1000 rw-p 0000b000 fe:00 46695034                   /usr/lib/x86_64-linux-gnu/libXcursor.so.1.0.2
+7f9ff40b1000-7f9ff40cb000 r--p 00000000 fe:00 46668873                   /usr/share/locale/en_GB/LC_MESSAGES/gtk30.mo
+7f9ff40cb000-7f9ff40cf000 ---p 00000000 00:00 0 
+7f9ff40cf000-7f9ff41cb000 rw-p 00000000 00:00 0 
+7f9ff41cb000-7f9ff4263000 r--s 00000000 00:35 55943029918                /home/w/whiteheadh/pycharm-community-2023.2.2/plugins/cwm-plugin/lib/cwm-unattended-common.jar
+7f9ff4263000-7f9ff4362000 r--s 00000000 00:35 55943029913                /home/w/whiteheadh/pycharm-community-2023.2.2/plugins/cwm-plugin/lib/cwm-host-unattended.jar
+7f9ff4362000-7f9ff442e000 r--s 00000000 00:35 55943550552                /home/w/whiteheadh/pycharm-community-2023.2.2/plugins/cwm-plugin/lib/bouncy-castle-pgp.jar
+7f9ff442e000-7f9ff4579000 r--s 00000000 00:35 55943029916                /home/w/whiteheadh/pycharm-community-2023.2.2/plugins/cwm-plugin/lib/cwm-lobby-common.jar
+7f9ff4579000-7f9ff45c0000 r--s 00000000 00:35 55943029908                /home/w/whiteheadh/pycharm-community-2023.2.2/plugins/cwm-plugin/lib/java-websocket.jar
+7f9ff45c0000-7f9ff4610000 r--s 00000000 00:35 55943029919                /home/w/whiteheadh/pycharm-community-2023.2.2/plugins/cwm-plugin/lib/jitsi-utils.jar
+7f9ff4610000-7f9ff4634000 r--s 00000000 00:35 55943029907                /home/w/whiteheadh/pycharm-community-2023.2.2/plugins/cwm-plugin/lib/tls-channel.jar
+7f9ff4634000-7f9ff4654000 r--p 00000000 fe:00 46664491                   /usr/share/locale/en_GB/LC_MESSAGES/glib20.mo
+7f9ff4654000-7f9ff4e47000 r--s 00000000 00:35 55943550551                /home/w/whiteheadh/pycharm-community-2023.2.2/plugins/cwm-plugin/lib/cwm-common.jar
+7f9ff4e47000-7f9ff616a000 r--s 00000000 00:35 55943029910                /home/w/whiteheadh/pycharm-community-2023.2.2/plugins/cwm-plugin/lib/cwm-host.jar
+7f9ff616a000-7f9ff6273000 r--s 00000000 00:35 55943029915                /home/w/whiteheadh/pycharm-community-2023.2.2/plugins/cwm-plugin/lib/ice4j.jar
+7f9ff6273000-7f9ff627c000 r--p 00000000 fe:00 46665366                   /usr/lib/x86_64-linux-gnu/libblkid.so.1.1.0
+7f9ff627c000-7f9ff62b2000 r-xp 00009000 fe:00 46665366                   /usr/lib/x86_64-linux-gnu/libblkid.so.1.1.0
+7f9ff62b2000-7f9ff62c3000 r--p 0003f000 fe:00 46665366                   /usr/lib/x86_64-linux-gnu/libblkid.so.1.1.0
+7f9ff62c3000-7f9ff62c9000 r--p 00050000 fe:00 46665366                   /usr/lib/x86_64-linux-gnu/libblkid.so.1.1.0
+7f9ff62c9000-7f9ff62ca000 rw-p 00056000 fe:00 46665366                   /usr/lib/x86_64-linux-gnu/libblkid.so.1.1.0
+7f9ff62ca000-7f9ff63c0000 r--s 00000000 00:35 55943029909                /home/w/whiteheadh/pycharm-community-2023.2.2/plugins/cwm-plugin/lib/cwm-plugin-terminal.jar
+7f9ff63c0000-7f9ff63c2000 r--p 00000000 fe:00 46662302                   /usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.11.2
+7f9ff63c2000-7f9ff642d000 r-xp 00002000 fe:00 46662302                   /usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.11.2
+7f9ff642d000-7f9ff6458000 r--p 0006d000 fe:00 46662302                   /usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.11.2
+7f9ff6458000-7f9ff6459000 r--p 00098000 fe:00 46662302                   /usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.11.2
+7f9ff6459000-7f9ff645a000 rw-p 00099000 fe:00 46662302                   /usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.11.2
+7f9ff645a000-7f9ff6477000 r--p 00000000 fe:00 46668687                   /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7400.6
+7f9ff6477000-7f9ff6504000 r-xp 0001d000 fe:00 46668687                   /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7400.6
+7f9ff6504000-7f9ff658f000 r--p 000aa000 fe:00 46668687                   /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7400.6
+7f9ff658f000-7f9ff6590000 r--p 00135000 fe:00 46668687                   /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7400.6
+7f9ff6590000-7f9ff6591000 rw-p 00136000 fe:00 46668687                   /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7400.6
+7f9ff6591000-7f9ff6592000 rw-p 00000000 00:00 0 
+7f9ff6592000-7f9ff65cc000 r--p 00000000 fe:00 46668685                   /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.7400.6
+7f9ff65cc000-7f9ff66d9000 r-xp 0003a000 fe:00 46668685                   /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.7400.6
+7f9ff66d9000-7f9ff6766000 r--p 00147000 fe:00 46668685                   /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.7400.6
+7f9ff6766000-7f9ff676f000 r--p 001d3000 fe:00 46668685                   /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.7400.6
+7f9ff676f000-7f9ff6770000 rw-p 001dc000 fe:00 46668685                   /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.7400.6
+7f9ff6770000-7f9ff6772000 rw-p 00000000 00:00 0 
+7f9ff6772000-7f9ff6773000 ---p 00000000 00:00 0 
+7f9ff6773000-7f9ff6874000 rw-p 00000000 00:00 0 
+7f9ff6874000-7f9ff6875000 ---p 00000000 00:00 0 
+7f9ff6875000-7f9ff6976000 rw-p 00000000 00:00 0 
+7f9ff6976000-7f9ff6977000 ---p 00000000 00:00 0 
+7f9ff6977000-7f9ff6a78000 rw-p 00000000 00:00 0 
+7f9ff6a78000-7f9ff6a79000 ---p 00000000 00:00 0 
+7f9ff6a79000-7f9ff6b7a000 rw-p 00000000 00:00 0 
+7f9ff6b7a000-7f9ff6b7b000 ---p 00000000 00:00 0 
+7f9ff6b7b000-7f9ff6c7c000 rw-p 00000000 00:00 0 
+7f9ff6c7c000-7f9ff7688000 r--s 00000000 00:35 4298594587                 /home/w/whiteheadh/pycharm-community-2023.2.2/plugins/emojipicker/lib/emojipicker.jar
+7f9ff7688000-7f9ff798b000 r--s 00000000 00:35 43116254127                /home/w/whiteheadh/pycharm-community-2023.2.2/plugins/editorconfig/lib/editorconfig.jar
+7f9ff798b000-7f9ff8000000 r--s 00000000 00:35 17270281090                /home/w/whiteheadh/pycharm-community-2023.2.2/plugins/tasks/lib/tasks-core.jar
+7f9ff8000000-7f9ff8133000 rw-p 00000000 00:00 0 
+7f9ff8133000-7f9ffc000000 ---p 00000000 00:00 0 
+7f9ffc000000-7f9ffc117000 rw-p 00000000 00:00 0 
+7f9ffc117000-7fa000000000 ---p 00000000 00:00 0 
+7fa000000000-7fa000102000 rw-p 00000000 00:00 0 
+7fa000102000-7fa004000000 ---p 00000000 00:00 0 
+7fa004000000-7fa0044b8000 rw-p 00000000 00:00 0 
+7fa0044b8000-7fa008000000 ---p 00000000 00:00 0 
+7fa008000000-7fa008003000 r--s 00000000 fe:00 270402                     /var/cache/fontconfig/62f91419b9ebdb6975e7e41ab6412357-le64.cache-8
+7fa008003000-7fa008005000 r--p 00000000 fe:00 46695042                   /usr/lib/x86_64-linux-gnu/libXrandr.so.2.2.0
+7fa008005000-7fa00800c000 r-xp 00002000 fe:00 46695042                   /usr/lib/x86_64-linux-gnu/libXrandr.so.2.2.0
+7fa00800c000-7fa00800e000 r--p 00009000 fe:00 46695042                   /usr/lib/x86_64-linux-gnu/libXrandr.so.2.2.0
+7fa00800e000-7fa00800f000 r--p 0000a000 fe:00 46695042                   /usr/lib/x86_64-linux-gnu/libXrandr.so.2.2.0
+7fa00800f000-7fa008010000 rw-p 0000b000 fe:00 46695042                   /usr/lib/x86_64-linux-gnu/libXrandr.so.2.2.0
+7fa008010000-7fa00804b000 r--p 00000000 fe:00 46667145                   /usr/share/glib-2.0/schemas/gschemas.compiled
+7fa00804b000-7fa008070000 r--s 00000000 00:35 55943029911                /home/w/whiteheadh/pycharm-community-2023.2.2/plugins/cwm-plugin/lib/jstun.jar
+7fa008070000-7fa008077000 r--p 00000000 fe:00 46663980                   /usr/lib/x86_64-linux-gnu/libselinux.so.1
+7fa008077000-7fa008092000 r-xp 00007000 fe:00 46663980                   /usr/lib/x86_64-linux-gnu/libselinux.so.1
+7fa008092000-7fa00809a000 r--p 00022000 fe:00 46663980                   /usr/lib/x86_64-linux-gnu/libselinux.so.1
+7fa00809a000-7fa00809b000 r--p 00029000 fe:00 46663980                   /usr/lib/x86_64-linux-gnu/libselinux.so.1
+7fa00809b000-7fa00809c000 rw-p 0002a000 fe:00 46663980                   /usr/lib/x86_64-linux-gnu/libselinux.so.1
+7fa00809c000-7fa00809e000 rw-p 00000000 00:00 0 
+7fa00809e000-7fa0081c8000 r--s 00000000 00:35 38655629447                /home/w/whiteheadh/pycharm-community-2023.2.2/plugins/terminal/lib/terminal.jar
+7fa0081c8000-7fa008251000 r--s 00000000 00:35 21605552137                /home/w/whiteheadh/pycharm-community-2023.2.2/plugins/copyright/lib/copyright.jar
+7fa008251000-7fa00a3a9000 r--s 00000000 00:35 55943550550                /home/w/whiteheadh/pycharm-community-2023.2.2/plugins/cwm-plugin/lib/cwm-plugin.jar
+7fa00a3a9000-7fa00a4f8000 r--s 00000000 00:35 34365458846                /home/w/whiteheadh/pycharm-community-2023.2.2/plugins/sh/lib/sh.jar
+7fa00a4f8000-7fa00c000000 r--s 00000000 00:35 66629752044                /home/w/whiteheadh/pycharm-community-2023.2.2/plugins/vcs-svn/lib/vcs-svn.jar
+7fa00c000000-7fa00c12a000 rw-p 00000000 00:00 0 
+7fa00c12a000-7fa010000000 ---p 00000000 00:00 0 
+7fa010000000-7fa01007e000 rw-p 00000000 00:00 0 
+7fa01007e000-7fa014000000 ---p 00000000 00:00 0 
+7fa014000000-7fa014114000 rw-p 00000000 00:00 0 
+7fa014114000-7fa018000000 ---p 00000000 00:00 0 
+7fa018000000-7fa01808a000 rw-p 00000000 00:00 0 
+7fa01808a000-7fa01c000000 ---p 00000000 00:00 0 
+7fa01c000000-7fa01c2a4000 rw-p 00000000 00:00 0 
+7fa01c2a4000-7fa020000000 ---p 00000000 00:00 0 
+7fa020000000-7fa020105000 rw-p 00000000 00:00 0 
+7fa020105000-7fa024000000 ---p 00000000 00:00 0 
+7fa024000000-7fa024118000 rw-p 00000000 00:00 0 
+7fa024118000-7fa028000000 ---p 00000000 00:00 0 
+7fa028000000-7fa02822b000 rw-p 00000000 00:00 0 
+7fa02822b000-7fa02c000000 ---p 00000000 00:00 0 
+7fa02c000000-7fa02c11f000 rw-p 00000000 00:00 0 
+7fa02c11f000-7fa030000000 ---p 00000000 00:00 0 
+7fa030000000-7fa03011c000 rw-p 00000000 00:00 0 
+7fa03011c000-7fa034000000 ---p 00000000 00:00 0 
+7fa034000000-7fa0341d6000 rw-p 00000000 00:00 0 
+7fa0341d6000-7fa038000000 ---p 00000000 00:00 0 
+7fa038000000-7fa038148000 rw-p 00000000 00:00 0 
+7fa038148000-7fa03c000000 ---p 00000000 00:00 0 
+7fa03c000000-7fa03c2c1000 rw-p 00000000 00:00 0 
+7fa03c2c1000-7fa040000000 ---p 00000000 00:00 0 
+7fa040000000-7fa04021f000 rw-p 00000000 00:00 0 
+7fa04021f000-7fa044000000 ---p 00000000 00:00 0 
+7fa044000000-7fa044166000 rw-p 00000000 00:00 0 
+7fa044166000-7fa048000000 ---p 00000000 00:00 0 
+7fa048000000-7fa04810a000 rw-p 00000000 00:00 0 
+7fa04810a000-7fa04c000000 ---p 00000000 00:00 0 
+7fa04c000000-7fa04c23a000 rw-p 00000000 00:00 0 
+7fa04c23a000-7fa050000000 ---p 00000000 00:00 0 
+7fa050000000-7fa050294000 rw-p 00000000 00:00 0 
+7fa050294000-7fa054000000 ---p 00000000 00:00 0 
+7fa054000000-7fa054148000 rw-p 00000000 00:00 0 
+7fa054148000-7fa058000000 ---p 00000000 00:00 0 
+7fa058000000-7fa058196000 rw-p 00000000 00:00 0 
+7fa058196000-7fa05c000000 ---p 00000000 00:00 0 
+7fa05c000000-7fa05c26b000 rw-p 00000000 00:00 0 
+7fa05c26b000-7fa060000000 ---p 00000000 00:00 0 
+7fa060000000-7fa060103000 rw-p 00000000 00:00 0 
+7fa060103000-7fa064000000 ---p 00000000 00:00 0 
+7fa064000000-7fa064021000 rw-p 00000000 00:00 0 
+7fa064021000-7fa068000000 ---p 00000000 00:00 0 
+7fa068000000-7fa068341000 rw-p 00000000 00:00 0 
+7fa068341000-7fa06c000000 ---p 00000000 00:00 0 
+7fa06c000000-7fa06c103000 rw-p 00000000 00:00 0 
+7fa06c103000-7fa070000000 ---p 00000000 00:00 0 
+7fa070000000-7fa070103000 rw-p 00000000 00:00 0 
+7fa070103000-7fa074000000 ---p 00000000 00:00 0 
+7fa074000000-7fa074202000 rw-p 00000000 00:00 0 
+7fa074202000-7fa078000000 ---p 00000000 00:00 0 
+7fa078000000-7fa0783d0000 rw-p 00000000 00:00 0 
+7fa0783d0000-7fa07c000000 ---p 00000000 00:00 0 
+7fa07c000000-7fa07c2dc000 rw-p 00000000 00:00 0 
+7fa07c2dc000-7fa080000000 ---p 00000000 00:00 0 
+7fa080000000-7fa080002000 r--p 00000000 fe:00 46695032                   /usr/lib/x86_64-linux-gnu/libXfixes.so.3.1.0
+7fa080002000-7fa080005000 r-xp 00002000 fe:00 46695032                   /usr/lib/x86_64-linux-gnu/libXfixes.so.3.1.0
+7fa080005000-7fa080006000 r--p 00005000 fe:00 46695032                   /usr/lib/x86_64-linux-gnu/libXfixes.so.3.1.0
+7fa080006000-7fa080007000 r--p 00005000 fe:00 46695032                   /usr/lib/x86_64-linux-gnu/libXfixes.so.3.1.0
+7fa080007000-7fa080008000 rw-p 00006000 fe:00 46695032                   /usr/lib/x86_64-linux-gnu/libXfixes.so.3.1.0
+7fa080008000-7fa08001f000 r--s 00000000 00:35 55943029914                /home/w/whiteheadh/pycharm-community-2023.2.2/plugins/cwm-plugin/lib/jnaerator-runtime.jar
+7fa08001f000-7fa08002b000 r--p 00000000 fe:00 46663432                   /usr/lib/x86_64-linux-gnu/libmount.so.1.1.0
+7fa08002b000-7fa08006b000 r-xp 0000c000 fe:00 46663432                   /usr/lib/x86_64-linux-gnu/libmount.so.1.1.0
+7fa08006b000-7fa08007f000 r--p 0004c000 fe:00 46663432                   /usr/lib/x86_64-linux-gnu/libmount.so.1.1.0
+7fa08007f000-7fa080081000 r--p 00060000 fe:00 46663432                   /usr/lib/x86_64-linux-gnu/libmount.so.1.1.0
+7fa080081000-7fa080082000 rw-p 00062000 fe:00 46663432                   /usr/lib/x86_64-linux-gnu/libmount.so.1.1.0
+7fa080082000-7fa08089d000 r--s 00000000 00:35 2147756511                 /home/w/whiteheadh/pycharm-community-2023.2.2/plugins/vcs-github/lib/vcs-github.jar
+7fa08099d000-7fa08115f000 r--s 00000000 00:35 30154382713                /home/w/whiteheadh/pycharm-community-2023.2.2/plugins/markdown/lib/markdown.jar
+7fa08125f000-7fa081263000 ---p 00000000 00:00 0 
+7fa081263000-7fa08135f000 rw-p 00000000 00:00 0 
+7fa08135f000-7fa081363000 ---p 00000000 00:00 0 
+7fa081363000-7fa08145f000 rw-p 00000000 00:00 0 
+7fa08145f000-7fa082ab7000 r--s 00000000 00:35 60239473772                /home/w/whiteheadh/pycharm-community-2023.2.2/plugins/featuresTrainer/lib/featuresTrainer.jar
+7fa082ab7000-7fa082c04000 r--s 00000000 00:35 53756539551                /home/w/whiteheadh/pycharm-community-2023.2.2/plugins/yaml/lib/yaml.jar
+7fa082d04000-7fa082d08000 ---p 00000000 00:00 0 
+7fa082d08000-7fa082e04000 rw-p 00000000 00:00 0 
+7fa082e04000-7fa08318b000 r--s 00000000 00:35 38655629445                /home/w/whiteheadh/pycharm-community-2023.2.2/plugins/performanceTesting/lib/performanceTesting.jar
+7fa08318b000-7fa083253000 r--s 00000000 00:35 58084626299                /home/w/whiteheadh/pycharm-community-2023.2.2/plugins/platform-langInjection/lib/platform-langInjection.jar
+7fa083353000-7fa08342f000 r--s 00000000 00:35 62366813192                /home/w/whiteheadh/pycharm-community-2023.2.2/plugins/textmate/lib/textmate.jar
+7fa08342f000-7fa083433000 ---p 00000000 00:00 0 
+7fa083433000-7fa08352f000 rw-p 00000000 00:00 0 
+7fa08352f000-7fa0837d9000 r--s 00000000 00:35 45159405014                /home/w/whiteheadh/pycharm-community-2023.2.2/plugins/searchEverywhereMl/lib/searchEverywhereMl.jar
+7fa0837d9000-7fa083985000 r--s 00000000 00:35 49407947413                /home/w/whiteheadh/pycharm-community-2023.2.2/plugins/vcs-hg/lib/vcs-hg.jar
+7fa083985000-7fa085c48000 r--s 00000000 00:35 21587137846                /home/w/whiteheadh/pycharm-community-2023.2.2/plugins/grazie/lib/grazie.jar
+7fa085c48000-7fa08c000000 r--s 00000000 00:35 49407943099                /home/w/whiteheadh/pycharm-community-2023.2.2/plugins/space/lib/space.jar
+7fa08c000000-7fa08c19b000 rw-p 00000000 00:00 0 
+7fa08c19b000-7fa090000000 ---p 00000000 00:00 0 
+7fa090000000-7fa090001000 r--s 00000000 fe:00 277158                     /var/cache/fontconfig/875e664e2852a379cc88176b1b54567f-le64.cache-8
+7fa090001000-7fa090004000 r--s 00000000 fe:00 277143                     /var/cache/fontconfig/a93d7a67130f8d41c5da19d7938c1751-le64.cache-8
+7fa090004000-7fa09000d000 r--s 00000000 00:35 55943094966                /home/w/whiteheadh/pycharm-community-2023.2.2/plugins/cwm-plugin/lib/quiche-jna-stubs.jar
+7fa09000d000-7fa09001c000 r--p 00000000 fe:00 46668691                   /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7400.6
+7fa09001c000-7fa09004e000 r-xp 0000f000 fe:00 46668691                   /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7400.6
+7fa09004e000-7fa090068000 r--p 00041000 fe:00 46668691                   /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7400.6
+7fa090068000-7fa09006b000 r--p 0005b000 fe:00 46668691                   /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7400.6
+7fa09006b000-7fa09006c000 rw-p 0005e000 fe:00 46668691                   /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7400.6
+7fa09036c000-7fa09054b000 r--s 00000000 00:35 40924620077                /home/w/whiteheadh/pycharm-community-2023.2.2/plugins/packageChecker/lib/packageChecker.jar
+7fa09064b000-7fa09071b000 r--s 00000000 00:35 32254411120                /home/w/whiteheadh/pycharm-community-2023.2.2/plugins/dev/lib/dev.jar
+7fa09081b000-7fa09093c000 r--s 00000000 00:35 36676130344                /home/w/whiteheadh/pycharm-community-2023.2.2/plugins/properties/lib/properties.jar
+7fa090c3c000-7fa090c40000 ---p 00000000 00:00 0 
+7fa090c40000-7fa090d3c000 rw-p 00000000 00:00 0 
+7fa090e3c000-7fa091069000 r--s 00000000 00:35 8780667662                 /home/w/whiteheadh/pycharm-community-2023.2.2/plugins/indexing-shared/lib/indexing-shared.jar
+7fa091069000-7fa0911a5000 r--s 00000000 00:35 4298562110                 /home/w/whiteheadh/pycharm-community-2023.2.2/plugins/completionMlRanking/lib/completionMlRanking.jar
+7fa0911a5000-7fa094000000 r--s 00000000 00:35 45159405012                /home/w/whiteheadh/pycharm-community-2023.2.2/plugins/python-ce/lib/python-ce.jar
+7fa094000000-7fa094164000 rw-p 00000000 00:00 0 
+7fa094164000-7fa098000000 ---p 00000000 00:00 0 
+7fa098000000-7fa098001000 r--s 00000000 fe:00 271345                     /var/cache/fontconfig/c277e94e32b20404286a1ddafa5a80f0-le64.cache-8
+7fa098001000-7fa098002000 r--s 00000000 fe:00 277153                     /var/cache/fontconfig/4cb9baa50231927582528d85cee63f48-le64.cache-8
+7fa098002000-7fa098003000 r--p 00000000 fe:00 46668689                   /usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.7400.6
+7fa098003000-7fa098005000 r-xp 00001000 fe:00 46668689                   /usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.7400.6
+7fa098005000-7fa098006000 r--p 00003000 fe:00 46668689                   /usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.7400.6
+7fa098006000-7fa098007000 r--p 00003000 fe:00 46668689                   /usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.7400.6
+7fa098007000-7fa098008000 rw-p 00004000 fe:00 46668689                   /usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.7400.6
+7fa098008000-7fa098009000 r--s 00000000 fe:00 277150                     /var/cache/fontconfig/443576e274091c064a264b43ae01d703-le64.cache-8
+7fa098009000-7fa09800d000 r--p 00000000 fe:00 46694847                   /usr/lib/x86_64-linux-gnu/gio/modules/libdconfsettings.so
+7fa09800d000-7fa098015000 r-xp 00004000 fe:00 46694847                   /usr/lib/x86_64-linux-gnu/gio/modules/libdconfsettings.so
+7fa098015000-7fa098019000 r--p 0000c000 fe:00 46694847                   /usr/lib/x86_64-linux-gnu/gio/modules/libdconfsettings.so
+7fa098019000-7fa09801a000 r--p 00010000 fe:00 46694847                   /usr/lib/x86_64-linux-gnu/gio/modules/libdconfsettings.so
+7fa09801a000-7fa09801b000 rw-p 00011000 fe:00 46694847                   /usr/lib/x86_64-linux-gnu/gio/modules/libdconfsettings.so
+7fa09801b000-7fa098022000 r--s 00000000 fe:00 46711992                   /usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache
+7fa098022000-7fa098026000 ---p 00000000 00:00 0 
+7fa098026000-7fa098044000 rw-p 00000000 00:00 0 
+7fa098044000-7fa098088000 r--s 00000000 00:35 12935485630                /home/w/whiteheadh/pycharm-community-2023.2.2/plugins/reStructuredText/lib/reStructuredText.jar
+7fa098088000-7fa09808c000 ---p 00000000 00:00 0 
+7fa09808c000-7fa098188000 rw-p 00000000 00:00 0 
+7fa098188000-7fa09818c000 ---p 00000000 00:00 0 
+7fa09818c000-7fa098288000 rw-p 00000000 00:00 0 
+7fa098488000-7fa0984f2000 r--s 00000000 00:35 17213844814                /home/w/whiteheadh/pycharm-community-2023.2.2/plugins/toml/lib/toml.jar
+7fa0984f2000-7fa0984f6000 ---p 00000000 00:00 0 
+7fa0984f6000-7fa0985f2000 rw-p 00000000 00:00 0 
+7fa0985f2000-7fa099a85000 r--s 00000000 00:35 4298118792                 /home/w/whiteheadh/pycharm-community-2023.2.2/plugins/qodana/lib/qodana.jar
+7fa099a85000-7fa09a1fb000 r--s 00000000 00:35 58084626297                /home/w/whiteheadh/pycharm-community-2023.2.2/plugins/settingsSync/lib/settingsSync.jar
+7fa09a1fb000-7fa09a950000 r--s 00000000 00:35 8765181899                 /home/w/whiteheadh/pycharm-community-2023.2.2/plugins/pycharm-community-customization/lib/pycharm-community-customization.jar
+7fa09a950000-7fa09b4b3000 r--s 00000000 00:35 13059230036                /home/w/whiteheadh/pycharm-community-2023.2.2/plugins/vcs-git/lib/vcs-git.jar
+7fa09b4b3000-7fa09bbfd000 r--s 00000000 00:35 34364150659                /home/w/whiteheadh/pycharm-community-2023.2.2/plugins/vcs-gitlab/lib/vcs-gitlab.jar
+7fa09bbfd000-7fa09bc01000 ---p 00000000 00:00 0 
+7fa09bc01000-7fa09bcfd000 rw-p 00000000 00:00 0 
+7fa09bcfd000-7fa09bd00000 r--s 00000000 fe:00 270179                     /var/cache/fontconfig/16326683038b281783a0ef8c680e3a10-le64.cache-8
+7fa09be00000-7fa09be04000 ---p 00000000 00:00 0 
+7fa09be04000-7fa09bf00000 rw-p 00000000 00:00 0 
+7fa09bf00000-7fa09bf04000 ---p 00000000 00:00 0 
+7fa09bf04000-7fa09c000000 rw-p 00000000 00:00 0 
+7fa09c000000-7fa09c174000 rw-p 00000000 00:00 0 
+7fa09c174000-7fa0a0000000 ---p 00000000 00:00 0 
+7fa0a0000000-7fa0a016c000 rw-p 00000000 00:00 0 
+7fa0a016c000-7fa0a4000000 ---p 00000000 00:00 0 
+7fa0a4000000-7fa0a4205000 rw-p 00000000 00:00 0 
+7fa0a4205000-7fa0a8000000 ---p 00000000 00:00 0 
+7fa0a8000000-7fa0a8119000 rw-p 00000000 00:00 0 
+7fa0a8119000-7fa0ac000000 ---p 00000000 00:00 0 
+7fa0ac000000-7fa0ac1a4000 rw-p 00000000 00:00 0 
+7fa0ac1a4000-7fa0b0000000 ---p 00000000 00:00 0 
+7fa0b0000000-7fa0b0151000 rw-p 00000000 00:00 0 
+7fa0b0151000-7fa0b4000000 ---p 00000000 00:00 0 
+7fa0b4000000-7fa0b415c000 rw-p 00000000 00:00 0 
+7fa0b415c000-7fa0b8000000 ---p 00000000 00:00 0 
+7fa0b8000000-7fa0b8160000 rw-p 00000000 00:00 0 
+7fa0b8160000-7fa0bc000000 ---p 00000000 00:00 0 
+7fa0bc000000-7fa0bc032000 rw-p 00000000 00:00 0 
+7fa0bc032000-7fa0c0000000 ---p 00000000 00:00 0 
+7fa0c0000000-7fa0c02a4000 rw-p 00000000 00:00 0 
+7fa0c02a4000-7fa0c4000000 ---p 00000000 00:00 0 
+7fa0c4000000-7fa0c4039000 rw-p 00000000 00:00 0 
+7fa0c4039000-7fa0c8000000 ---p 00000000 00:00 0 
+7fa0c8000000-7fa0c8039000 rw-p 00000000 00:00 0 
+7fa0c8039000-7fa0cc000000 ---p 00000000 00:00 0 
+7fa0cc000000-7fa0cc03d000 rw-p 00000000 00:00 0 
+7fa0cc03d000-7fa0d0000000 ---p 00000000 00:00 0 
+7fa0d0000000-7fa0d0052000 rw-p 00000000 00:00 0 
+7fa0d0052000-7fa0d4000000 ---p 00000000 00:00 0 
+7fa0d4000000-7fa0d406b000 rw-p 00000000 00:00 0 
+7fa0d406b000-7fa0d8000000 ---p 00000000 00:00 0 
+7fa0d8000000-7fa0d8034000 rw-p 00000000 00:00 0 
+7fa0d8034000-7fa0dc000000 ---p 00000000 00:00 0 
+7fa0dc000000-7fa0dc02c000 rw-p 00000000 00:00 0 
+7fa0dc02c000-7fa0e0000000 ---p 00000000 00:00 0 
+7fa0e0000000-7fa0e003b000 rw-p 00000000 00:00 0 
+7fa0e003b000-7fa0e4000000 ---p 00000000 00:00 0 
+7fa0e4000000-7fa0e414f000 rw-p 00000000 00:00 0 
+7fa0e414f000-7fa0e8000000 ---p 00000000 00:00 0 
+7fa0e8000000-7fa0e8021000 rw-p 00000000 00:00 0 
+7fa0e8021000-7fa0ec000000 ---p 00000000 00:00 0 
+7fa0ec000000-7fa0ec05a000 rw-p 00000000 00:00 0 
+7fa0ec05a000-7fa0f0000000 ---p 00000000 00:00 0 
+7fa0f0000000-7fa0f021d000 rw-p 00000000 00:00 0 
+7fa0f021d000-7fa0f4000000 ---p 00000000 00:00 0 
+7fa0f4000000-7fa0f419c000 rw-p 00000000 00:00 0 
+7fa0f419c000-7fa0f8000000 ---p 00000000 00:00 0 
+7fa0f8000000-7fa0f8182000 rw-p 00000000 00:00 0 
+7fa0f8182000-7fa0fc000000 ---p 00000000 00:00 0 
+7fa0fc000000-7fa0fc25d000 rw-p 00000000 00:00 0 
+7fa0fc25d000-7fa100000000 ---p 00000000 00:00 0 
+7fa100000000-7fa100331000 rw-p 00000000 00:00 0 
+7fa100331000-7fa104000000 ---p 00000000 00:00 0 
+7fa104000000-7fa104116000 rw-p 00000000 00:00 0 
+7fa104116000-7fa108000000 ---p 00000000 00:00 0 
+7fa108000000-7fa1082e8000 rw-p 00000000 00:00 0 
+7fa1082e8000-7fa10c000000 ---p 00000000 00:00 0 
+7fa10c000000-7fa10c021000 rw-p 00000000 00:00 0 
+7fa10c021000-7fa110000000 ---p 00000000 00:00 0 
+7fa110000000-7fa110154000 rw-p 00000000 00:00 0 
+7fa110154000-7fa114000000 ---p 00000000 00:00 0 
+7fa114000000-7fa114168000 rw-p 00000000 00:00 0 
+7fa114168000-7fa118000000 ---p 00000000 00:00 0 
+7fa118000000-7fa118552000 rw-p 00000000 00:00 0 
+7fa118552000-7fa11c000000 ---p 00000000 00:00 0 
+7fa11c000000-7fa11c174000 rw-p 00000000 00:00 0 
+7fa11c174000-7fa120000000 ---p 00000000 00:00 0 
+7fa120000000-7fa12038b000 rw-p 00000000 00:00 0 
+7fa12038b000-7fa124000000 ---p 00000000 00:00 0 
+7fa124000000-7fa124364000 rw-p 00000000 00:00 0 
+7fa124364000-7fa128000000 ---p 00000000 00:00 0 
+7fa128000000-7fa128005000 r--p 00000000 00:35 17247670415                /home/w/whiteheadh/.config/dconf/.nfs00000004040a908f00001392
+7fa128023000-7fa12802e000 r--s 00000000 00:35 28031718902                /home/w/whiteheadh/pycharm-community-2023.2.2/plugins/color-scheme-warmNeon/lib/color-scheme-warmNeon.jar
+7fa12802e000-7fa12805b000 r--s 00000000 00:35 17270251097                /home/w/whiteheadh/pycharm-community-2023.2.2/plugins/qt-plugin/lib/qt-plugin.jar
+7fa12805b000-7fa12805f000 ---p 00000000 00:00 0 
+7fa12805f000-7fa12815b000 rw-p 00000000 00:00 0 
+7fa12825b000-7fa12825f000 ---p 00000000 00:00 0 
+7fa12825f000-7fa12835b000 rw-p 00000000 00:00 0 
+7fa12845b000-7fa12845f000 ---p 00000000 00:00 0 
+7fa12845f000-7fa12855b000 rw-p 00000000 00:00 0 
+7fa12855b000-7fa12855c000 r--p 00000000 fe:00 46676223                   /usr/lib/x86_64-linux-gnu/libbrotlicommon.so.1.0.9
+7fa12855c000-7fa12855d000 r-xp 00001000 fe:00 46676223                   /usr/lib/x86_64-linux-gnu/libbrotlicommon.so.1.0.9
+7fa12855d000-7fa12857c000 r--p 00002000 fe:00 46676223                   /usr/lib/x86_64-linux-gnu/libbrotlicommon.so.1.0.9
+7fa12857c000-7fa12857d000 r--p 00020000 fe:00 46676223                   /usr/lib/x86_64-linux-gnu/libbrotlicommon.so.1.0.9
+7fa12857d000-7fa12857e000 rw-p 00021000 fe:00 46676223                   /usr/lib/x86_64-linux-gnu/libbrotlicommon.so.1.0.9
+7fa12857e000-7fa1285d5000 r--s 00000000 00:35 89186886                   /home/w/whiteheadh/pycharm-community-2023.2.2/plugins/configurationScript/lib/configurationScript.jar
+7fa1285d5000-7fa1285d6000 r--p 00000000 fe:00 46676224                   /usr/lib/x86_64-linux-gnu/libbrotlidec.so.1.0.9
+7fa1285d6000-7fa1285dd000 r-xp 00001000 fe:00 46676224                   /usr/lib/x86_64-linux-gnu/libbrotlidec.so.1.0.9
+7fa1285dd000-7fa1285e0000 r--p 00008000 fe:00 46676224                   /usr/lib/x86_64-linux-gnu/libbrotlidec.so.1.0.9
+7fa1285e0000-7fa1285e1000 r--p 0000a000 fe:00 46676224                   /usr/lib/x86_64-linux-gnu/libbrotlidec.so.1.0.9
+7fa1285e1000-7fa1285e2000 rw-p 0000b000 fe:00 46676224                   /usr/lib/x86_64-linux-gnu/libbrotlidec.so.1.0.9
+7fa1285e2000-7fa1285ec000 r--s 00000000 00:35 25770009923                /home/w/whiteheadh/pycharm-community-2023.2.2/plugins/python-sharedIndexes-downloadable/lib/python-sharedIndexes-downloadable.jar
+7fa1285ec000-7fa1285fa000 r--s 00000000 00:35 30065291956                /home/w/whiteheadh/pycharm-community-2023.2.2/plugins/color-scheme-github/lib/color-scheme-github.jar
+7fa1285fa000-7fa1286b8000 r--s 00000000 00:35 101112737                  /home/w/whiteheadh/pycharm-community-2023.2.2/plugins/platform-images/lib/platform-images.jar
+7fa1286b8000-7fa1286bd000 r--p 00000000 fe:00 46676043                   /usr/lib/x86_64-linux-gnu/libpng16.so.16.39.0
+7fa1286bd000-7fa1286e1000 r-xp 00005000 fe:00 46676043                   /usr/lib/x86_64-linux-gnu/libpng16.so.16.39.0
+7fa1286e1000-7fa1286ec000 r--p 00029000 fe:00 46676043                   /usr/lib/x86_64-linux-gnu/libpng16.so.16.39.0
+7fa1286ec000-7fa1286ed000 r--p 00034000 fe:00 46676043                   /usr/lib/x86_64-linux-gnu/libpng16.so.16.39.0
+7fa1286ed000-7fa1286ee000 rw-p 00035000 fe:00 46676043                   /usr/lib/x86_64-linux-gnu/libpng16.so.16.39.0
+7fa1286ee000-7fa1286fb000 r--p 00000000 fe:00 46667101                   /usr/lib/x86_64-linux-gnu/libfreetype.so.6.18.3
+7fa1286fb000-7fa128784000 r-xp 0000d000 fe:00 46667101                   /usr/lib/x86_64-linux-gnu/libfreetype.so.6.18.3
+7fa128784000-7fa1287af000 r--p 00096000 fe:00 46667101                   /usr/lib/x86_64-linux-gnu/libfreetype.so.6.18.3
+7fa1287af000-7fa1287b7000 r--p 000c0000 fe:00 46667101                   /usr/lib/x86_64-linux-gnu/libfreetype.so.6.18.3
+7fa1287b7000-7fa1287b8000 rw-p 000c8000 fe:00 46667101                   /usr/lib/x86_64-linux-gnu/libfreetype.so.6.18.3
+7fa1287b8000-7fa1287bb000 r--p 00000000 fe:00 46694880                   /usr/share/locale/en_GB/LC_MESSAGES/at-spi2-core.mo
+7fa1287bb000-7fa1287c9000 r--s 00000000 00:35 12935485610                /home/w/whiteheadh/pycharm-community-2023.2.2/plugins/color-scheme-monokai/lib/color-scheme-monokai.jar
+7fa1287c9000-7fa1287cb000 r--p 00000000 00:35 28039063468                /home/w/whiteheadh/pycharm-community-2023.2.2/jbr/lib/libmanagement_ext.so
+7fa1287cb000-7fa1287ce000 r-xp 00002000 00:35 28039063468                /home/w/whiteheadh/pycharm-community-2023.2.2/jbr/lib/libmanagement_ext.so
+7fa1287ce000-7fa1287cf000 r--p 00005000 00:35 28039063468                /home/w/whiteheadh/pycharm-community-2023.2.2/jbr/lib/libmanagement_ext.so
+7fa1287cf000-7fa1287d0000 ---p 00006000 00:35 28039063468                /home/w/whiteheadh/pycharm-community-2023.2.2/jbr/lib/libmanagement_ext.so
+7fa1287d0000-7fa1287d1000 r--p 00006000 00:35 28039063468                /home/w/whiteheadh/pycharm-community-2023.2.2/jbr/lib/libmanagement_ext.so
+7fa1287d1000-7fa1287d2000 rw-p 00000000 00:00 0 
+7fa1287d2000-7fa1287d8000 r--p 00000000 00:35 28039063463                /home/w/whiteheadh/pycharm-community-2023.2.2/jbr/lib/libfontmanager.so
+7fa1287d8000-7fa12898c000 r-xp 00006000 00:35 28039063463                /home/w/whiteheadh/pycharm-community-2023.2.2/jbr/lib/libfontmanager.so
+7fa12898c000-7fa1289d8000 r--p 001ba000 00:35 28039063463                /home/w/whiteheadh/pycharm-community-2023.2.2/jbr/lib/libfontmanager.so
+7fa1289d8000-7fa1289da000 r--p 00205000 00:35 28039063463                /home/w/whiteheadh/pycharm-community-2023.2.2/jbr/lib/libfontmanager.so
+7fa1289da000-7fa1289db000 rw-p 00207000 00:35 28039063463                /home/w/whiteheadh/pycharm-community-2023.2.2/jbr/lib/libfontmanager.so
+7fa1289db000-7fa1289dc000 rw-p 00000000 00:00 0 
+7fa1289dc000-7fa1289e0000 ---p 00000000 00:00 0 
+7fa1289e0000-7fa128adc000 rw-p 00000000 00:00 0 
+7fa128adc000-7fa128add000 r--s 00000000 fe:00 277146                     /var/cache/fontconfig/437bab76334ce2bef022d942ecdc4db4-le64.cache-8
+7fa128add000-7fa128ae1000 ---p 00000000 00:00 0 
+7fa128ae1000-7fa128bdd000 rw-p 00000000 00:00 0 
+7fa128edd000-7fa128ee1000 ---p 00000000 00:00 0 
+7fa128ee1000-7fa128fdd000 rw-p 00000000 00:00 0 
+7fa128fdd000-7fa128fe1000 ---p 00000000 00:00 0 
+7fa128fe1000-7fa1290dd000 rw-p 00000000 00:00 0 
+7fa1293dd000-7fa1293e1000 ---p 00000000 00:00 0 
+7fa1293e1000-7fa1294dd000 rw-p 00000000 00:00 0 
+7fa1294dd000-7fa1294de000 ---p 00000000 00:00 0 
+7fa1294de000-7fa1295df000 rw-p 00000000 00:00 0 
+7fa1295df000-7fa1295e0000 ---p 00000000 00:00 0 
+7fa1295e0000-7fa1296e1000 rw-p 00000000 00:00 0 
+7fa1296e1000-7fa1296e2000 ---p 00000000 00:00 0 
+7fa1296e2000-7fa1297e3000 rw-p 00000000 00:00 0 
+7fa1297e3000-7fa1297e4000 ---p 00000000 00:00 0 
+7fa1297e4000-7fa1298e5000 rw-p 00000000 00:00 0 
+7fa1298e5000-7fa1298e6000 ---p 00000000 00:00 0 
+7fa1298e6000-7fa1299e7000 rw-p 00000000 00:00 0 
+7fa1299e7000-7fa1299e8000 ---p 00000000 00:00 0 
+7fa1299e8000-7fa129ae9000 rw-p 00000000 00:00 0 
+7fa129ae9000-7fa129aea000 ---p 00000000 00:00 0 
+7fa129aea000-7fa129beb000 rw-p 00000000 00:00 0 
+7fa129beb000-7fa129bec000 ---p 00000000 00:00 0 
+7fa129bec000-7fa129ced000 rw-p 00000000 00:00 0 
+7fa129ced000-7fa129cf1000 ---p 00000000 00:00 0 
+7fa129cf1000-7fa129ded000 rw-p 00000000 00:00 0 
+7fa129ded000-7fa129dee000 r--s 00000000 fe:00 277145                     /var/cache/fontconfig/199c1c7bd88380a6edcc43c7631ccded-le64.cache-8
+7fa129dee000-7fa129df2000 ---p 00000000 00:00 0 
+7fa129df2000-7fa129eee000 rw-p 00000000 00:00 0 
+7fa129eee000-7fa129ef4000 r--p 00000000 fe:00 46695024                   /usr/lib/x86_64-linux-gnu/libwayland-client.so.0.21.0
+7fa129ef4000-7fa129efa000 r-xp 00006000 fe:00 46695024                   /usr/lib/x86_64-linux-gnu/libwayland-client.so.0.21.0
+7fa129efa000-7fa129efd000 r--p 0000c000 fe:00 46695024                   /usr/lib/x86_64-linux-gnu/libwayland-client.so.0.21.0
+7fa129efd000-7fa129eff000 r--p 0000e000 fe:00 46695024                   /usr/lib/x86_64-linux-gnu/libwayland-client.so.0.21.0
+7fa129eff000-7fa129f00000 rw-p 00010000 fe:00 46695024                   /usr/lib/x86_64-linux-gnu/libwayland-client.so.0.21.0
+7fa129f00000-7fa129f04000 ---p 00000000 00:00 0 
+7fa129f04000-7fa12a000000 rw-p 00000000 00:00 0 
+7fa12a000000-7fa12a005000 r-xp 00000000 fe:00 46682047                   /usr/lib/x86_64-linux-gnu/libXdmcp.so.6.0.0
+7fa12a005000-7fa12a204000 ---p 00005000 fe:00 46682047                   /usr/lib/x86_64-linux-gnu/libXdmcp.so.6.0.0
+7fa12a204000-7fa12a205000 r--p 00004000 fe:00 46682047                   /usr/lib/x86_64-linux-gnu/libXdmcp.so.6.0.0
+7fa12a205000-7fa12a206000 rw-p 00005000 fe:00 46682047                   /usr/lib/x86_64-linux-gnu/libXdmcp.so.6.0.0
+7fa12a206000-7fa12a208000 r--p 00000000 fe:00 46662179                   /usr/lib/x86_64-linux-gnu/libffi.so.8.1.2
+7fa12a208000-7fa12a20e000 r-xp 00002000 fe:00 46662179                   /usr/lib/x86_64-linux-gnu/libffi.so.8.1.2
+7fa12a20e000-7fa12a210000 r--p 00008000 fe:00 46662179                   /usr/lib/x86_64-linux-gnu/libffi.so.8.1.2
+7fa12a210000-7fa12a211000 r--p 00009000 fe:00 46662179                   /usr/lib/x86_64-linux-gnu/libffi.so.8.1.2
+7fa12a211000-7fa12a212000 rw-p 0000a000 fe:00 46662179                   /usr/lib/x86_64-linux-gnu/libffi.so.8.1.2
+7fa12a212000-7fa12a216000 r--p 00000000 fe:00 46667497                   /usr/lib/x86_64-linux-gnu/libbsd.so.0.11.7
+7fa12a216000-7fa12a222000 r-xp 00004000 fe:00 46667497                   /usr/lib/x86_64-linux-gnu/libbsd.so.0.11.7
+7fa12a222000-7fa12a225000 r--p 00010000 fe:00 46667497                   /usr/lib/x86_64-linux-gnu/libbsd.so.0.11.7
+7fa12a225000-7fa12a226000 r--p 00013000 fe:00 46667497                   /usr/lib/x86_64-linux-gnu/libbsd.so.0.11.7
+7fa12a226000-7fa12a227000 rw-p 00014000 fe:00 46667497                   /usr/lib/x86_64-linux-gnu/libbsd.so.0.11.7
+7fa12a227000-7fa12a228000 rw-p 00000000 00:00 0 
+7fa12a228000-7fa12a234000 r--p 00000000 fe:00 46682053                   /usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0
+7fa12a234000-7fa12a247000 r-xp 0000c000 fe:00 46682053                   /usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0
+7fa12a247000-7fa12a250000 r--p 0001f000 fe:00 46682053                   /usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0
+7fa12a250000-7fa12a251000 r--p 00027000 fe:00 46682053                   /usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0
+7fa12a251000-7fa12a252000 rw-p 00028000 fe:00 46682053                   /usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0
+7fa12a252000-7fa12a255000 r--p 00000000 fe:00 46694971                   /usr/lib/x86_64-linux-gnu/libXi.so.6.1.0
+7fa12a255000-7fa12a261000 r-xp 00003000 fe:00 46694971                   /usr/lib/x86_64-linux-gnu/libXi.so.6.1.0
+7fa12a261000-7fa12a264000 r--p 0000f000 fe:00 46694971                   /usr/lib/x86_64-linux-gnu/libXi.so.6.1.0
+7fa12a264000-7fa12a265000 r--p 00011000 fe:00 46694971                   /usr/lib/x86_64-linux-gnu/libXi.so.6.1.0
+7fa12a265000-7fa12a266000 rw-p 00012000 fe:00 46694971                   /usr/lib/x86_64-linux-gnu/libXi.so.6.1.0
+7fa12a266000-7fa12a282000 r--p 00000000 fe:00 46666716                   /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0
+7fa12a282000-7fa12a30d000 r-xp 0001c000 fe:00 46666716                   /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0
+7fa12a30d000-7fa12a3a2000 r--p 000a7000 fe:00 46666716                   /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0
+7fa12a3a2000-7fa12a3a3000 r--p 0013c000 fe:00 46666716                   /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0
+7fa12a3a3000-7fa12a3a8000 rw-p 0013d000 fe:00 46666716                   /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0
+7fa12a3a8000-7fa12a3b7000 r--p 00000000 00:35 28038790827                /home/w/whiteheadh/pycharm-community-2023.2.2/jbr/lib/libawt_xawt.so
+7fa12a3b7000-7fa12a3f7000 r-xp 0000f000 00:35 28038790827                /home/w/whiteheadh/pycharm-community-2023.2.2/jbr/lib/libawt_xawt.so
+7fa12a3f7000-7fa12a409000 r--p 0004f000 00:35 28038790827                /home/w/whiteheadh/pycharm-community-2023.2.2/jbr/lib/libawt_xawt.so
+7fa12a409000-7fa12a40a000 ---p 00061000 00:35 28038790827                /home/w/whiteheadh/pycharm-community-2023.2.2/jbr/lib/libawt_xawt.so
+7fa12a40a000-7fa12a40b000 r--p 00061000 00:35 28038790827                /home/w/whiteheadh/pycharm-community-2023.2.2/jbr/lib/libawt_xawt.so
+7fa12a40b000-7fa12a40d000 rw-p 00062000 00:35 28038790827                /home/w/whiteheadh/pycharm-community-2023.2.2/jbr/lib/libawt_xawt.so
+7fa12a40d000-7fa12a40f000 rw-p 00000000 00:00 0 
+7fa12a40f000-7fa12a43a000 r--p 00000000 00:35 28039063464                /home/w/whiteheadh/pycharm-community-2023.2.2/jbr/lib/libawt.so
+7fa12a43a000-7fa12a4bc000 r-xp 0002b000 00:35 28039063464                /home/w/whiteheadh/pycharm-community-2023.2.2/jbr/lib/libawt.so
+7fa12a4bc000-7fa12a4c9000 r--p 000ad000 00:35 28039063464                /home/w/whiteheadh/pycharm-community-2023.2.2/jbr/lib/libawt.so
+7fa12a4c9000-7fa12a4ca000 ---p 000ba000 00:35 28039063464                /home/w/whiteheadh/pycharm-community-2023.2.2/jbr/lib/libawt.so
+7fa12a4ca000-7fa12a4cb000 r--p 000ba000 00:35 28039063464                /home/w/whiteheadh/pycharm-community-2023.2.2/jbr/lib/libawt.so
+7fa12a4cb000-7fa12a4d6000 rw-p 000bb000 00:35 28039063464                /home/w/whiteheadh/pycharm-community-2023.2.2/jbr/lib/libawt.so
+7fa12a4d6000-7fa12a4fb000 rw-p 00000000 00:00 0 
+7fa12a5fb000-7fa12a5fc000 r--s 00000000 fe:00 270163                     /var/cache/fontconfig/e0aa53bcfa504e64f87823c16bc01eb6-le64.cache-8
+7fa12a5fc000-7fa12a600000 r--s 00000000 00:35 6501165042                 /home/w/whiteheadh/pycharm-community-2023.2.2/plugins/marketplace/lib/marketplace.jar
+7fa12a600000-7fa12a602000 r--p 00000000 fe:00 46662297                   /usr/lib/x86_64-linux-gnu/libmd.so.0.0.5
+7fa12a602000-7fa12a609000 r-xp 00002000 fe:00 46662297                   /usr/lib/x86_64-linux-gnu/libmd.so.0.0.5
+7fa12a609000-7fa12a60b000 r--p 00009000 fe:00 46662297                   /usr/lib/x86_64-linux-gnu/libmd.so.0.0.5
+7fa12a60b000-7fa12a60c000 r--p 0000a000 fe:00 46662297                   /usr/lib/x86_64-linux-gnu/libmd.so.0.0.5
+7fa12a60c000-7fa12a60d000 rw-p 0000b000 fe:00 46662297                   /usr/lib/x86_64-linux-gnu/libmd.so.0.0.5
+7fa12a60d000-7fa12a60f000 r--p 00000000 fe:00 46684482                   /usr/lib/x86_64-linux-gnu/libXrender.so.1.3.0
+7fa12a60f000-7fa12a616000 r-xp 00002000 fe:00 46684482                   /usr/lib/x86_64-linux-gnu/libXrender.so.1.3.0
+7fa12a616000-7fa12a618000 r--p 00009000 fe:00 46684482                   /usr/lib/x86_64-linux-gnu/libXrender.so.1.3.0
+7fa12a618000-7fa12a619000 r--p 0000a000 fe:00 46684482                   /usr/lib/x86_64-linux-gnu/libXrender.so.1.3.0
+7fa12a619000-7fa12a61a000 rw-p 0000b000 fe:00 46684482                   /usr/lib/x86_64-linux-gnu/libXrender.so.1.3.0
+7fa12a61a000-7fa12a61e000 r--p 00000000 fe:00 46682326                   /usr/lib/x86_64-linux-gnu/libXext.so.6.4.0
+7fa12a61e000-7fa12a629000 r-xp 00004000 fe:00 46682326                   /usr/lib/x86_64-linux-gnu/libXext.so.6.4.0
+7fa12a629000-7fa12a62d000 r--p 0000f000 fe:00 46682326                   /usr/lib/x86_64-linux-gnu/libXext.so.6.4.0
+7fa12a62d000-7fa12a62e000 r--p 00012000 fe:00 46682326                   /usr/lib/x86_64-linux-gnu/libXext.so.6.4.0
+7fa12a62e000-7fa12a62f000 rw-p 00013000 fe:00 46682326                   /usr/lib/x86_64-linux-gnu/libXext.so.6.4.0
+7fa12a62f000-7fa12a633000 ---p 00000000 00:00 0 
+7fa12a633000-7fa12a72f000 rw-p 00000000 00:00 0 
+7fa12a82f000-7fa12a833000 ---p 00000000 00:00 0 
+7fa12a833000-7fa12a92f000 rw-p 00000000 00:00 0 
+7fa12ac2f000-7fa12ac33000 ---p 00000000 00:00 0 
+7fa12ac33000-7fa12ad2f000 rw-p 00000000 00:00 0 
+7fa12ae2f000-7fa12ae33000 ---p 00000000 00:00 0 
+7fa12ae33000-7fa12af2f000 rw-p 00000000 00:00 0 
+7fa12b02f000-7fa12b033000 ---p 00000000 00:00 0 
+7fa12b033000-7fa12b12f000 rw-p 00000000 00:00 0 
+7fa12b37a000-7fa12b37b000 r--p 00000000 00:35 28038790831                /home/w/whiteheadh/pycharm-community-2023.2.2/jbr/lib/libmlib_image.so
+7fa12b37b000-7fa12b3fc000 r-xp 00001000 00:35 28038790831                /home/w/whiteheadh/pycharm-community-2023.2.2/jbr/lib/libmlib_image.so
+7fa12b3fc000-7fa12b40a000 r--p 00082000 00:35 28038790831                /home/w/whiteheadh/pycharm-community-2023.2.2/jbr/lib/libmlib_image.so
+7fa12b40a000-7fa12b40b000 ---p 00090000 00:35 28038790831                /home/w/whiteheadh/pycharm-community-2023.2.2/jbr/lib/libmlib_image.so
+7fa12b40b000-7fa12b40c000 r--p 00090000 00:35 28038790831                /home/w/whiteheadh/pycharm-community-2023.2.2/jbr/lib/libmlib_image.so
+7fa12b40c000-7fa12b40d000 rw-p 00000000 00:00 0 
+7fa12b42f000-7fa12b433000 ---p 00000000 00:00 0 
+7fa12b433000-7fa12b52f000 rw-p 00000000 00:00 0 
+7fa12b52f000-7fa12b570000 r--s 00000000 00:35 8780667685                 /home/w/whiteheadh/pycharm-community-2023.2.2/plugins/marketplace/lib/boot/marketplace-bootstrap.jar
+7fa12b570000-7fa12e876000 r--s 00000000 00:35 51676642463                /home/w/whiteheadh/pycharm-community-2023.2.2/lib/lib.jar
+7fa12e876000-7fa13411e000 r--s 00000000 00:35 51676642480                /home/w/whiteheadh/pycharm-community-2023.2.2/lib/lib-client.jar
+7fa13411e000-7fa135f78000 r--s 00000000 00:35 51676642468                /home/w/whiteheadh/pycharm-community-2023.2.2/lib/grpc.jar
+7fa135f78000-7fa137372000 r--s 00000000 00:35 51676642476                /home/w/whiteheadh/pycharm-community-2023.2.2/lib/groovy.jar
+7fa137372000-7fa14335a000 r--s 00000000 00:35 51676642459                /home/w/whiteheadh/pycharm-community-2023.2.2/lib/app-client.jar
+7fa14335a000-7fa147b4a000 r--s 00000000 00:35 51676642464                /home/w/whiteheadh/pycharm-community-2023.2.2/lib/util-8.jar
+7fa147b4a000-7fa14c000000 r--s 00000000 00:35 51676642477                /home/w/whiteheadh/pycharm-community-2023.2.2/lib/app.jar
+7fa14c000000-7fa14c021000 rw-p 00000000 00:00 0 
+7fa14c021000-7fa150000000 ---p 00000000 00:00 0 
+7fa150000000-7fa150021000 rw-p 00000000 00:00 0 
+7fa150021000-7fa154000000 ---p 00000000 00:00 0 
+7fa154000000-7fa154451000 rw-p 00000000 00:00 0 
+7fa154451000-7fa158000000 ---p 00000000 00:00 0 
+7fa158000000-7fa158021000 rw-p 00000000 00:00 0 
+7fa158021000-7fa15c000000 ---p 00000000 00:00 0 
+7fa15c000000-7fa15fffe000 rw-p 00000000 00:00 0 
+7fa15fffe000-7fa160000000 ---p 00000000 00:00 0 
+7fa160000000-7fa161d03000 rw-p 00000000 00:00 0 
+7fa161d03000-7fa164000000 ---p 00000000 00:00 0 
+7fa164000000-7fa16429d000 rw-p 00000000 00:00 0 
+7fa16429d000-7fa168000000 ---p 00000000 00:00 0 
+7fa168000000-7fa168021000 rw-p 00000000 00:00 0 
+7fa168021000-7fa16c000000 ---p 00000000 00:00 0 
+7fa16c000000-7fa16c021000 rw-p 00000000 00:00 0 
+7fa16c021000-7fa170000000 ---p 00000000 00:00 0 
+7fa170000000-7fa170021000 rw-p 00000000 00:00 0 
+7fa170021000-7fa174000000 ---p 00000000 00:00 0 
+7fa174000000-7fa174001000 r--s 00000000 fe:00 60817453                   /tmp/byteBuddyAgent1248375126898364534.jar
+7fa174001000-7fa174002000 r--p 00000000 fe:00 46695038                   /usr/lib/x86_64-linux-gnu/libXinerama.so.1.0.0
+7fa174002000-7fa174003000 r-xp 00001000 fe:00 46695038                   /usr/lib/x86_64-linux-gnu/libXinerama.so.1.0.0
+7fa174003000-7fa174004000 r--p 00002000 fe:00 46695038                   /usr/lib/x86_64-linux-gnu/libXinerama.so.1.0.0
+7fa174004000-7fa174005000 r--p 00003000 fe:00 46695038                   /usr/lib/x86_64-linux-gnu/libXinerama.so.1.0.0
+7fa174005000-7fa174006000 rw-p 00004000 fe:00 46695038                   /usr/lib/x86_64-linux-gnu/libXinerama.so.1.0.0
+7fa174006000-7fa174007000 r-xp 00017000 00:35 19328537290                /home/w/whiteheadh/pycharm-community-2023.2.2/lib/jna/amd64/libjnidispatch.so
+7fa174007000-7fa174008000 rw-p 00000000 00:00 0 
+7fa174008000-7fa17400c000 r--s 00000000 00:35 21595306287                /home/w/whiteheadh/pycharm-community-2023.2.2/plugins/cwm-plugin-projector/lib/cwm-plugin-projector.jar
+7fa17400c000-7fa17401a000 r--s 00000000 00:35 53756539548                /home/w/whiteheadh/pycharm-community-2023.2.2/plugins/color-scheme-twilight/lib/color-scheme-twilight.jar
+7fa17401a000-7fa17401c000 r--p 00000000 00:35 28039063469                /home/w/whiteheadh/pycharm-community-2023.2.2/jbr/lib/libmanagement.so
+7fa17401c000-7fa17401d000 r-xp 00002000 00:35 28039063469                /home/w/whiteheadh/pycharm-community-2023.2.2/jbr/lib/libmanagement.so
+7fa17401d000-7fa17401e000 r--p 00003000 00:35 28039063469                /home/w/whiteheadh/pycharm-community-2023.2.2/jbr/lib/libmanagement.so
+7fa17401e000-7fa17401f000 r--p 00003000 00:35 28039063469                /home/w/whiteheadh/pycharm-community-2023.2.2/jbr/lib/libmanagement.so
+7fa17401f000-7fa174020000 rw-p 00000000 00:00 0 
+7fa174020000-7fa174021000 r--p 00000000 00:35 28038790835                /home/w/whiteheadh/pycharm-community-2023.2.2/jbr/lib/libprefs.so
+7fa174021000-7fa174022000 r-xp 00001000 00:35 28038790835                /home/w/whiteheadh/pycharm-community-2023.2.2/jbr/lib/libprefs.so
+7fa174022000-7fa174023000 r--p 00002000 00:35 28038790835                /home/w/whiteheadh/pycharm-community-2023.2.2/jbr/lib/libprefs.so
+7fa174023000-7fa174024000 r--p 00002000 00:35 28038790835                /home/w/whiteheadh/pycharm-community-2023.2.2/jbr/lib/libprefs.so
+7fa174024000-7fa174025000 rw-p 00000000 00:00 0 
+7fa174025000-7fa174029000 r--p 00000000 00:35 28036178751                /home/w/whiteheadh/pycharm-community-2023.2.2/jbr/lib/libverify.so
+7fa174029000-7fa174030000 r-xp 00004000 00:35 28036178751                /home/w/whiteheadh/pycharm-community-2023.2.2/jbr/lib/libverify.so
+7fa174030000-7fa174032000 r--p 0000b000 00:35 28036178751                /home/w/whiteheadh/pycharm-community-2023.2.2/jbr/lib/libverify.so
+7fa174032000-7fa174034000 r--p 0000c000 00:35 28036178751                /home/w/whiteheadh/pycharm-community-2023.2.2/jbr/lib/libverify.so
+7fa174034000-7fa174035000 rw-p 00000000 00:00 0 
+7fa174035000-7fa1742ad000 r--s 00000000 00:35 8780667684                 /home/w/whiteheadh/pycharm-community-2023.2.2/plugins/marketplace/lib/boot/marketplace-impl.jar
+7fa1742ad000-7fa174813000 r--s 00000000 00:35 51676642472                /home/w/whiteheadh/pycharm-community-2023.2.2/lib/modules.jar
+7fa174813000-7fa1748f3000 r--s 00000000 00:35 51676642483                /home/w/whiteheadh/pycharm-community-2023.2.2/lib/junit4.jar
+7fa1748f3000-7fa174b47000 r--s 00000000 00:35 51676642479                /home/w/whiteheadh/pycharm-community-2023.2.2/lib/intellij-coverage-agent-1.0.723.jar
+7fa174b47000-7fa174c00000 r--s 00000000 00:35 51676642487                /home/w/whiteheadh/pycharm-community-2023.2.2/lib/byte-buddy-agent.jar
+7fa174c00000-7fa1761b1000 r--s 00000000 00:35 51676642467                /home/w/whiteheadh/pycharm-community-2023.2.2/lib/bouncy-castle.jar
+7fa1761b1000-7fa1766fe000 r--s 00000000 00:35 51676642485                /home/w/whiteheadh/pycharm-community-2023.2.2/lib/rd.jar
+7fa1766fe000-7fa1768f3000 r--s 00000000 00:35 51676642475                /home/w/whiteheadh/pycharm-community-2023.2.2/lib/intellij-test-discovery.jar
+7fa1768f3000-7fa176d6c000 r--s 00000000 00:35 51676642469                /home/w/whiteheadh/pycharm-community-2023.2.2/lib/protobuf.jar
+7fa176d6c000-7fa176f63000 r--s 00000000 00:35 51676642460                /home/w/whiteheadh/pycharm-community-2023.2.2/lib/stats.jar
+7fa176f63000-7fa177092000 r--s 00000000 00:35 51676642481                /home/w/whiteheadh/pycharm-community-2023.2.2/lib/jps-model.jar
+7fa177092000-7fa17729b000 r--s 00000000 00:35 51676642466                /home/w/whiteheadh/pycharm-community-2023.2.2/lib/util_rt.jar
+7fa17729b000-7fa1773fe000 r--s 00000000 00:35 51676642484                /home/w/whiteheadh/pycharm-community-2023.2.2/lib/util.jar
+7fa1773fe000-7fa1773ff000 ---p 00000000 00:00 0 
+7fa1773ff000-7fa177500000 rw-p 00000000 00:00 0 
+7fa177500000-7fa177504000 ---p 00000000 00:00 0 
+7fa177504000-7fa177600000 rw-p 00000000 00:00 0 
+7fa177600000-7fa177604000 ---p 00000000 00:00 0 
+7fa177604000-7fa177700000 rw-p 00000000 00:00 0 
+7fa177700000-7fa177704000 ---p 00000000 00:00 0 
+7fa177704000-7fa177800000 rw-p 00000000 00:00 0 
+7fa177800000-7fa177804000 ---p 00000000 00:00 0 
+7fa177804000-7fa177900000 rw-p 00000000 00:00 0 
+7fa177900000-7fa177904000 ---p 00000000 00:00 0 
+7fa177904000-7fa177a00000 rw-p 00000000 00:00 0 
+7fa177a00000-7fa177a04000 ---p 00000000 00:00 0 
+7fa177a04000-7fa177b00000 rw-p 00000000 00:00 0 
+7fa177b00000-7fa177b04000 ---p 00000000 00:00 0 
+7fa177b04000-7fa177c00000 rw-p 00000000 00:00 0 
+7fa177c00000-7fa177ee9000 r--p 00000000 fe:00 46663118                   /usr/lib/locale/locale-archive
+7fa177ee9000-7fa177eea000 rw-p 00000000 00:00 0 
+7fa177eea000-7fa177eec000 r--p 00000000 fe:00 46695613                   /usr/lib/x86_64-linux-gnu/libXtst.so.6.1.0
+7fa177eec000-7fa177eef000 r-xp 00002000 fe:00 46695613                   /usr/lib/x86_64-linux-gnu/libXtst.so.6.1.0
+7fa177eef000-7fa177ef0000 r--p 00005000 fe:00 46695613                   /usr/lib/x86_64-linux-gnu/libXtst.so.6.1.0
+7fa177ef0000-7fa177ef1000 r--p 00005000 fe:00 46695613                   /usr/lib/x86_64-linux-gnu/libXtst.so.6.1.0
+7fa177ef1000-7fa177ef2000 rw-p 00006000 fe:00 46695613                   /usr/lib/x86_64-linux-gnu/libXtst.so.6.1.0
+7fa177ef2000-7fa177f00000 r--s 00000000 00:35 51676642470                /home/w/whiteheadh/pycharm-community-2023.2.2/lib/jsch-agent.jar
+7fa177f00000-7fa177f04000 ---p 00000000 00:00 0 
+7fa177f04000-7fa178000000 rw-p 00000000 00:00 0 
+7fa178000000-7fa178692000 rw-p 00000000 00:00 0 
+7fa178692000-7fa17c000000 ---p 00000000 00:00 0 
+7fa17c000000-7fa17c021000 rw-p 00000000 00:00 0 
+7fa17c021000-7fa180000000 ---p 00000000 00:00 0 
+7fa180000000-7fa1804f0000 rw-p 00000000 00:00 0 
+7fa1804f0000-7fa180570000 rw-p 00000000 00:00 0 
+7fa180570000-7fa1806f0000 rw-p 00000000 00:00 0 
+7fa1806f0000-7fa1807f0000 rw-p 00000000 00:00 0 
+7fa1807f0000-7fa1808f0000 rw-p 00000000 00:00 0 
+7fa1808f0000-7fa1809f0000 rw-p 00000000 00:00 0 
+7fa1809f0000-7fa180b70000 rw-p 00000000 00:00 0 
+7fa180b70000-7fa180cf0000 rw-p 00000000 00:00 0 
+7fa180cf0000-7fa180d70000 rw-p 00000000 00:00 0 
+7fa180d70000-7fa180eb0000 rw-p 00000000 00:00 0 
+7fa180eb0000-7fa180ef0000 rw-p 00000000 00:00 0 
+7fa180ef0000-7fa1810f0000 rw-p 00000000 00:00 0 
+7fa1810f0000-7fa1811f0000 rw-p 00000000 00:00 0 
+7fa1811f0000-7fa181270000 rw-p 00000000 00:00 0 
+7fa181270000-7fa1812f0000 rw-p 00000000 00:00 0 
+7fa1812f0000-7fa1814f0000 rw-p 00000000 00:00 0 
+7fa1814f0000-7fa1816f0000 rw-p 00000000 00:00 0 
+7fa1816f0000-7fa1817f0000 rw-p 00000000 00:00 0 
+7fa1817f0000-7fa1819b0000 rw-p 00000000 00:00 0 
+7fa1819b0000-7fa1819f0000 rw-p 00000000 00:00 0 
+7fa1819f0000-7fa181bf0000 rw-p 00000000 00:00 0 
+7fa181bf0000-7fa181d70000 rw-p 00000000 00:00 0 
+7fa181d70000-7fa181df0000 rw-p 00000000 00:00 0 
+7fa181df0000-7fa181fb0000 rw-p 00000000 00:00 0 
+7fa181fb0000-7fa181ff0000 rw-p 00000000 00:00 0 
+7fa181ff0000-7fa182170000 rw-p 00000000 00:00 0 
+7fa182170000-7fa1821f0000 rw-p 00000000 00:00 0 
+7fa1821f0000-7fa1824f0000 rw-p 00000000 00:00 0 
+7fa1824f0000-7fa1825f0000 rw-p 00000000 00:00 0 
+7fa1825f0000-7fa182bf0000 rw-p 00000000 00:00 0 
+7fa182bf0000-7fa182ef0000 rw-p 00000000 00:00 0 
+7fa182ef0000-7fa182ff0000 rw-p 00000000 00:00 0 
+7fa182ff0000-7fa1834f0000 rw-p 00000000 00:00 0 
+7fa1834f0000-7fa1836f0000 rw-p 00000000 00:00 0 
+7fa1836f0000-7fa1837f0000 rw-p 00000000 00:00 0 
+7fa1837f0000-7fa1839b0000 rw-p 00000000 00:00 0 
+7fa1839b0000-7fa1839f0000 rw-p 00000000 00:00 0 
+7fa1839f0000-7fa183af0000 rw-p 00000000 00:00 0 
+7fa183af0000-7fa183bf0000 rw-p 00000000 00:00 0 
+7fa183bf0000-7fa183db0000 rw-p 00000000 00:00 0 
+7fa183db0000-7fa183ef0000 rw-p 00000000 00:00 0 
+7fa183ef0000-7fa184000000 rw-p 00000000 00:00 0 
+7fa184000000-7fa184021000 rw-p 00000000 00:00 0 
+7fa184021000-7fa188000000 ---p 00000000 00:00 0 
+7fa188000000-7fa188021000 rw-p 00000000 00:00 0 
+7fa188021000-7fa18c000000 ---p 00000000 00:00 0 
+7fa18c000000-7fa18c021000 rw-p 00000000 00:00 0 
+7fa18c021000-7fa190000000 ---p 00000000 00:00 0 
+7fa190000000-7fa1902b4000 rw-p 00000000 00:00 0 
+7fa1902b4000-7fa194000000 ---p 00000000 00:00 0 
+7fa194000000-7fa19404a000 rw-p 00000000 00:00 0 
+7fa19404a000-7fa198000000 ---p 00000000 00:00 0 
+7fa198000000-7fa198002000 r--s 00000000 00:35 13059230037                /home/w/whiteheadh/pycharm-community-2023.2.2/plugins/vcs-git/lib/git4idea-rt.jar
+7fa198002000-7fa198003000 r--p 00000000 00:35 28039063473                /home/w/whiteheadh/pycharm-community-2023.2.2/jbr/lib/libextnet.so
+7fa198003000-7fa198004000 r-xp 00001000 00:35 28039063473                /home/w/whiteheadh/pycharm-community-2023.2.2/jbr/lib/libextnet.so
+7fa198004000-7fa198005000 r--p 00002000 00:35 28039063473                /home/w/whiteheadh/pycharm-community-2023.2.2/jbr/lib/libextnet.so
+7fa198005000-7fa198006000 r--p 00002000 00:35 28039063473                /home/w/whiteheadh/pycharm-community-2023.2.2/jbr/lib/libextnet.so
+7fa198006000-7fa198007000 rw-p 00000000 00:00 0 
+7fa198007000-7fa198013000 r--s 00000000 00:35 51676642474                /home/w/whiteheadh/pycharm-community-2023.2.2/lib/jetbrains-annotations.jar
+7fa198013000-7fa19801e000 r--s 00000000 00:35 51676642482                /home/w/whiteheadh/pycharm-community-2023.2.2/lib/annotations-java5.jar
+7fa19801e000-7fa19802e000 r--s 00000000 00:35 51676642462                /home/w/whiteheadh/pycharm-community-2023.2.2/lib/forms_rt.jar
+7fa19802e000-7fa19809d000 r--s 00000000 00:35 51676642473                /home/w/whiteheadh/pycharm-community-2023.2.2/lib/platform-loader.jar
+7fa19809d000-7fa1980ce000 rw-p 00000000 00:00 0 
+7fa1980ce000-7fa1980d2000 r--p 00000000 00:35 28038606321                /home/w/whiteheadh/pycharm-community-2023.2.2/jbr/lib/libnet.so
+7fa1980d2000-7fa1980e0000 r-xp 00004000 00:35 28038606321                /home/w/whiteheadh/pycharm-community-2023.2.2/jbr/lib/libnet.so
+7fa1980e0000-7fa1980e4000 r--p 00012000 00:35 28038606321                /home/w/whiteheadh/pycharm-community-2023.2.2/jbr/lib/libnet.so
+7fa1980e4000-7fa1980e5000 r--p 00015000 00:35 28038606321                /home/w/whiteheadh/pycharm-community-2023.2.2/jbr/lib/libnet.so
+7fa1980e5000-7fa1980e6000 rw-p 00016000 00:35 28038606321                /home/w/whiteheadh/pycharm-community-2023.2.2/jbr/lib/libnet.so
+7fa1980e6000-7fa1980ea000 ---p 00000000 00:00 0 
+7fa1980ea000-7fa1981e6000 rw-p 00000000 00:00 0 
+7fa1981e6000-7fa1981ea000 ---p 00000000 00:00 0 
+7fa1981ea000-7fa1982e6000 rw-p 00000000 00:00 0 
+7fa1982e6000-7fa1982e7000 ---p 00000000 00:00 0 
+7fa1982e7000-7fa1983e8000 rw-p 00000000 00:00 0 
+7fa19852d000-7fa19853f000 rw-s 00000000 00:01 3801107                    /SYSV00000000 (deleted)
+7fa198561000-7fa198565000 ---p 00000000 00:00 0 
+7fa198565000-7fa1985de000 rw-p 00000000 00:00 0 
+7fa1985e6000-7fa1985ea000 ---p 00000000 00:00 0 
+7fa1985ea000-7fa198608000 rw-p 00000000 00:00 0 
+7fa19861f000-7fa198620000 ---p 00000000 00:00 0 
+7fa198620000-7fa198721000 rw-p 00000000 00:00 0 
+7fa198721000-7fa198722000 ---p 00000000 00:00 0 
+7fa198722000-7fa19b732000 rw-p 00000000 00:00 0 
+7fa19b732000-7fa19b733000 ---p 00000000 00:00 0 
+7fa19b733000-7fa19b834000 rw-p 00000000 00:00 0 
+7fa19b834000-7fa19b835000 ---p 00000000 00:00 0 
+7fa19b835000-7fa19b936000 rw-p 00000000 00:00 0 
+7fa19b936000-7fa19b937000 ---p 00000000 00:00 0 
+7fa19b937000-7fa19e665000 rw-p 00000000 00:00 0 
+7fa19e665000-7fa19e6e5000 rw-p 00000000 00:00 0 
+7fa19e6e5000-7fa19e815000 ---p 00000000 00:00 0 
+7fa19e815000-7fa19e875000 rw-p 00000000 00:00 0 
+7fa19e875000-7fa19e8c5000 ---p 00000000 00:00 0 
+7fa19e8c5000-7fa1a14b5000 rw-p 00000000 00:00 0 
+7fa1a14b5000-7fa1a1535000 rw-p 00000000 00:00 0 
+7fa1a1535000-7fa1a1665000 ---p 00000000 00:00 0 
+7fa1a1665000-7fa1a16c5000 rw-p 00000000 00:00 0 
+7fa1a16c5000-7fa1a1715000 ---p 00000000 00:00 0 
+7fa1a1715000-7fa1a1d03000 rw-p 00000000 00:00 0 
+7fa1a1d03000-7fa1a1d13000 rw-p 00000000 00:00 0 
+7fa1a1d13000-7fa1a1d39000 ---p 00000000 00:00 0 
+7fa1a1d39000-7fa1a1d45000 rw-p 00000000 00:00 0 
+7fa1a1d45000-7fa1a1d4f000 ---p 00000000 00:00 0 
+7fa1a1d4f000-7fa1a22cd000 rw-p 00000000 00:00 0 
+7fa1a22cd000-7fa1a22dd000 rw-p 00000000 00:00 0 
+7fa1a22dd000-7fa1a2303000 ---p 00000000 00:00 0 
+7fa1a2303000-7fa1a230f000 rw-p 00000000 00:00 0 
+7fa1a230f000-7fa1a2319000 ---p 00000000 00:00 0 
+7fa1a2319000-7fa1a2897000 rw-p 00000000 00:00 0 
+7fa1a2897000-7fa1a28a7000 rw-p 00000000 00:00 0 
+7fa1a28a7000-7fa1a28cd000 ---p 00000000 00:00 0 
+7fa1a28cd000-7fa1a28d9000 rw-p 00000000 00:00 0 
+7fa1a28d9000-7fa1a28e3000 ---p 00000000 00:00 0 
+7fa1a28e3000-7fa1a3600000 rw-p 00000000 00:00 0 
+7fa1a3600000-7fa1a9fd0000 rwxp 00000000 00:00 0 
+7fa1a9fd0000-7fa1b3338000 ---p 00000000 00:00 0 
+7fa1b3338000-7fa1b35a8000 rwxp 00000000 00:00 0 
+7fa1b35a8000-7fa1b38c7000 ---p 00000000 00:00 0 
+7fa1b38c7000-7fa1b9ae7000 rwxp 00000000 00:00 0 
+7fa1b9ae7000-7fa1c3600000 ---p 00000000 00:00 0 
+7fa1c3600000-7fa1c3ed4000 r--s 00000000 fe:00 277661                     /var/lib/sss/mc/passwd
+7fa1c3ed4000-7fa1c3ed5000 r--s 00000000 00:32 1096                       /run/user/27337/dconf/user (deleted)
+7fa1c3ed5000-7fa1c3ed6000 r--p 00000000 fe:00 46682041                   /usr/lib/x86_64-linux-gnu/libXau.so.6.0.0
+7fa1c3ed6000-7fa1c3ed7000 r-xp 00001000 fe:00 46682041                   /usr/lib/x86_64-linux-gnu/libXau.so.6.0.0
+7fa1c3ed7000-7fa1c3ed8000 r--p 00002000 fe:00 46682041                   /usr/lib/x86_64-linux-gnu/libXau.so.6.0.0
+7fa1c3ed8000-7fa1c3ed9000 r--p 00002000 fe:00 46682041                   /usr/lib/x86_64-linux-gnu/libXau.so.6.0.0
+7fa1c3ed9000-7fa1c3eda000 rw-p 00003000 fe:00 46682041                   /usr/lib/x86_64-linux-gnu/libXau.so.6.0.0
+7fa1c3eda000-7fa1c3ee9000 r--s 00000000 00:35 51676642478                /home/w/whiteheadh/pycharm-community-2023.2.2/lib/external-system-rt.jar
+7fa1c3ee9000-7fa1c3eef000 r--p 00000000 00:35 28039135619                /home/w/whiteheadh/pycharm-community-2023.2.2/jbr/lib/libnio.so
+7fa1c3eef000-7fa1c3ef8000 r-xp 00006000 00:35 28039135619                /home/w/whiteheadh/pycharm-community-2023.2.2/jbr/lib/libnio.so
+7fa1c3ef8000-7fa1c3efc000 r--p 0000f000 00:35 28039135619                /home/w/whiteheadh/pycharm-community-2023.2.2/jbr/lib/libnio.so
+7fa1c3efc000-7fa1c3efd000 ---p 00013000 00:35 28039135619                /home/w/whiteheadh/pycharm-community-2023.2.2/jbr/lib/libnio.so
+7fa1c3efd000-7fa1c3efe000 r--p 00013000 00:35 28039135619                /home/w/whiteheadh/pycharm-community-2023.2.2/jbr/lib/libnio.so
+7fa1c3efe000-7fa1c3eff000 rw-p 00014000 00:35 28039135619                /home/w/whiteheadh/pycharm-community-2023.2.2/jbr/lib/libnio.so
+7fa1c3eff000-7fa1c4000000 rw-p 00000000 00:00 0 
+7fa1c4000000-7fa1c4509000 rw-p 00000000 00:00 0 
+7fa1c4509000-7fa1c8000000 ---p 00000000 00:00 0 
+7fa1c8000000-7fa1c8007000 r--s 00000000 00:35 51676642461                /home/w/whiteheadh/pycharm-community-2023.2.2/lib/error-prone-annotations.jar
+7fa1c8007000-7fa1c81cd000 rw-p 00000000 00:00 0 
+7fa1c81cd000-7fa1c8303000 ---p 00000000 00:00 0 
+7fa1c8303000-7fa1c83d7000 rw-p 00000000 00:00 0 
+7fa1c83d7000-7fa1c84fe000 ---p 00000000 00:00 0 
+7fa1c84fe000-7fa1c850a000 r--p 00000000 00:35 28039063453                /home/w/whiteheadh/pycharm-community-2023.2.2/jbr/lib/libjava.so
+7fa1c850a000-7fa1c851c000 r-xp 0000c000 00:35 28039063453                /home/w/whiteheadh/pycharm-community-2023.2.2/jbr/lib/libjava.so
+7fa1c851c000-7fa1c8522000 r--p 0001e000 00:35 28039063453                /home/w/whiteheadh/pycharm-community-2023.2.2/jbr/lib/libjava.so
+7fa1c8522000-7fa1c8523000 ---p 00024000 00:35 28039063453                /home/w/whiteheadh/pycharm-community-2023.2.2/jbr/lib/libjava.so
+7fa1c8523000-7fa1c8524000 r--p 00024000 00:35 28039063453                /home/w/whiteheadh/pycharm-community-2023.2.2/jbr/lib/libjava.so
+7fa1c8524000-7fa1c8525000 rw-p 00025000 00:35 28039063453                /home/w/whiteheadh/pycharm-community-2023.2.2/jbr/lib/libjava.so
+7fa1c8525000-7fa1c8526000 rw-p 00000000 00:00 0 
+7fa1c8526000-7fa1c8528000 r--p 00000000 fe:00 46672517                   /usr/lib/x86_64-linux-gnu/libnss_sss.so.2
+7fa1c8528000-7fa1c852f000 r-xp 00002000 fe:00 46672517                   /usr/lib/x86_64-linux-gnu/libnss_sss.so.2
+7fa1c852f000-7fa1c8531000 r--p 00009000 fe:00 46672517                   /usr/lib/x86_64-linux-gnu/libnss_sss.so.2
+7fa1c8531000-7fa1c8532000 r--p 0000a000 fe:00 46672517                   /usr/lib/x86_64-linux-gnu/libnss_sss.so.2
+7fa1c8532000-7fa1c8533000 rw-p 0000b000 fe:00 46672517                   /usr/lib/x86_64-linux-gnu/libnss_sss.so.2
+7fa1c8533000-7fa1c853a000 r--p 00000000 fe:00 46663212                   /usr/lib/x86_64-linux-gnu/libnss_systemd.so.2
+7fa1c853a000-7fa1c856e000 r-xp 00007000 fe:00 46663212                   /usr/lib/x86_64-linux-gnu/libnss_systemd.so.2
+7fa1c856e000-7fa1c857e000 r--p 0003b000 fe:00 46663212                   /usr/lib/x86_64-linux-gnu/libnss_systemd.so.2
+7fa1c857e000-7fa1c8582000 r--p 0004b000 fe:00 46663212                   /usr/lib/x86_64-linux-gnu/libnss_systemd.so.2
+7fa1c8582000-7fa1c8583000 rw-p 0004f000 fe:00 46663212                   /usr/lib/x86_64-linux-gnu/libnss_systemd.so.2
+7fa1c8583000-7fa1c8587000 r--s 00000000 00:35 51676642465                /home/w/whiteheadh/pycharm-community-2023.2.2/lib/externalProcess-rt.jar
+7fa1c8587000-7fa1c8589000 r--p 00000000 00:35 28039247358                /home/w/whiteheadh/pycharm-community-2023.2.2/jbr/lib/libzip.so
+7fa1c8589000-7fa1c858d000 r-xp 00002000 00:35 28039247358                /home/w/whiteheadh/pycharm-community-2023.2.2/jbr/lib/libzip.so
+7fa1c858d000-7fa1c858f000 r--p 00006000 00:35 28039247358                /home/w/whiteheadh/pycharm-community-2023.2.2/jbr/lib/libzip.so
+7fa1c858f000-7fa1c8590000 r--p 00007000 00:35 28039247358                /home/w/whiteheadh/pycharm-community-2023.2.2/jbr/lib/libzip.so
+7fa1c8590000-7fa1c8596000 rw-p 00000000 00:00 0 
+7fa1c8596000-7fa1c859d000 ---p 00000000 00:00 0 
+7fa1c859d000-7fa1cbd08000 r--s 00000000 00:35 28038790830                /home/w/whiteheadh/pycharm-community-2023.2.2/jbr/lib/modules
+7fa1cbd08000-7fa1cbd0b000 r--p 00000000 00:35 28039063479                /home/w/whiteheadh/pycharm-community-2023.2.2/jbr/lib/libjimage.so
+7fa1cbd0b000-7fa1cbd1f000 r-xp 00003000 00:35 28039063479                /home/w/whiteheadh/pycharm-community-2023.2.2/jbr/lib/libjimage.so
+7fa1cbd1f000-7fa1cbd25000 r--p 00017000 00:35 28039063479                /home/w/whiteheadh/pycharm-community-2023.2.2/jbr/lib/libjimage.so
+7fa1cbd25000-7fa1cbd27000 r--p 0001c000 00:35 28039063479                /home/w/whiteheadh/pycharm-community-2023.2.2/jbr/lib/libjimage.so
+7fa1cbd27000-7fa1cbd28000 rw-p 0001e000 00:35 28039063479                /home/w/whiteheadh/pycharm-community-2023.2.2/jbr/lib/libjimage.so
+7fa1cbd28000-7fa1cbd2c000 ---p 00000000 00:00 0 
+7fa1cbd2c000-7fa1cbe28000 rw-p 00000000 00:00 0 
+7fa1cbe28000-7fa1cbe38000 r--p 00000000 fe:00 46670195                   /usr/lib/x86_64-linux-gnu/libm.so.6
+7fa1cbe38000-7fa1cbeab000 r-xp 00010000 fe:00 46670195                   /usr/lib/x86_64-linux-gnu/libm.so.6
+7fa1cbeab000-7fa1cbf05000 r--p 00083000 fe:00 46670195                   /usr/lib/x86_64-linux-gnu/libm.so.6
+7fa1cbf05000-7fa1cbf06000 r--p 000dc000 fe:00 46670195                   /usr/lib/x86_64-linux-gnu/libm.so.6
+7fa1cbf06000-7fa1cbf07000 rw-p 000dd000 fe:00 46670195                   /usr/lib/x86_64-linux-gnu/libm.so.6
+7fa1cbf07000-7fa1cbf08000 r--p 00000000 fe:00 46677758                   /usr/lib/x86_64-linux-gnu/librt.so.1
+7fa1cbf08000-7fa1cbf09000 r-xp 00001000 fe:00 46677758                   /usr/lib/x86_64-linux-gnu/librt.so.1
+7fa1cbf09000-7fa1cbf0a000 r--p 00002000 fe:00 46677758                   /usr/lib/x86_64-linux-gnu/librt.so.1
+7fa1cbf0a000-7fa1cbf0b000 r--p 00002000 fe:00 46677758                   /usr/lib/x86_64-linux-gnu/librt.so.1
+7fa1cbf0b000-7fa1cbf0c000 rw-p 00003000 fe:00 46677758                   /usr/lib/x86_64-linux-gnu/librt.so.1
+7fa1cbf0c000-7fa1cc15f000 r--p 00000000 00:35 38655629458                /home/w/whiteheadh/pycharm-community-2023.2.2/jbr/lib/server/libjvm.so
+7fa1cc15f000-7fa1cce88000 r-xp 00253000 00:35 38655629458                /home/w/whiteheadh/pycharm-community-2023.2.2/jbr/lib/server/libjvm.so
+7fa1cce88000-7fa1cd119000 r--p 00f7c000 00:35 38655629458                /home/w/whiteheadh/pycharm-community-2023.2.2/jbr/lib/server/libjvm.so
+7fa1cd119000-7fa1cd11a000 ---p 0120d000 00:35 38655629458                /home/w/whiteheadh/pycharm-community-2023.2.2/jbr/lib/server/libjvm.so
+7fa1cd11a000-7fa1cd1d3000 r--p 0120d000 00:35 38655629458                /home/w/whiteheadh/pycharm-community-2023.2.2/jbr/lib/server/libjvm.so
+7fa1cd1d3000-7fa1cd208000 rw-p 012c6000 00:35 38655629458                /home/w/whiteheadh/pycharm-community-2023.2.2/jbr/lib/server/libjvm.so
+7fa1cd208000-7fa1cd276000 rw-p 00000000 00:00 0 
+7fa1cd276000-7fa1cd29c000 r--p 00000000 fe:00 46670192                   /usr/lib/x86_64-linux-gnu/libc.so.6
+7fa1cd29c000-7fa1cd3f1000 r-xp 00026000 fe:00 46670192                   /usr/lib/x86_64-linux-gnu/libc.so.6
+7fa1cd3f1000-7fa1cd444000 r--p 0017b000 fe:00 46670192                   /usr/lib/x86_64-linux-gnu/libc.so.6
+7fa1cd444000-7fa1cd448000 r--p 001ce000 fe:00 46670192                   /usr/lib/x86_64-linux-gnu/libc.so.6
+7fa1cd448000-7fa1cd44a000 rw-p 001d2000 fe:00 46670192                   /usr/lib/x86_64-linux-gnu/libc.so.6
+7fa1cd44a000-7fa1cd457000 rw-p 00000000 00:00 0 
+7fa1cd457000-7fa1cd458000 r--p 00000000 fe:00 46670194                   /usr/lib/x86_64-linux-gnu/libdl.so.2
+7fa1cd458000-7fa1cd459000 r-xp 00001000 fe:00 46670194                   /usr/lib/x86_64-linux-gnu/libdl.so.2
+7fa1cd459000-7fa1cd45a000 r--p 00002000 fe:00 46670194                   /usr/lib/x86_64-linux-gnu/libdl.so.2
+7fa1cd45a000-7fa1cd45b000 r--p 00002000 fe:00 46670194                   /usr/lib/x86_64-linux-gnu/libdl.so.2
+7fa1cd45b000-7fa1cd45c000 rw-p 00003000 fe:00 46670194                   /usr/lib/x86_64-linux-gnu/libdl.so.2
+7fa1cd45c000-7fa1cd45d000 r--p 00000000 fe:00 46677756                   /usr/lib/x86_64-linux-gnu/libpthread.so.0
+7fa1cd45d000-7fa1cd45e000 r-xp 00001000 fe:00 46677756                   /usr/lib/x86_64-linux-gnu/libpthread.so.0
+7fa1cd45e000-7fa1cd45f000 r--p 00002000 fe:00 46677756                   /usr/lib/x86_64-linux-gnu/libpthread.so.0
+7fa1cd45f000-7fa1cd460000 r--p 00002000 fe:00 46677756                   /usr/lib/x86_64-linux-gnu/libpthread.so.0
+7fa1cd460000-7fa1cd461000 rw-p 00003000 fe:00 46677756                   /usr/lib/x86_64-linux-gnu/libpthread.so.0
+7fa1cd461000-7fa1cd463000 r--p 00000000 00:35 28039264457                /home/w/whiteheadh/pycharm-community-2023.2.2/jbr/lib/libjli.so
+7fa1cd463000-7fa1cd46d000 r-xp 00002000 00:35 28039264457                /home/w/whiteheadh/pycharm-community-2023.2.2/jbr/lib/libjli.so
+7fa1cd46d000-7fa1cd470000 r--p 0000c000 00:35 28039264457                /home/w/whiteheadh/pycharm-community-2023.2.2/jbr/lib/libjli.so
+7fa1cd470000-7fa1cd471000 ---p 0000f000 00:35 28039264457                /home/w/whiteheadh/pycharm-community-2023.2.2/jbr/lib/libjli.so
+7fa1cd471000-7fa1cd472000 r--p 0000f000 00:35 28039264457                /home/w/whiteheadh/pycharm-community-2023.2.2/jbr/lib/libjli.so
+7fa1cd472000-7fa1cd473000 rw-p 00010000 00:35 28039264457                /home/w/whiteheadh/pycharm-community-2023.2.2/jbr/lib/libjli.so
+7fa1cd473000-7fa1cd476000 r--p 00000000 fe:00 46663933                   /usr/lib/x86_64-linux-gnu/libz.so.1.2.13
+7fa1cd476000-7fa1cd489000 r-xp 00003000 fe:00 46663933                   /usr/lib/x86_64-linux-gnu/libz.so.1.2.13
+7fa1cd489000-7fa1cd490000 r--p 00016000 fe:00 46663933                   /usr/lib/x86_64-linux-gnu/libz.so.1.2.13
+7fa1cd490000-7fa1cd491000 r--p 0001c000 fe:00 46663933                   /usr/lib/x86_64-linux-gnu/libz.so.1.2.13
+7fa1cd491000-7fa1cd492000 rw-p 0001d000 fe:00 46663933                   /usr/lib/x86_64-linux-gnu/libz.so.1.2.13
+7fa1cd492000-7fa1cd493000 r--p 00000000 00:00 0 
+7fa1cd494000-7fa1cd495000 r--p 00000000 fe:00 46666676                   /usr/share/locale/en_GB/LC_MESSAGES/libc.mo
+7fa1cd495000-7fa1cd49d000 rw-s 00000000 fe:00 277660                     /tmp/hsperfdata_whiteheadh/896383
+7fa1cd49d000-7fa1cd4a0000 r--p 00000000 fe:00 46662091                   /usr/lib/x86_64-linux-gnu/libcap.so.2.66
+7fa1cd4a0000-7fa1cd4a5000 r-xp 00003000 fe:00 46662091                   /usr/lib/x86_64-linux-gnu/libcap.so.2.66
+7fa1cd4a5000-7fa1cd4a7000 r--p 00008000 fe:00 46662091                   /usr/lib/x86_64-linux-gnu/libcap.so.2.66
+7fa1cd4a7000-7fa1cd4a8000 r--p 0000a000 fe:00 46662091                   /usr/lib/x86_64-linux-gnu/libcap.so.2.66
+7fa1cd4a8000-7fa1cd4a9000 rw-p 0000b000 fe:00 46662091                   /usr/lib/x86_64-linux-gnu/libcap.so.2.66
+7fa1cd4a9000-7fa1cd4aa000 ---p 00000000 00:00 0 
+7fa1cd4aa000-7fa1cd4ab000 r--p 00000000 00:00 0 
+7fa1cd4ab000-7fa1cd4ac000 ---p 00000000 00:00 0 
+7fa1cd4ac000-7fa1cd4ae000 rw-p 00000000 00:00 0 
+7fa1cd4ae000-7fa1cd4af000 r--p 00000000 fe:00 46666652                   /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7fa1cd4af000-7fa1cd4d4000 r-xp 00001000 fe:00 46666652                   /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7fa1cd4d4000-7fa1cd4de000 r--p 00026000 fe:00 46666652                   /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7fa1cd4de000-7fa1cd4e0000 r--p 00030000 fe:00 46666652                   /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7fa1cd4e0000-7fa1cd4e2000 rw-p 00032000 fe:00 46666652                   /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7ffd5b819000-7ffd5b83c000 rw-p 00000000 00:00 0                          [stack]
+7ffd5b9ce000-7ffd5b9d2000 r--p 00000000 00:00 0                          [vvar]
+7ffd5b9d2000-7ffd5b9d4000 r-xp 00000000 00:00 0                          [vdso]
+
+
+VM Arguments:
+jvm_args: -XX:ErrorFile=/home/w/whiteheadh/java_error_in_pycharm_%p.log -XX:HeapDumpPath=/home/w/whiteheadh/java_error_in_pycharm_.hprof -Xms256m -Xmx1500m -XX:ReservedCodeCacheSize=512m -XX:+UseG1GC -XX:SoftRefLRUPolicyMSPerMB=50 -XX:CICompilerCount=2 -XX:+HeapDumpOnOutOfMemoryError -XX:-OmitStackTraceInFastThrow -XX:+IgnoreUnrecognizedVMOptions -XX:CompileCommand=exclude,com/intellij/openapi/vfs/impl/FilePartNodeRoot,trieDescend -ea -Dsun.io.useCanonCaches=false -Dsun.java2d.metal=true -Djbr.catch.SIGABRT=true -Djdk.http.auth.tunneling.disabledSchemes="" -Djdk.attach.allowAttachSelf=true -Djdk.module.illegalAccess.silent=true -Dkotlinx.coroutines.debug=off -Dsun.tools.attach.tmp.only=true -Dawt.lock.fair=true -Xmx2964m -Djb.vmOptionsFile=/home/w/whiteheadh/.config/JetBrains/PyCharmCE2023.2/pycharm64.vmoptions -Djava.system.class.loader=com.intellij.util.lang.PathClassLoader -Didea.vendor.name=JetBrains -Didea.paths.selector=PyCharmCE2023.2 -Djna.boot.library.path=/home/w/whiteheadh/pycharm-community-2023.2.2/lib/jna/amd64 -Dpty4j.preferred.native.folder=/home/w/whiteheadh/pycharm-community-2023.2.2/lib/pty4j -Djna.nosys=true -Djna.noclasspath=true -Didea.platform.prefix=PyCharmCore -Dsplash=true -Daether.connector.resumeDownloads=false --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.ref=ALL-UNNAMED --add-opens=java.base/java.lang.reflect=ALL-UNNAMED --add-opens=java.base/java.net=ALL-UNNAMED --add-opens=java.base/java.nio=ALL-UNNAMED --add-opens=java.base/java.nio.charset=ALL-UNNAMED --add-opens=java.base/java.text=ALL-UNNAMED --add-opens=java.base/java.time=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens=java.base/jdk.internal.vm=ALL-UNNAMED --add-opens=java.base/sun.nio.ch=ALL-UNNAMED --add-opens=java.base/sun.nio.fs=ALL-UNNAMED --add-opens=java.base/sun.security.ssl=ALL-UNNAMED --add-opens=java.base/sun.security.util=ALL-UNNAMED --add-opens=java.base/sun.net.dns=ALL-UNNAMED --add-opens=java.desktop/com.sun.java.swing.plaf.gtk=ALL-UNNAMED --add-opens=java.desktop/java.awt=ALL-UNNAMED --add-opens=java.desktop/java.awt.dnd.peer=ALL-UNNAMED --add-opens=java.desktop/java.awt.event=ALL-UNNAMED --add-opens=java.desktop/java.awt.image=ALL-UNNAMED --add-opens=java.desktop/java.awt.peer=ALL-UNNAMED --add-opens=java.desktop/java.awt.font=ALL-UNNAMED --add-opens=java.desktop/javax.swing=ALL-UNNAMED --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED --add-opens=java.desktop/javax.swing.text.html=ALL-UNNAMED --add-opens=java.desktop/sun.awt.X11=ALL-UNNAMED --add-opens=java.desktop/sun.awt.datatransfer=ALL-UNNAMED --add-opens=java.desktop/sun.awt.image=ALL-UNNAMED --add-opens=java.desktop/sun.awt=ALL-UNNAMED --add-opens=java.desktop/sun.font=ALL-UNNAMED --add-opens=java.desktop/sun.java2d=ALL-UNNAMED --add-opens=java.desktop/sun.swing=ALL-UNNAMED --add-opens=java.desktop/com.sun.java.swing=ALL-UNNAMED --add-opens=jdk.attach/sun.tools.attach=ALL-UNNAMED --add-opens=jdk.compiler/com.sun.tools.javac.api=ALL-UNNAMED --add-opens=jdk.internal.jvmstat/sun.jvmstat.monitor=ALL-UNNAMED --add-opens=jdk.jdi/com.sun.tools.jdi=ALL-UNNAMED 
+java_command: com.intellij.idea.Main
+java_class_path (initial): /home/w/whiteheadh/pycharm-community-2023.2.2/lib/platform-loader.jar:/home/w/whiteheadh/pycharm-community-2023.2.2/lib/util.jar:/home/w/whiteheadh/pycharm-community-2023.2.2/lib/app.jar:/home/w/whiteheadh/pycharm-community-2023.2.2/lib/util-8.jar:/home/w/whiteheadh/pycharm-community-2023.2.2/lib/util_rt.jar:/home/w/whiteheadh/pycharm-community-2023.2.2/lib/jps-model.jar:/home/w/whiteheadh/pycharm-community-2023.2.2/lib/stats.jar:/home/w/whiteheadh/pycharm-community-2023.2.2/lib/protobuf.jar:/home/w/whiteheadh/pycharm-community-2023.2.2/lib/external-system-rt.jar:/home/w/whiteheadh/pycharm-community-2023.2.2/lib/intellij-test-discovery.jar:/home/w/whiteheadh/pycharm-community-2023.2.2/lib/forms_rt.jar:/home/w/whiteheadh/pycharm-community-2023.2.2/lib/rd.jar:/home/w/whiteheadh/pycharm-community-2023.2.2/lib/externalProcess-rt.jar:/home/w/whiteheadh/pycharm-community-2023.2.2/lib/annotations-java5.jar:/home/w/whiteheadh/pycharm-community-2023.2.2/lib/app-client.jar:/home/w/whiteheadh/pycharm-community-2023.2.2/lib/bouncy-castle.jar:/home/w/whiteheadh/pycharm-community-2023.2.2/lib/byte-buddy-agent.jar:/home/w/whiteheadh/pycharm-community-2023.2.2/lib/error-prone-annotations.jar:/home/w/whiteheadh/pycharm-community-2023.2.2/lib/groovy.jar:/home/w/whiteheadh/pycharm-community-2023.2.2/lib/grpc.jar:/home/w/whiteheadh/pycharm-community-2023.2.2/lib/intellij-coverage-agent-1.0.723.jar:/home/w/whiteheadh/pycharm-community-2023.2.2/lib/jetbrains-annotations.jar:/home/w/whiteheadh/pycharm-community-2023.2.2/lib/jsch-agent.jar:/home/w/whiteheadh/pycharm-community-2023.2.2/lib/junit4.jar:/home/w/whiteheadh/pycharm-community-2023.2.2/lib/lib-client.jar:/home/w/whiteheadh/pycharm-community-2023.2.2/lib/lib.jar:/home/w/whiteheadh/pycharm-community-2023.2.2/lib/modules.jar
+Launcher Type: SUN_STANDARD
+
+
+[error occurred during error reporting (printing flags), id 0x7, SIGBUS (0x7) at pc=0x00007fa1cd3cb1ff]
+
+Logging:
+Log output configuration:
+ #0: stdout all=warning uptime,level
+[error occurred during error reporting (printing log configuration), id 0x7, SIGBUS (0x7) at pc=0x00007fa1cd3cbf19]
+
+
+[error occurred during error reporting (printing all environment variables), id 0x7, SIGBUS (0x7) at pc=0x00007fa1cd3cb1ff]
+
+Active Locale:
+LC_ALL=en_GB.UTF-8
+LC_COLLATE=en_GB.UTF-8
+LC_CTYPE=en_GB.UTF-8
+LC_MESSAGES=en_GB.UTF-8
+LC_MONETARY=en_GB.UTF-8
+LC_NUMERIC=en_GB.UTF-8
+LC_TIME=en_GB.UTF-8
+
+Signal Handlers:
+   SIGSEGV: 0x00007fa1ccc9bb40
+[error occurred during error reporting (printing signal handlers), id 0x7, SIGBUS (0x7) at pc=0x00007fa1ccb282e4]
+
+JNI global refs:
+JNI global refs: 108, weak refs: 10856
+
+JNI global refs memory usage: 1499, weak refs: 109657
+
+OOME stack traces (most recent first):
+Classloader memory used:
+
+[timeout occurred during error reporting in step "Classloader stats"] after 30 s.
+
+
+[error occurred during error reporting (printing system), id 0x7, SIGBUS (0x7) at pc=0x00007fa1cd3cb1ff]
+
+OS:
+PRETTY_NAME="Debian GNU/Linux 12 (bookworm)"
+NAME="Debian GNU/Linux"
+VERSION_ID="12"
+VERSION="12 (bookworm)"
+VERSION_CODENAME=bookworm
+ID=debian
+HOME_URL="https://www.debian.org/"
+SUPPORT_URL="https://www.debian.org/support"
+BUG_REPORT_URL="https://bugs.debian.org/"
+uname: Linux 6.1.0-26-amd64 #1 SMP PREEMPT_DYNAMIC Debian 6.1.112-1 (2024-09-30) x86_64
+
+[error occurred during error reporting (printing OS information), id 0x7, SIGBUS (0x7) at pc=0x00007fa1cd3cb1ff]
+
+
+[error occurred during error reporting (printing CPU info), id 0x7, SIGBUS (0x7) at pc=0x00007fa1cd3cb1ff]
+
+Memory: 4k page, physical 24287924k(9668336k free), swap 999420k(20104k free)
+Page Sizes: 4k
+
+vm_info: OpenJDK 64-Bit Server VM (17.0.8+7-b1000.22) for linux-amd64 JRE (17.0.8+7-b1000.22), built on 2023-09-02 by "builduser" with gcc 10.2.1 20210130 (Red Hat 10.2.1-11)
+
+END.
