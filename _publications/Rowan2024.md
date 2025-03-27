@@ -5,10 +5,11 @@ category: latter
 permalink: /publication/Rowan2024
 excerpt: 'We perform Monte Carlo simulations of black hole and binary black hole formation, evolution and mergers across the AGN mass spectrum, estimating merger rates and properties for comparison to LIGO-Virgo-KAGRA observations.'
 date: 2024-01-12 # Y D M?
-# venue: 'Monthly Notices of the Royal Astronomical Society'
+venue: 'Monthly Notices of the Royal Astronomical Society'
 slidesurl: 
 paperurl: 'http://hwhitehead.github.io/files/Rowan2024.pdf'
-citation: 
+citation:
+published: 'false'
 ---
 
 Abstract:\

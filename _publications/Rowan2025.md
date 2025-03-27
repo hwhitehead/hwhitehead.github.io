@@ -5,10 +5,11 @@ category: latter
 permalink: /publication/Rowan2025
 excerpt: 'We simulate interactions single and binary black holes within AGN discs using 2D hydrodynamic simulations, probing the dependence of merger probability on the precense of gas.'
 date: 2025-01-01 # Y D M?
-# venue: 'Monthly Notices of the Royal Astronomical Society'
+venue: 'Monthly Notices of the Royal Astronomical Society'
 slidesurl: 
 paperurl: 'http://hwhitehead.github.io/files/Rowan2025.pdf'
 citation: 
+published: 'false'
 ---
 
 Abstract:\

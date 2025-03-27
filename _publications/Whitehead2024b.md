@@ -9,6 +9,7 @@ venue: 'Monthly Notices of the Royal Astronomical Society'
 slidesurl: 
 paperurl: 'http://hwhitehead.github.io/files/Whitehead2024b.pdf'
 citation: 
+published: 'true'
 ---
 
 Abstract:\
