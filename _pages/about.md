@@ -13,7 +13,7 @@ I conduct this research from a primarily computational viewpoint, investigating 
 
 This website hosts a list of my published [papers](/publications/), previous [talks](/talks/) and some [visualisations](/visuals/). If you have any questions about the work I do, please get in touch. 
 
-<video width="1000" height="1000" controls loop="" muted= "" autoplay ="">
+<video width="800" height="800" controls loop="" muted= "" autoplay ="">
     <source src="http://hwhitehead.github.io/images/bbh_anim.mp4">
 </video>
 
