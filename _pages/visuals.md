@@ -15,7 +15,7 @@ Energetic evolution of a flyby between two black holes, simulated with a 3D adia
 </video>
 
 ## 3D Temperature Contours for Adiabatic Binary Formation
-Isotemperature contours for an interaction between two black holes, for a 3D adiabatic mixture of gas and radiation. Close encounters harden the binary and result in strong injections of thermal energy to the circum-binary region. Parent paper currently in final prep.
+Isotemperature contours for an interaction between two black holes, for a 3D adiabatic mixture of gas and radiation. Close encounters harden the binary and result in strong injections of thermal energy to the circum-binary region.
 
 <video width="1000" height="1000" controls loop="" muted= "" autoplay ="">
     <source src="http://hwhitehead.github.io/images/3d_collision.mp4">
