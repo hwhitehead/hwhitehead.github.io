@@ -9,7 +9,7 @@ date: 2025-01-02 # Y D M?
 slidesurl: 
 paperurl: 'http://hwhitehead.github.io/files/Whitehead2025.pdf'
 citation: 
-published: 0
+published: 'false'
 ---
 
 Abstract:\
