@@ -10,7 +10,7 @@ author_profile: true
 ## Chronology of Binary Formation
 Energetic evolutiion of a close encounter between two black holes embdedded in an AGN disc, simulated in 3D with a adiabatic gas equation of state using [Athena++](https://github.com/PrincetonUniversity/athena). A stable binary is formed by dissipation to gas gravity during the first periapsis passes; during subseuquent passes the binary loses further energy to the gas and shrinks. Images in the top left panel produced using DART, a homebrew raytracing code in Python. Read the parent paper [here](/publication/Whitehead2025).
 
-<video width="1000" height="1100" controls loop="" muted= "" autoplay ="">
+<video width="800" height="880" controls loop="" muted= "" autoplay ="">
     <source src="http://hwhitehead.github.io/images/fid_panel.mp4">
 </video>
 
