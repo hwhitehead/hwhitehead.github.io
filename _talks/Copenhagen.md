@@ -1,5 +1,5 @@
 ---
-title: "Cyclonic Winds: 3D Outflows from Black Holes Embedded in AGn Discs"
+title: "Cyclonic Winds: 3D Outflows from Black Holes Embedded in AGN Discs"
 collection: talks
 type: "Talk"
 permalink: /talks/2014-03-01-talk-3
