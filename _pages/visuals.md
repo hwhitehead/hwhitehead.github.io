@@ -8,14 +8,14 @@ author_profile: true
 {% include base_path %}
 
 ## Chronology of Binary Formation
-Energetic evolutiion of a close encounter between two black holes embdedded in an AGN disc, simulation in 3D with a adiabatic gas equation of state. A stable binary is formed by dissipation to gas gravity during the first periapsis passes; during subseuquent passes the binary loses further energy to the gas and shrinks. Images in the top left panel produced using DART, a homebrew raytracing code in Python. Read the parent paper [here](/publication/Whitehead2025).
+Energetic evolutiion of a close encounter between two black holes embdedded in an AGN disc, simulated in 3D with a adiabatic gas equation of state using [Athena++](https://github.com/PrincetonUniversity/athena). A stable binary is formed by dissipation to gas gravity during the first periapsis passes; during subseuquent passes the binary loses further energy to the gas and shrinks. Images in the top left panel produced using DART, a homebrew raytracing code in Python. Read the parent paper [here](/publication/Whitehead2025).
 
 <video width="1000" height="1100" controls loop="" muted= "" autoplay ="">
     <source src="http://hwhitehead.github.io/images/fid_panel.mp4">
 </video>
 
 ## Raytraced Emission from Supernova-Jet Interaction
-Synthetic radio emission generated from axisymmetric relativistic hydrodynamic simulations of a supernovae followed by a jet, compared to real observations of CirX1. Axisymmetric data is interpolated onto a 3D Cartesian grid and then traced using DART. Parent paper is in the final stages of prep.
+Images of synthetic radio emission generated from axisymmetric relativistic hydrodynamic simulations of a supernovae followed by a jet, compared to real observations of CirX1. Following simulation using [PLUTO](https://github.com/cheshirepezz/PLUTO), the axisymmetric hydro data was interpolated onto a 3D Cartesian grid and then traced using DART. Parent paper is in the final stages of prep.
 
 <p align="center">
   <img src="http://hwhitehead.github.io/images/novae_render.png"/>
