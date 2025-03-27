@@ -8,7 +8,8 @@ date: 2023-01-12 # Y D M?
 venue: 'Monthly Notices of the Royal Astronomical Society'
 slidesurl: 
 paperurl: 'http://hwhitehead.github.io/files/Rowan2023.pdf'
-citation: 
+citation:
+published: True
 ---
 
 Abstract:\
