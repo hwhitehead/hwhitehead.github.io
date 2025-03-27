@@ -9,7 +9,7 @@ venue: 'Monthly Notices of the Royal Astronomical Society'
 slidesurl: 
 paperurl: 'http://hwhitehead.github.io/files/Rowan2023.pdf'
 citation:
-published: 1
+published: 'true'
 ---
 
 Abstract:\
