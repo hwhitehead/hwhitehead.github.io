@@ -3,7 +3,7 @@ title: "Studying the link between radio galaxies and AGN fuelling with relativis
 collection: publications
 category: first
 permalink: /publication/Whitehead2023
-excerpt: 'We consider the hydrodynamics of relativisitc AGN jets in 2D and 3D, modulating the jet energy as pink noise. We present the morpholigical and energetic differences expected from such variation.'
+excerpt: 'We consider the hydrodynamics of relativisitc AGN jets in 2D and 3D, modulating the jet energy as pink noise. We present the morpholigical and energetic differences expected from such variation, finding high variability systems can feature strong spherical blow-outs along the jet spine.'
 date: 2023-05-29
 venue: 'Monthly Notices of the Royal Astronomical Society'
 slidesurl: 
