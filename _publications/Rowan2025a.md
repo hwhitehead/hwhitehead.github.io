@@ -2,14 +2,19 @@
 title: "Prompt gravitational-wave mergers aided by gas in Active Galactic Nuclei: The hydrodynamics of binary-single black hole scatterings"
 collection: publications
 category: latter
+<<<<<<< HEAD:_publications/Rowan2025a.md
 permalink: /publication/Rowan2025a
 excerpt: 'We simulate interactions single and binary black holes within AGN discs using 2D hydrodynamic simulations, probing the dependence of merger probability on the precense of gas.'
+=======
+permalink: /publication/Rowan2025
+excerpt: 'We simulate interactions single and binary black holes within AGN discs using 2D hydrodynamic simulations, probing the dependence of merger probability on the precense of gas. We find the inclusion of gas significantly increases the probability of merger.'
+>>>>>>> 61b58d54dcfa0871b2bfd8ab17ca3896b7ad93e2:_publications/Rowan2025.md
 date: 2025-01-01 # Y D M?
 venue: 'Monthly Notices of the Royal Astronomical Society'
 slidesurl: 
 paperurl: 'http://hwhitehead.github.io/files/Rowan2025a.pdf'
 citation: 
-published: 'false'
+published: 'true'
 ---
 
 Abstract:\

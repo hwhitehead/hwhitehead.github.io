@@ -2,8 +2,13 @@
 title: "3D Adiabatic Simulations of Binary Black Hole Formation in AGN"
 collection: publications
 category: first
+<<<<<<< HEAD:_publications/Whitehead2025a.md
 permalink: /publication/Whitehead2025a
 excerpt: 'We simulate close encounters between black holes in AGN using the first 3D non-isothermal hydrodynamical treatment. We probe what AGN conditions increase the likelihood of binary formation and offer models for formation likelihood.'
+=======
+permalink: /publication/Whitehead2025
+excerpt: 'We simulate close encounters between black holes in AGN using the first 3D non-isothermal hydrodynamical treatment. We probe what AGN conditions increase the likelihood of binary formation and offer models for formation likelihood. '
+>>>>>>> 61b58d54dcfa0871b2bfd8ab17ca3896b7ad93e2:_publications/Whitehead2025.md
 date: 2025-01-02 # Y D M?
 venue: 'Monthly Notices of the Royal Astronomical Society'
 slidesurl: 
