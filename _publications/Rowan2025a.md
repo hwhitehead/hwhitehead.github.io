@@ -17,4 +17,5 @@ Black hole binary systems embedded in AGN discs have been proposed as a source o
 \
 \
 [NASA ADS](https://ui.adsabs.harvard.edu/abs/2025arXiv250109017R/abstract)\
+[MNRAS](https://academic.oup.com/mnras/article/539/2/1501/8105728)\
 [PDF](http://hwhitehead.github.io/files/Rowan2025a.pdf)
