@@ -1,5 +1,5 @@
 ---
-title: "3D Adiabatic Simulations of Binary Black Hole Formation in AGN"
+title: "3D adiabatic simulations of binary black hole formation in AGN"
 collection: publications
 category: first
 permalink: /publication/Whitehead2025a
