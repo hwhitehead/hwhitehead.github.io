@@ -2,9 +2,9 @@
 title: "Hydrodynamic simulations of black hole evolution in AGN discs II: inclination damping for partially embedded satellites"
 collection: publications
 category: first
-permalink: /publication/Whitehead2025
-excerpt: 'We simulate the damping of inclination for black holes partially embedded in the gasesous discs of AGN'
-date: 2025-01-02 # Y D M?
+permalink: /publication/Whitehead2025b
+excerpt: 'We simulate the damping of inclination for black holes on orbits with small inclinations $$i<2^\circ$$ to the gaseous discs of AGN. We find that for suitably small inclinations, changes in inclination are dependent only on the local gas mass.'
+date: 2025-01-05 # Y D M?
 venue: 'Monthly Notices of the Royal Astronomical Society'
 slidesurl: 
 paperurl: 'http://hwhitehead.github.io/files/Whitehead2025b.pdf'
@@ -13,8 +13,7 @@ published: 'false'
 ---
 
 Abstract:\
-We investigate close encounters between initially unbound black holes (BHs) in the gaseous discs of active galactic nuclei (AGN), performing the first 3D non-isothermal hydrodynamical simulations of gas-assisted binary BH formation. We discuss a suite of 135 simulations, considering 9 AGN disc environments and 15 BH impact parameters. We find that the gas distribution within the Hill sphere about an isolated embedded BH is akin to a spherically symmetric star with a low-mass convective envelope and a BH core, with large convective currents driving strong outflows away from the midplane. We find that Coriolis force acting on the outflow results in winds, analogous to cyclones, that counter-rotate with respect to the midplane flow within the Hill sphere. We confirm the existence of strong thermal blasts due to minidisc collisions during BH close encounters, as predicted in our previous 2D studies. We document binary formation across a wide range of environments, finding formation likelihood is increased when the gas mass in the Hill sphere is large, allowing for easier binary formation in the outer AGN disc. We provide a comprehensive overview of the SMBH's role in binary formation, investigating how binary formation in intermediate density environments is biased towards certain binary orientations. We offer two models for predicting dissipation by gas during close encounters, as a function of the ambient Hill mass alone, or with the periapsis depth. We use these models to motivate a prescription for binary formation likelihood that can be readily applied to Monte-Carlo simulations of AGN evolution.
+We investigate the evolution of black holes on orbits with small inclinations ($$i < 2^\circ$$) to the gaseous discs of active galactic nuclei. We perform 3D adiabatic hydrodynamic simulations within a shearing frame, studying the damping of inclination by black hole-gas gravitation. We find that for objects with $$i<3H_0R_0^{-1}$$, where $$H_0R_0^{-1}$$ is the disc aspect ratio, the inclination lost per midplane crossing is proportional to the inclination preceding the crossing, resulting in a net exponential decay in inclination. For objects with $$i>3H_0R_0^{-1}$$, damping efficiency decreases for higher inclinations. We consider a variety of different AGN environments, finding that damping is stronger for systems with a higher ambient Hill mass: the initial gas mass within the BH sphere-of-influence. We provide a fitting formula for the inclination changes as a function of Hill mass. We find reasonable agreement between the damping driven by gas gravity in the simulations and the damping driven by accretion under a Hill-limited Bondi-Hoyle-Lyttleton prescription. We find that gas dynamical friction consistently overestimates the strength of damping, especially for lower inclination systems, by at least an order of magnitude. For regions in the AGN disc where coplanar binary black hole formation by gas dissipation is efficient, we find that the simulated damping timescales are especially short with $$\tau_d < 10P_\mathrm{SMBH}$$. We conclude that as the timescales for inclination damping are shorter than the expected interaction time between isolated black holes, the vast majority of binaries formed from gas capture should form from components with negligible inclination to the AGN disc.
 \
 \
-[NASA ADS](https://ui.adsabs.harvard.edu/abs/2025arXiv250214959W/abstract)\
-[PDF](http://hwhitehead.github.io/files/Whitehead2025.pdf)
+[PDF](http://hwhitehead.github.io/files/Whitehead2025b.pdf)
