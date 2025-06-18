@@ -2,8 +2,8 @@
 title: "Inclination Damping of BH Satellites in AGN Discs"
 collection: talks
 type: "Talk"
-permalink: /talks/2014-03-01-talk-3
+permalink: /talks/DYNAMIX
 venue: "DYNAMIX, Institute of Astronomy"
-date: 2024-06-06
+date: 2025-06-06
 location: "Cambridge, UK"
 ---
