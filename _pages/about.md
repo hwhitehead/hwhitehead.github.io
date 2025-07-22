@@ -17,5 +17,5 @@ This website hosts a list of my published [papers](/publications/), previous [ta
     <source src="http://hwhitehead.github.io/images/bbh_anim.mp4">
 </video>
 
-<em>Binary black hole formation due to dissipation by gas gravitation for two black holes embdedded within the disc of an active galactic nucleus. Hydrodynamic simulation performed with Athena++ using a field of adiabatic gas within a corotating shearing frame. Images post-processed using DART, a homebrew python-based raytracing code. Read the parent paper [here](/publication/Whitehead2025).</em>
+<em>Binary black hole formation due to dissipation by gas gravitation for two black holes embdedded within the disc of an active galactic nucleus. Hydrodynamic simulation performed with Athena++ using a field of adiabatic gas within a corotating shearing frame. Images post-processed using DART, a homebrew python-based raytracing code. Read the parent paper [here](/publication/Whitehead2025a).</em>
 
