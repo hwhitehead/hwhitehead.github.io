@@ -17,5 +17,5 @@ We present two- and three-dimensional hydrodynamic simulations of ∼kpc-scale A
 \
 \
 [NASA ADS](https://ui.adsabs.harvard.edu/abs/2023MNRAS.523.2478W/abstract)\
-[MNRAS]('https://academic.oup.com/mnras/article/523/2/2478/7185836')\
+[MNRAS](https://academic.oup.com/mnras/article/523/2/2478/7185836)\
 [PDF](http://hwhitehead.github.io/files/Whitehead2023.pdf)

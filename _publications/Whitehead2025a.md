@@ -4,7 +4,7 @@ collection: publications
 category: first
 permalink: /publication/Whitehead2025a
 excerpt: 'We simulate close encounters between black holes in AGN using the first 3D non-isothermal hydrodynamical treatment. We probe what AGN conditions increase the likelihood of binary formation and offer models for formation likelihood. '
-date: 2025-01-02 # Y D M?
+date: 2025-08-01 # Y D M?
 venue: 'Monthly Notices of the Royal Astronomical Society'
 slidesurl: 
 paperurl: 'http://hwhitehead.github.io/files/Whitehead2025a.pdf'
@@ -17,4 +17,5 @@ We investigate close encounters between initially unbound black holes (BHs) in t
 \
 \
 [NASA ADS](https://ui.adsabs.harvard.edu/abs/2025arXiv250214959W/abstract)\
+[MNRAS](https://academic.oup.com/mnras/article/542/2/1033/8221881)\
 [PDF](http://hwhitehead.github.io/files/Whitehead2025a.pdf)

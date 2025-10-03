@@ -4,7 +4,7 @@ collection: publications
 category: latter
 permalink: /publication/Rowan2023
 excerpt: 'We simulate interactions between initially isolated BHs in AGN discs in 3D using isothermal smoothed-particle-hydrodynamics. We probe the dependency of binary formation on the initial conditions of the system.'
-date: 2023-01-12 # Y D M?
+date: 2023-12-01 # Y M D
 venue: 'Monthly Notices of the Royal Astronomical Society'
 slidesurl: 
 paperurl: 'http://hwhitehead.github.io/files/Rowan2023.pdf'

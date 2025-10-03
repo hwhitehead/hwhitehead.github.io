@@ -4,7 +4,7 @@ collection: publications
 category: latter
 permalink: /publication/Gasealahwe2025
 excerpt: 'We present radio images of a supernova remnant featuring a relativitic jet punching out of the nova bubble. We qualitiatively reproduce the phenomena using hydrodynamic simulations.'
-date: 2025-21-06 # Y D M?
+date: 2025-06-21 # Y M D?
 venue: 'Monthly Notices of the Royal Astronomical Society'
 slidesurl: 
 paperurl: 'http://hwhitehead.github.io/files/Gasealahwe2025.pdf'
