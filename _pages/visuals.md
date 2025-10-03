@@ -15,7 +15,7 @@ Energetic evolutiion of a close encounter between two black holes embdedded in a
 </video>
 
 ## Raytraced Emission from Supernova-Jet Interaction
-Images of synthetic radio emission generated from axisymmetric relativistic hydrodynamic simulations of a supernovae followed by a jet, compared to real observations of CirX1. Following simulation using [PLUTO](https://github.com/cheshirepezz/PLUTO), the axisymmetric hydro data was interpolated onto a 3D Cartesian grid and then traced using DART. Parent paper is in the final stages of prep.
+Images of synthetic radio emission generated from axisymmetric relativistic hydrodynamic simulations of a supernovae followed by a jet, compared to real observations of CirX1. Following simulation using [PLUTO](https://github.com/cheshirepezz/PLUTO), the axisymmetric hydro data was interpolated onto a 3D Cartesian grid and then traced using DART. Read the parent paper [here](/publications/Gasealahwe2025).
 
 <p align="center">
   <img src="http://hwhitehead.github.io/images/novae_render.png"/>
