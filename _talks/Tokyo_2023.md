@@ -5,6 +5,6 @@ type: "Contributed"
 permalink: /talks/Tokyo_2023
 venue: "Conference &quot;RESCEU-NBIA workshop on gravitational-wave sources&quot;"
 date: 2023-12-10
-location: "University of Tokyo, Japan"
+location: "Research Center for the Early Universe, University of Tokyo, Japan"
 ---
 
