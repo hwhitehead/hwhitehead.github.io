@@ -11,9 +11,9 @@ redirect_from:
 
 You can download a copy of my CV [here.](http://hwhitehead.github.io/files/CV.pdf)
 
-<object data="http://hwhitehead.github.io/files/CV.pdf" type="application/pdf" width="100%">
-  <embed src="http://hwhitehead.github.io/files/CV.pdf">
-    <p>This browser does not support pdfs. Please <a href="http://hwhitehead.github.io/files/CV.pdf">download</a> the PDF to view it.</p>
+<object data="https://hwhitehead.github.io/files/CV.pdf" type="application/pdf" width="100%">
+  <embed src="https://hwhitehead.github.io/files/CV.pdf">
+    <p>This browser does not support pdfs. Please <a href="https://hwhitehead.github.io/files/CV.pdf">download</a> the PDF to view it.</p>
   </embed>
 </object>
 
