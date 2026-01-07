@@ -33,5 +33,10 @@ var addressPoints = [
     "Niels Bohr International Academy<br /> University of Copenhagen, Denmark",
     55.69682,
     12.57154
+  ],
+  [
+    "School of Physics and Astronomy<br /> Cardiff University, UK",
+    51.48766,
+    -3.17912
   ]
 ];
